@@ -210,7 +210,7 @@
     "Mod Name": "Force Shield: N.X V",
     "Initial Shield Value": "150",
     "Initial Armor Value": "0",
-    "Additional Effects": "Absorbs damage, recharges 9% of max shield per second, +10% ENERGY damage",
+    "Additional Effects": "Absorbs damage, recharges 9% of max shield per second. +2 to Fusion Battery (One point equals: +10 SHP, +1/s SHRG, +1% ENERGY damage)",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Force-Shield-N-X-f1cfa959468a47c59a7ac4f0fe444df3"
@@ -273,7 +273,7 @@
     "Mod Name": "Biohazard Shield V",
     "Initial Shield Value": "0",
     "Initial Armor Value": "10",
-    "Additional Effects": "50% evasion vs NUCLEAR & ELECTRIC, +10% to mod drop rates",
+    "Additional Effects": "50% evasion vs nuclear & electric, 10% XP bonus when scavenging",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Biohazard-Shield-c69e6b1d2c0a4ea6a558c12e39abb352"
@@ -681,7 +681,7 @@
   },
   {
     "Name": "Overclocking protocols V",
-    "Additional Effects": "When your BF’s HP is 30% or less, its damage is increased by 50% and reload time is decreased by 50%",
+    "Additional Effects": "When your battlefly is 30% health or below, it\u2019s attack speed and attack damage are increased by 50%, +3 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Overclocking-Protocols-8f9416c809d74b2babfc02e7f18c3129"
@@ -834,25 +834,25 @@
     "Relation to System Model List": "https://www.notion.so/Promethium-Neogenic-Battery-bb7c7d4fa20f464aa4afebf2c060b408"
   },
   {
-    "Name": "Gold-Plated Hyper CPU III",
-    "Additional Effects": "+3% reload time, +6% MISSILE damage",
+    "Name": "Celsium Quantum Frame III",
+    "Additional Effects": "+3 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT",
     "Rarity": "Rare",
     "Power Rating": "150",
-    "Relation to System Model List": "https://www.notion.so/Gold-Plated-Hyper-CPU-5c1718dc66574506a35308cba8cacb95"
+    "Relation to System Model List": "https://www.notion.so/Celsium-Quantum-Frame-a8d7d6e7def44b5c92143c1c9c18e6a5"
   },
   {
-    "Name": "Gold-Plated Hyper CPU IV",
-    "Additional Effects": "+6% reload time, +12% MISSILE damage",
+    "Name": "Celsium Quantum Frame IV",
+    "Additional Effects": "+4 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT",
     "Rarity": "Epic",
     "Power Rating": "200",
-    "Relation to System Model List": "https://www.notion.so/Gold-Plated-Hyper-CPU-5c1718dc66574506a35308cba8cacb95"
+    "Relation to System Model List": "https://www.notion.so/Celsium-Quantum-Frame-a8d7d6e7def44b5c92143c1c9c18e6a5"
   },
   {
-    "Name": "Gold-Plated Hyper CPU V",
-    "Additional Effects": "+10% reload time, +20% MISSILE damage",
+    "Name": "Celsium Quantum Frame V",
+    "Additional Effects": "+5 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT, +10% armor",
     "Rarity": "Legendary",
     "Power Rating": "250",
-    "Relation to System Model List": "https://www.notion.so/Gold-Plated-Hyper-CPU-5c1718dc66574506a35308cba8cacb95"
+    "Relation to System Model List": "https://www.notion.so/Celsium-Quantum-Frame-a8d7d6e7def44b5c92143c1c9c18e6a5"
   },
   {
     "Name": "Supercharged Jumpdrive Engine III",
