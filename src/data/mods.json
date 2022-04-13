@@ -834,25 +834,25 @@
     "Relation to System Model List": "https://www.notion.so/Promethium-Neogenic-Battery-bb7c7d4fa20f464aa4afebf2c060b408"
   },
   {
-    "Name": "Celsium Quantum Frame III",
-    "Additional Effects": "+3 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT",
+    "Name": "Gold-Plated Hyper CPU III",
+    "Additional Effects": "+3% reload time, +6% MISSILE damage",
     "Rarity": "Rare",
     "Power Rating": "150",
-    "Relation to System Model List": "https://www.notion.so/Celsium-Quantum-Frame-a8d7d6e7def44b5c92143c1c9c18e6a5"
+    "Relation to System Model List": "https://www.notion.so/Gold-Plated-Hyper-CPU-5c1718dc66574506a35308cba8cacb95"
   },
   {
-    "Name": "Celsium Quantum Frame IV",
-    "Additional Effects": "+4 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT",
+    "Name": "Gold-Plated Hyper CPU IV",
+    "Additional Effects": "+6% reload time, +12% MISSILE damage",
     "Rarity": "Epic",
     "Power Rating": "200",
-    "Relation to System Model List": "https://www.notion.so/Celsium-Quantum-Frame-a8d7d6e7def44b5c92143c1c9c18e6a5"
+    "Relation to System Model List": "https://www.notion.so/Gold-Plated-Hyper-CPU-5c1718dc66574506a35308cba8cacb95"
   },
   {
-    "Name": "Celsium Quantum Frame V",
-    "Additional Effects": "+5 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT, +10% armor",
+    "Name": "Gold-Plated Hyper CPU V",
+    "Additional Effects": "+10% reload time, +20% MISSILE damage",
     "Rarity": "Legendary",
     "Power Rating": "250",
-    "Relation to System Model List": "https://www.notion.so/Celsium-Quantum-Frame-a8d7d6e7def44b5c92143c1c9c18e6a5"
+    "Relation to System Model List": "https://www.notion.so/Gold-Plated-Hyper-CPU-5c1718dc66574506a35308cba8cacb95"
   },
   {
     "Name": "Supercharged Jumpdrive Engine III",

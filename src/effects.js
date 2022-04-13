@@ -1216,15 +1216,24 @@ export const effects = [
   },
   {
     name: 'Gold-Plated Hyper CPU III',
-    effects: [battleflyCharacteristic('cpu', 3)],
+    effects: [
+      createEvasionEffect(6, ['Missile'], true),
+      modStat('damagePerFire', 3, true)
+    ],
   },
   {
     name: 'Gold-Plated Hyper CPU IV',
-    effects: [battleflyCharacteristic('cpu', 4)],
+    effects: [
+      createEvasionEffect(12, ['Missile'], true),
+      modStat('reload', 6, true)
+    ],
   },
   {
     name: 'Gold-Plated Hyper CPU V',
-    effects: [battleflyCharacteristic('cpu', 5)],
+    effects: [
+      modStat('reload', 10, true),
+      createEvasionEffect(20, ['Missile'], true),
+    ],
   },
   {
     name: 'Nano Go Neuronet II',
