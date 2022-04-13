@@ -1,0 +1,1802 @@
+[
+  {
+      "id": "9d098b91-3856-4d8a-9d76-9dbdb5a906d2",
+      "name": "Alpha BF #801",
+      "fraction": "5",
+      "level": 1,
+      "rarity": "Common",
+      "iconic": false,
+      "stats": {
+          "hp": 400,
+          "hprg": 0,
+          "shp": 200,
+          "arm": 0,
+          "shrg": 0,
+          "eva": 5,
+          "crit": 5,
+          "sup": 0,
+          "scv": 0,
+          "dcrit": 200,
+          "rcrit": 5
+      },
+      "characteristics": {
+          "cpu": 0,
+          "engines": 0,
+          "fusionBattery": 0,
+          "nanoFrame": 0,
+          "sensorsArray": 0
+      },
+      "traits": [],
+      "modSets": [
+          {
+              "name": "default",
+              "mods": [
+                  "Mining Laser I",
+                  "Mining Laser I",
+                  "Plasteel Hull I",
+                  "Combat Algorithms Processor I"
+              ]
+          }
+      ]
+  },
+  {
+      "id": "9f3c4415-c4e1-4479-ad38-a5457378e0d4",
+      "name": "Alpha BF #801",
+      "fraction": "9",
+      "level": 1,
+      "rarity": "Common",
+      "iconic": false,
+      "stats": {
+          "hp": 400,
+          "hprg": 0,
+          "shp": 200,
+          "arm": 0,
+          "shrg": 0,
+          "eva": 5,
+          "crit": 5,
+          "sup": 0,
+          "scv": 0,
+          "dcrit": 200,
+          "rcrit": 5
+      },
+      "characteristics": {
+          "cpu": 0,
+          "engines": 0,
+          "fusionBattery": 0,
+          "nanoFrame": 0,
+          "sensorsArray": 0
+      },
+      "traits": [],
+      "modSets": [
+          {
+              "name": "default",
+              "mods": [
+                  "Mining Laser I",
+                  "Hunter Missiles I",
+                  "Force Shield: N.X I",
+                  "Ceramo Armor I"
+              ]
+          }
+      ]
+  },
+  {
+      "id": "bb119a44-f403-416b-9643-1c59c73ea669",
+      "name": "Alpha BF #801",
+      "fraction": "7",
+      "level": 1,
+      "rarity": "Common",
+      "iconic": false,
+      "stats": {
+          "hp": 400,
+          "hprg": 0,
+          "shp": 200,
+          "arm": 0,
+          "shrg": 0,
+          "eva": 5,
+          "crit": 5,
+          "sup": 0,
+          "scv": 0,
+          "dcrit": 200,
+          "rcrit": 5
+      },
+      "characteristics": {
+          "cpu": 0,
+          "engines": 0,
+          "fusionBattery": 0,
+          "nanoFrame": 0,
+          "sensorsArray": 0
+      },
+      "traits": [],
+      "modSets": [
+          {
+              "name": "default",
+              "mods": [
+                  "Proton Blaster I",
+                  "Micro Rocket Pods I",
+                  "Ceramo Armor I",
+                  "Overclocking Protocols I"
+              ]
+          }
+      ]
+  },
+  {
+      "id": "4a6d3c84-99cb-4916-b2bc-4ccd300449fd",
+      "name": "Alpha BF #801",
+      "fraction": "9",
+      "level": 1,
+      "rarity": "Common",
+      "iconic": false,
+      "stats": {
+          "hp": 400,
+          "hprg": 0,
+          "shp": 200,
+          "arm": 0,
+          "shrg": 0,
+          "eva": 5,
+          "crit": 5,
+          "sup": 0,
+          "scv": 0,
+          "dcrit": 200,
+          "rcrit": 5
+      },
+      "characteristics": {
+          "cpu": 0,
+          "engines": 0,
+          "fusionBattery": 0,
+          "nanoFrame": 0,
+          "sensorsArray": 0
+      },
+      "traits": [],
+      "modSets": [
+          {
+              "name": "default",
+              "mods": [
+                  "Proton Blaster I",
+                  "Autocannon I",
+                  "Plasteel Hull I",
+                  "Combat Algorithms Processor I"
+              ]
+          }
+      ]
+  },
+  {
+      "id": "5693db6a-d90a-4a90-9797-8ed853e7f877",
+      "name": "Alpha BF #801",
+      "fraction": "7",
+      "level": 1,
+      "rarity": "Common",
+      "iconic": false,
+      "stats": {
+          "hp": 400,
+          "hprg": 0,
+          "shp": 200,
+          "arm": 0,
+          "shrg": 0,
+          "eva": 5,
+          "crit": 5,
+          "sup": 0,
+          "scv": 0,
+          "dcrit": 200,
+          "rcrit": 5
+      },
+      "characteristics": {
+          "cpu": 0,
+          "engines": 0,
+          "fusionBattery": 0,
+          "nanoFrame": 0,
+          "sensorsArray": 0
+      },
+      "traits": [],
+      "modSets": [
+          {
+              "name": "default",
+              "mods": [
+                  "Micro Rocket Pods I",
+                  "Autocannon I",
+                  "Plasteel Hull I",
+                  "Auto Reloaders I"
+              ]
+          }
+      ]
+  },
+{
+    "id": "32fcc26b-d668-4bc4-97ce-108425174278",
+    "name": "Alpha BF #801",
+    "fraction": "10",
+    "level": 1,
+    "rarity": "Common",
+    "iconic": false,
+    "stats": {
+        "hp": 400,
+        "hprg": 0,
+        "shp": 200,
+        "arm": 0,
+        "shrg": 0,
+        "eva": 5,
+        "crit": 5,
+        "sup": 0,
+        "scv": 0,
+        "dcrit": 200,
+        "rcrit": 5
+    },
+    "characteristics": {
+        "cpu": 0,
+        "engines": 0,
+        "fusionBattery": 0,
+        "nanoFrame": 0,
+        "sensorsArray": 0
+    },
+    "traits": [],
+    "modSets": [
+        {
+            "name": "default",
+            "mods": [
+                "Hunter Missiles I",
+                "Howitzer I",
+                "Force Shield: A.T I",
+                "Force Shield: Warp I"
+            ]
+        }
+    ]
+},
+{
+    "id": "03f701f1-115b-4749-bdc7-c3bac501a8ff",
+    "name": "Alpha BF #801",
+    "fraction": "9",
+    "level": 1,
+    "rarity": "Common",
+    "iconic": false,
+    "stats": {
+        "hp": 400,
+        "hprg": 0,
+        "shp": 200,
+        "arm": 0,
+        "shrg": 0,
+        "eva": 5,
+        "crit": 5,
+        "sup": 0,
+        "scv": 0,
+        "dcrit": 200,
+        "rcrit": 5
+    },
+    "characteristics": {
+        "cpu": 0,
+        "engines": 0,
+        "fusionBattery": 0,
+        "nanoFrame": 0,
+        "sensorsArray": 0
+    },
+    "traits": [],
+    "modSets": [
+        {
+            "name": "default",
+            "mods": [
+                "Autocannon I",
+                "Mining Laser I",
+                "Combat Algorithms Processor I",
+                "Force Shield: Warp I"
+            ]
+        }
+    ]
+},
+{
+    "id": "6e0fb6d1-d858-4933-9a96-a0e9e01be0e3",
+    "name": "Alpha BF #801",
+    "fraction": "2",
+    "level": 1,
+    "rarity": "Common",
+    "iconic": false,
+    "stats": {
+        "hp": 400,
+        "hprg": 0,
+        "shp": 200,
+        "arm": 0,
+        "shrg": 0,
+        "eva": 5,
+        "crit": 5,
+        "sup": 0,
+        "scv": 0,
+        "dcrit": 200,
+        "rcrit": 5
+    },
+    "characteristics": {
+        "cpu": 0,
+        "engines": 0,
+        "fusionBattery": 0,
+        "nanoFrame": 0,
+        "sensorsArray": 0
+    },
+    "traits": [],
+    "modSets": [
+        {
+            "name": "default",
+            "mods": [
+                "Howitzer I",
+                "Autocannon I",
+                "Plasteel Hull I",
+                "Rage Against The Nano Machines I"
+            ]
+        }
+    ]
+},
+{
+    "id": "9718f05c-c41b-445b-aac2-55a9b2c8b6cb",
+    "name": "Alpha BF #801",
+    "fraction": "4",
+    "level": 1,
+    "rarity": "Common",
+    "iconic": false,
+    "stats": {
+        "hp": 400,
+        "hprg": 0,
+        "shp": 200,
+        "arm": 0,
+        "shrg": 0,
+        "eva": 5,
+        "crit": 5,
+        "sup": 0,
+        "scv": 0,
+        "dcrit": 200,
+        "rcrit": 5
+    },
+    "characteristics": {
+        "cpu": 0,
+        "engines": 0,
+        "fusionBattery": 0,
+        "nanoFrame": 0,
+        "sensorsArray": 0
+    },
+    "traits": [],
+    "modSets": [
+        {
+            "name": "default",
+            "mods": [
+                "Howitzer I",
+                "Hunter Missiles I",
+                "Rage Against The Nano Machines I",
+                "Overclocking Protocols I"
+            ]
+        }
+    ]
+},
+{
+    "id": "37364e00-e3b1-43a0-9d1b-852944bc1e77",
+    "name": "Alpha BF #801",
+    "fraction": "2",
+    "level": 1,
+    "rarity": "Common",
+    "iconic": false,
+    "stats": {
+        "hp": 400,
+        "hprg": 0,
+        "shp": 200,
+        "arm": 0,
+        "shrg": 0,
+        "eva": 5,
+        "crit": 5,
+        "sup": 0,
+        "scv": 0,
+        "dcrit": 200,
+        "rcrit": 5
+    },
+    "characteristics": {
+        "cpu": 0,
+        "engines": 0,
+        "fusionBattery": 0,
+        "nanoFrame": 0,
+        "sensorsArray": 0
+    },
+    "traits": [],
+    "modSets": [
+        {
+            "name": "default",
+            "mods": [
+                "Micro Rocket Pods I",
+                "Autocannon I",
+                "EMP Ammo I",
+                "Regenerative Nanobot I"
+            ]
+        }
+    ]
+  },
+  {
+      "id": "aee0673f-63e5-4117-ac91-fb668ac7e357",
+      "name": "Alpha BF #801",
+      "fraction": "2",
+      "level": 1,
+      "rarity": "Common",
+      "iconic": false,
+      "stats": {
+          "hp": 400,
+          "hprg": 0,
+          "shp": 200,
+          "arm": 0,
+          "shrg": 0,
+          "eva": 5,
+          "crit": 5,
+          "sup": 0,
+          "scv": 0,
+          "dcrit": 200,
+          "rcrit": 5
+      },
+      "characteristics": {
+          "cpu": 0,
+          "engines": 0,
+          "fusionBattery": 0,
+          "nanoFrame": 0,
+          "sensorsArray": 0
+      },
+      "traits": [],
+      "modSets": [
+          {
+              "name": "default",
+              "mods": [
+                  "Proton Blaster I",
+                  "Hunter Missiles I",
+                  "Force Shield: A.T I",
+                  "Plasteel Hull I"
+              ]
+          }
+      ]
+  },
+    {
+        "id": "c2356e1d-4479-4b26-8c9c-e907f1b5b9d8",
+        "name": "Alpha BF #802",
+        "fraction": "7",
+        "level": 1,
+        "rarity": "Common",
+        "iconic": false,
+        "stats": {
+            "hp": 400,
+            "hprg": 0,
+            "shp": 200,
+            "arm": 0,
+            "shrg": 0,
+            "eva": 5,
+            "crit": 5,
+            "sup": 0,
+            "scv": 0,
+            "dcrit": 200,
+            "rcrit": 5
+        },
+        "characteristics": {
+            "cpu": 0,
+            "engines": 0,
+            "fusionBattery": 0,
+            "nanoFrame": 0,
+            "sensorsArray": 0
+        },
+        "traits": [],
+        "modSets": [
+            {
+                "name": "default",
+                "mods": [
+                    "Mining Laser I",
+                    "Micro Rocket Pods I",
+                    "Plasteel Hull I",
+                    "Force Shield: Warp I"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2ffb7890-05ad-465a-81ac-3d98bb8281a8",
+        "name": "Alpha BF #803",
+        "fraction": "8",
+        "level": 1,
+        "rarity": "Common",
+        "iconic": false,
+        "stats": {
+            "hp": 400,
+            "hprg": 0,
+            "shp": 200,
+            "arm": 0,
+            "shrg": 0,
+            "eva": 5,
+            "crit": 5,
+            "sup": 0,
+            "scv": 0,
+            "dcrit": 200,
+            "rcrit": 5
+        },
+        "characteristics": {
+            "cpu": 0,
+            "engines": 0,
+            "fusionBattery": 0,
+            "nanoFrame": 0,
+            "sensorsArray": 0
+        },
+        "traits": [],
+        "modSets": [
+            {
+                "name": "default",
+                "mods": [
+                    "Mining Laser I",
+                    "Howitzer I",
+                    "Rage Against The Nano Machines I",
+                    "Rage Against The Nano Machines I"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "8e28d850-2d20-4214-aa8c-fbea4d6c2d0a",
+        "name": "Alpha BF #804",
+        "fraction": "8",
+        "level": 1,
+        "rarity": "Common",
+        "iconic": false,
+        "stats": {
+            "hp": 400,
+            "hprg": 0,
+            "shp": 200,
+            "arm": 0,
+            "shrg": 0,
+            "eva": 5,
+            "crit": 5,
+            "sup": 0,
+            "scv": 0,
+            "dcrit": 200,
+            "rcrit": 5
+        },
+        "characteristics": {
+            "cpu": 0,
+            "engines": 0,
+            "fusionBattery": 0,
+            "nanoFrame": 0,
+            "sensorsArray": 0
+        },
+        "traits": [],
+        "modSets": [
+            {
+                "name": "default",
+                "mods": [
+                    "Hunter Missiles I",
+                    "Proton Blaster I",
+                    "Rage Against The Nano Machines I",
+                    "Combat Algorithms Processor I"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "72b08055-683a-481a-946b-a350ac8dc4d8",
+        "name": "Alpha BF #805",
+        "fraction": "9",
+        "level": 1,
+        "rarity": "Common",
+        "iconic": false,
+        "stats": {
+            "hp": 400,
+            "hprg": 0,
+            "shp": 200,
+            "arm": 0,
+            "shrg": 0,
+            "eva": 5,
+            "crit": 5,
+            "sup": 0,
+            "scv": 0,
+            "dcrit": 200,
+            "rcrit": 5
+        },
+        "characteristics": {
+            "cpu": 0,
+            "engines": 0,
+            "fusionBattery": 0,
+            "nanoFrame": 0,
+            "sensorsArray": 0
+        },
+        "traits": [],
+        "modSets": [
+            {
+                "name": "default",
+                "mods": [
+                    "Hunter Missiles I",
+                    "Autocannon I",
+                    "Force Shield: N.X I",
+                    "Ceramo Armor I"
+                ]
+            }
+        ]
+    },
+      {
+          "id": "137360ac-46e0-4863-b857-d26adad8f88d",
+          "name": "Alpha BF #801",
+          "fraction": "2",
+          "level": 1,
+          "rarity": "Common",
+          "iconic": false,
+          "stats": {
+              "hp": 400,
+              "hprg": 0,
+              "shp": 200,
+              "arm": 0,
+              "shrg": 0,
+              "eva": 5,
+              "crit": 5,
+              "sup": 0,
+              "scv": 0,
+              "dcrit": 200,
+              "rcrit": 5
+          },
+          "characteristics": {
+              "cpu": 0,
+              "engines": 0,
+              "fusionBattery": 0,
+              "nanoFrame": 0,
+              "sensorsArray": 0
+          },
+          "traits": [],
+          "modSets": [
+              {
+                  "name": "default",
+                  "mods": [
+                      "Autocannon I",
+                      "Proton Blaster I",
+                      "Ceramo Armor I",
+                      "Regenerative Nanobot I"
+                  ]
+              }
+          ]
+      },
+      {
+          "id": "d407cdf8-999e-465f-9c94-f53b99a35c36",
+          "name": "Alpha BF #802",
+          "fraction": "1",
+          "level": 1,
+          "rarity": "Common",
+          "iconic": false,
+          "stats": {
+              "hp": 400,
+              "hprg": 0,
+              "shp": 200,
+              "arm": 0,
+              "shrg": 0,
+              "eva": 5,
+              "crit": 5,
+              "sup": 0,
+              "scv": 0,
+              "dcrit": 200,
+              "rcrit": 5
+          },
+          "characteristics": {
+              "cpu": 0,
+              "engines": 0,
+              "fusionBattery": 0,
+              "nanoFrame": 0,
+              "sensorsArray": 0
+          },
+          "traits": [],
+          "modSets": [
+              {
+                  "name": "default",
+                  "mods": [
+                      "Howitzer I",
+                      "Mining Laser I",
+                      "Ceramo Armor I",
+                      "Force Shield: N.X I"
+                  ]
+              }
+          ]
+      },
+      {
+          "id": "0b8d9fd3-96d1-49ea-90b9-3e35c75db6e1",
+          "name": "Alpha BF #803",
+          "fraction": "9",
+          "level": 1,
+          "rarity": "Common",
+          "iconic": false,
+          "stats": {
+              "hp": 400,
+              "hprg": 0,
+              "shp": 200,
+              "arm": 0,
+              "shrg": 0,
+              "eva": 5,
+              "crit": 5,
+              "sup": 0,
+              "scv": 0,
+              "dcrit": 200,
+              "rcrit": 5
+          },
+          "characteristics": {
+              "cpu": 0,
+              "engines": 0,
+              "fusionBattery": 0,
+              "nanoFrame": 0,
+              "sensorsArray": 0
+          },
+          "traits": [],
+          "modSets": [
+              {
+                  "name": "default",
+                  "mods": [
+                      "Proton Blaster I",
+                      "Hunter Missiles I",
+                      "Rage Against The Nano Machines I",
+                      "Regenerative Nanobot I"
+                  ]
+              }
+          ]
+      },
+      {
+          "id": "090244cb-bb0c-4ad8-80da-a10e5641d490",
+          "name": "Alpha BF #804",
+          "fraction": "4",
+          "level": 1,
+          "rarity": "Common",
+          "iconic": false,
+          "stats": {
+              "hp": 400,
+              "hprg": 0,
+              "shp": 200,
+              "arm": 0,
+              "shrg": 0,
+              "eva": 5,
+              "crit": 5,
+              "sup": 0,
+              "scv": 0,
+              "dcrit": 200,
+              "rcrit": 5
+          },
+          "characteristics": {
+              "cpu": 0,
+              "engines": 0,
+              "fusionBattery": 0,
+              "nanoFrame": 0,
+              "sensorsArray": 0
+          },
+          "traits": [],
+          "modSets": [
+              {
+                  "name": "default",
+                  "mods": [
+                      "Hunter Missiles I",
+                      "Hunter Missiles I",
+                      "Ceramo Armor I",
+                      "Ceramo Armor I"
+                  ]
+              }
+          ]
+      },
+      {
+          "id": "255f2294-045e-4c3b-a5f3-1b2f8249d04f",
+          "name": "Alpha BF #805",
+          "fraction": "6",
+          "level": 1,
+          "rarity": "Common",
+          "iconic": false,
+          "stats": {
+              "hp": 400,
+              "hprg": 0,
+              "shp": 200,
+              "arm": 0,
+              "shrg": 0,
+              "eva": 5,
+              "crit": 5,
+              "sup": 0,
+              "scv": 0,
+              "dcrit": 200,
+              "rcrit": 5
+          },
+          "characteristics": {
+              "cpu": 0,
+              "engines": 0,
+              "fusionBattery": 0,
+              "nanoFrame": 0,
+              "sensorsArray": 0
+          },
+          "traits": [],
+          "modSets": [
+              {
+                  "name": "default",
+                  "mods": [
+                      "Proton Blaster I",
+                      "Proton Blaster I",
+                      "Force Shield: A.T I",
+                      "Plasteel Hull I"
+                  ]
+              }
+          ]
+      },
+    {
+        "id": "9210346a-33b3-4679-acc5-252757fc3aa2",
+        "name": "Alpha BF #801",
+        "fraction": "2",
+        "level": 1,
+        "rarity": "Common",
+        "iconic": false,
+        "stats": {
+            "hp": 400,
+            "hprg": 0,
+            "shp": 200,
+            "arm": 0,
+            "shrg": 0,
+            "eva": 5,
+            "crit": 5,
+            "sup": 0,
+            "scv": 0,
+            "dcrit": 200,
+            "rcrit": 5
+        },
+        "characteristics": {
+            "cpu": 0,
+            "engines": 0,
+            "fusionBattery": 0,
+            "nanoFrame": 0,
+            "sensorsArray": 0
+        },
+        "traits": [],
+        "modSets": [
+            {
+                "name": "default",
+                "mods": [
+                    "Mining Laser I",
+                    "Howitzer I",
+                    "Combat Algorithms Processor I",
+                    "Plasteel Hull I"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "be218a4d-cedb-4aac-8317-8c19fad0cbda",
+        "name": "Alpha BF #802",
+        "fraction": "1",
+        "level": 1,
+        "rarity": "Common",
+        "iconic": false,
+        "stats": {
+            "hp": 400,
+            "hprg": 0,
+            "shp": 200,
+            "arm": 0,
+            "shrg": 0,
+            "eva": 5,
+            "crit": 5,
+            "sup": 0,
+            "scv": 0,
+            "dcrit": 200,
+            "rcrit": 5
+        },
+        "characteristics": {
+            "cpu": 0,
+            "engines": 0,
+            "fusionBattery": 0,
+            "nanoFrame": 0,
+            "sensorsArray": 0
+        },
+        "traits": [],
+        "modSets": [
+            {
+                "name": "default",
+                "mods": [
+                    "Mining Laser I",
+                    "Mining Laser I",
+                    "Combat Algorithms Processor I",
+                    "Force Shield: Warp I"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "dea8ba34-1e2f-4e90-94ce-79d9e9d11fc9",
+        "name": "Alpha BF #803",
+        "fraction": "2",
+        "level": 1,
+        "rarity": "Common",
+        "iconic": false,
+        "stats": {
+            "hp": 400,
+            "hprg": 0,
+            "shp": 200,
+            "arm": 0,
+            "shrg": 0,
+            "eva": 5,
+            "crit": 5,
+            "sup": 0,
+            "scv": 0,
+            "dcrit": 200,
+            "rcrit": 5
+        },
+        "characteristics": {
+            "cpu": 0,
+            "engines": 0,
+            "fusionBattery": 0,
+            "nanoFrame": 0,
+            "sensorsArray": 0
+        },
+        "traits": [],
+        "modSets": [
+            {
+                "name": "default",
+                "mods": [
+                    "Micro Rocket Pods I",
+                    "Howitzer I",
+                    "Plasteel Hull I",
+                    "Auto Reloaders I"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "0c79afb5-2e1e-4fd1-82e7-e70ce261b6d0",
+        "name": "Alpha BF #804",
+        "fraction": "7",
+        "level": 1,
+        "rarity": "Common",
+        "iconic": false,
+        "stats": {
+            "hp": 400,
+            "hprg": 0,
+            "shp": 200,
+            "arm": 0,
+            "shrg": 0,
+            "eva": 5,
+            "crit": 5,
+            "sup": 0,
+            "scv": 0,
+            "dcrit": 200,
+            "rcrit": 5
+        },
+        "characteristics": {
+            "cpu": 0,
+            "engines": 0,
+            "fusionBattery": 0,
+            "nanoFrame": 0,
+            "sensorsArray": 0
+        },
+        "traits": [],
+        "modSets": [
+            {
+                "name": "default",
+                "mods": [
+                    "Micro Rocket Pods I",
+                    "Howitzer I",
+                    "Plasteel Hull I",
+                    "Combat Algorithms Processor I"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "d8c13f68-d9ee-435f-9c53-22a89e97b266",
+        "name": "Alpha BF #805",
+        "fraction": "3",
+        "level": 1,
+        "rarity": "Common",
+        "iconic": false,
+        "stats": {
+            "hp": 400,
+            "hprg": 0,
+            "shp": 200,
+            "arm": 0,
+            "shrg": 0,
+            "eva": 5,
+            "crit": 5,
+            "sup": 0,
+            "scv": 0,
+            "dcrit": 200,
+            "rcrit": 5
+        },
+        "characteristics": {
+            "cpu": 0,
+            "engines": 0,
+            "fusionBattery": 0,
+            "nanoFrame": 0,
+            "sensorsArray": 0
+        },
+        "traits": [],
+        "modSets": [
+            {
+                "name": "default",
+                "mods": [
+                    "Mining Laser I",
+                    "Micro Rocket Pods I",
+                    "Rage Against The Nano Machines I",
+                    "Auto Reloaders I"
+                ]
+            }
+        ]
+    },
+      {
+          "id": "f773549b-a531-4ddd-a992-ff2e09a68ce7",
+          "name": "Alpha BF #801",
+          "fraction": "5",
+          "level": 1,
+          "rarity": "Common",
+          "iconic": false,
+          "stats": {
+              "hp": 400,
+              "hprg": 0,
+              "shp": 200,
+              "arm": 0,
+              "shrg": 0,
+              "eva": 5,
+              "crit": 5,
+              "sup": 0,
+              "scv": 0,
+              "dcrit": 200,
+              "rcrit": 5
+          },
+          "characteristics": {
+              "cpu": 0,
+              "engines": 0,
+              "fusionBattery": 0,
+              "nanoFrame": 0,
+              "sensorsArray": 0
+          },
+          "traits": [],
+          "modSets": [
+              {
+                  "name": "default",
+                  "mods": [
+                      "Micro Rocket Pods I",
+                      "Proton Blaster I",
+                      "Regenerative Nanobot I",
+                      "Boosters Thrusters I"
+                  ]
+              }
+          ]
+      },
+      {
+          "id": "2c9c942d-f2cb-4845-a9b4-031ce2153f1d",
+          "name": "Alpha BF #802",
+          "fraction": "9",
+          "level": 1,
+          "rarity": "Common",
+          "iconic": false,
+          "stats": {
+              "hp": 400,
+              "hprg": 0,
+              "shp": 200,
+              "arm": 0,
+              "shrg": 0,
+              "eva": 5,
+              "crit": 5,
+              "sup": 0,
+              "scv": 0,
+              "dcrit": 200,
+              "rcrit": 5
+          },
+          "characteristics": {
+              "cpu": 0,
+              "engines": 0,
+              "fusionBattery": 0,
+              "nanoFrame": 0,
+              "sensorsArray": 0
+          },
+          "traits": [],
+          "modSets": [
+              {
+                  "name": "default",
+                  "mods": [
+                      "Hunter Missiles I",
+                      "Micro Rocket Pods I",
+                      "Force Shield: N.X I",
+                      "Rage Against The Nano Machines I"
+                  ]
+              }
+          ]
+      },
+      {
+          "id": "a1e7abde-ff44-4f7f-ac4e-c2428f23a354",
+          "name": "Alpha BF #803",
+          "fraction": "9",
+          "level": 1,
+          "rarity": "Common",
+          "iconic": false,
+          "stats": {
+              "hp": 400,
+              "hprg": 0,
+              "shp": 200,
+              "arm": 0,
+              "shrg": 0,
+              "eva": 5,
+              "crit": 5,
+              "sup": 0,
+              "scv": 0,
+              "dcrit": 200,
+              "rcrit": 5
+          },
+          "characteristics": {
+              "cpu": 0,
+              "engines": 0,
+              "fusionBattery": 0,
+              "nanoFrame": 0,
+              "sensorsArray": 0
+          },
+          "traits": [],
+          "modSets": [
+              {
+                  "name": "default",
+                  "mods": [
+                      "Proton Blaster I",
+                      "Mining Laser I",
+                      "Overclocking Protocols I",
+                      "Overclocking Protocols I"
+                  ]
+              }
+          ]
+      },
+      {
+          "id": "fd2d4dac-f347-4da6-af6b-44620020fe91",
+          "name": "Alpha BF #804",
+          "fraction": "1",
+          "level": 1,
+          "rarity": "Common",
+          "iconic": false,
+          "stats": {
+              "hp": 400,
+              "hprg": 0,
+              "shp": 200,
+              "arm": 0,
+              "shrg": 0,
+              "eva": 5,
+              "crit": 5,
+              "sup": 0,
+              "scv": 0,
+              "dcrit": 200,
+              "rcrit": 5
+          },
+          "characteristics": {
+              "cpu": 0,
+              "engines": 0,
+              "fusionBattery": 0,
+              "nanoFrame": 0,
+              "sensorsArray": 0
+          },
+          "traits": [],
+          "modSets": [
+              {
+                  "name": "default",
+                  "mods": [
+                      "Proton Blaster I",
+                      "Hunter Missiles I",
+                      "Plasteel Hull I",
+                      "Regenerative Nanobot I"
+                  ]
+              }
+          ]
+      },
+      {
+          "id": "ebbc5d96-6635-46c3-8c8d-b7fd10ffcb45",
+          "name": "Alpha BF #805",
+          "fraction": "1",
+          "level": 1,
+          "rarity": "Common",
+          "iconic": false,
+          "stats": {
+              "hp": 400,
+              "hprg": 0,
+              "shp": 200,
+              "arm": 0,
+              "shrg": 0,
+              "eva": 5,
+              "crit": 5,
+              "sup": 0,
+              "scv": 0,
+              "dcrit": 200,
+              "rcrit": 5
+          },
+          "characteristics": {
+              "cpu": 0,
+              "engines": 0,
+              "fusionBattery": 0,
+              "nanoFrame": 0,
+              "sensorsArray": 0
+          },
+          "traits": [],
+          "modSets": [
+              {
+                  "name": "default",
+                  "mods": [
+                      "Proton Blaster I",
+                      "Autocannon I",
+                      "Force Shield: A.T I",
+                      "Force Shield: A.T I"
+                  ]
+              }
+          ]
+      },
+        {
+            "id": "0d7e03e1-6b16-480d-aad8-e9f2621eb42d",
+            "name": "Alpha BF #801",
+            "fraction": "6",
+            "level": 1,
+            "rarity": "Common",
+            "iconic": false,
+            "stats": {
+                "hp": 400,
+                "hprg": 0,
+                "shp": 200,
+                "arm": 0,
+                "shrg": 0,
+                "eva": 5,
+                "crit": 5,
+                "sup": 0,
+                "scv": 0,
+                "dcrit": 200,
+                "rcrit": 5
+            },
+            "characteristics": {
+                "cpu": 0,
+                "engines": 0,
+                "fusionBattery": 0,
+                "nanoFrame": 0,
+                "sensorsArray": 0
+            },
+            "traits": [],
+            "modSets": [
+                {
+                    "name": "default",
+                    "mods": [
+                        "Mining Laser I",
+                        "Micro Rocket Pods I",
+                        "Auto Reloaders I",
+                        "Regenerative Nanobot I"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cf1fb127-292e-4f41-a493-7f2236730ddc",
+            "name": "Alpha BF #802",
+            "fraction": "8",
+            "level": 1,
+            "rarity": "Common",
+            "iconic": false,
+            "stats": {
+                "hp": 400,
+                "hprg": 0,
+                "shp": 200,
+                "arm": 0,
+                "shrg": 0,
+                "eva": 5,
+                "crit": 5,
+                "sup": 0,
+                "scv": 0,
+                "dcrit": 200,
+                "rcrit": 5
+            },
+            "characteristics": {
+                "cpu": 0,
+                "engines": 0,
+                "fusionBattery": 0,
+                "nanoFrame": 0,
+                "sensorsArray": 0
+            },
+            "traits": [],
+            "modSets": [
+                {
+                    "name": "default",
+                    "mods": [
+                        "Hunter Missiles I",
+                        "Micro Rocket Pods I",
+                        "Boosters Thrusters I",
+                        "EMP Ammo I"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "eed2c9a3-6bb0-41b0-b738-561a76efbd74",
+            "name": "Alpha BF #803",
+            "fraction": "8",
+            "level": 1,
+            "rarity": "Common",
+            "iconic": false,
+            "stats": {
+                "hp": 400,
+                "hprg": 0,
+                "shp": 200,
+                "arm": 0,
+                "shrg": 0,
+                "eva": 5,
+                "crit": 5,
+                "sup": 0,
+                "scv": 0,
+                "dcrit": 200,
+                "rcrit": 5
+            },
+            "characteristics": {
+                "cpu": 0,
+                "engines": 0,
+                "fusionBattery": 0,
+                "nanoFrame": 0,
+                "sensorsArray": 0
+            },
+            "traits": [],
+            "modSets": [
+                {
+                    "name": "default",
+                    "mods": [
+                        "Mining Laser I",
+                        "Hunter Missiles I",
+                        "Force Shield: Warp I",
+                        "Force Shield: N.X I"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "eb16f251-37d8-491b-89ff-8e7c8d7a0f5a",
+            "name": "Alpha BF #804",
+            "fraction": "1",
+            "level": 1,
+            "rarity": "Common",
+            "iconic": false,
+            "stats": {
+                "hp": 400,
+                "hprg": 0,
+                "shp": 200,
+                "arm": 0,
+                "shrg": 0,
+                "eva": 5,
+                "crit": 5,
+                "sup": 0,
+                "scv": 0,
+                "dcrit": 200,
+                "rcrit": 5
+            },
+            "characteristics": {
+                "cpu": 0,
+                "engines": 0,
+                "fusionBattery": 0,
+                "nanoFrame": 0,
+                "sensorsArray": 0
+            },
+            "traits": [],
+            "modSets": [
+                {
+                    "name": "default",
+                    "mods": [
+                        "Autocannon I",
+                        "Autocannon I",
+                        "Force Shield: A.T I",
+                        "Boosters Thrusters I"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "17b5f93e-4268-45b9-afe5-f60d0cffd5ec",
+            "name": "Alpha BF #805",
+            "fraction": "10",
+            "level": 1,
+            "rarity": "Common",
+            "iconic": false,
+            "stats": {
+                "hp": 400,
+                "hprg": 0,
+                "shp": 200,
+                "arm": 0,
+                "shrg": 0,
+                "eva": 5,
+                "crit": 5,
+                "sup": 0,
+                "scv": 0,
+                "dcrit": 200,
+                "rcrit": 5
+            },
+            "characteristics": {
+                "cpu": 0,
+                "engines": 0,
+                "fusionBattery": 0,
+                "nanoFrame": 0,
+                "sensorsArray": 0
+            },
+            "traits": [],
+            "modSets": [
+                {
+                    "name": "default",
+                    "mods": [
+                        "Mining Laser I",
+                        "Proton Blaster I",
+                        "Force Shield: A.T I",
+                        "Force Shield: Warp I"
+                    ]
+                }
+            ]
+        },
+          {
+              "id": "9aae3d75-899f-4508-bcdf-f728f77d3396",
+              "name": "Alpha BF #801",
+              "fraction": "8",
+              "level": 1,
+              "rarity": "Common",
+              "iconic": false,
+              "stats": {
+                  "hp": 400,
+                  "hprg": 0,
+                  "shp": 200,
+                  "arm": 0,
+                  "shrg": 0,
+                  "eva": 5,
+                  "crit": 5,
+                  "sup": 0,
+                  "scv": 0,
+                  "dcrit": 200,
+                  "rcrit": 5
+              },
+              "characteristics": {
+                  "cpu": 0,
+                  "engines": 0,
+                  "fusionBattery": 0,
+                  "nanoFrame": 0,
+                  "sensorsArray": 0
+              },
+              "traits": [],
+              "modSets": [
+                  {
+                      "name": "default",
+                      "mods": [
+                          "Howitzer I",
+                          "Micro Rocket Pods I",
+                          "Force Shield: Warp I",
+                          "Ceramo Armor I"
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "930aeef1-d772-47a4-8c03-60841317250e",
+              "name": "Alpha BF #802",
+              "fraction": "4",
+              "level": 1,
+              "rarity": "Common",
+              "iconic": false,
+              "stats": {
+                  "hp": 400,
+                  "hprg": 0,
+                  "shp": 200,
+                  "arm": 0,
+                  "shrg": 0,
+                  "eva": 5,
+                  "crit": 5,
+                  "sup": 0,
+                  "scv": 0,
+                  "dcrit": 200,
+                  "rcrit": 5
+              },
+              "characteristics": {
+                  "cpu": 0,
+                  "engines": 0,
+                  "fusionBattery": 0,
+                  "nanoFrame": 0,
+                  "sensorsArray": 0
+              },
+              "traits": [],
+              "modSets": [
+                  {
+                      "name": "default",
+                      "mods": [
+                          "Proton Blaster I",
+                          "Hunter Missiles I",
+                          "Rage Against The Nano Machines I",
+                          "Ceramo Armor I"
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "84e5c144-565e-420e-838b-e128718d4db7",
+              "name": "Alpha BF #803",
+              "fraction": "5",
+              "level": 1,
+              "rarity": "Common",
+              "iconic": false,
+              "stats": {
+                  "hp": 400,
+                  "hprg": 0,
+                  "shp": 200,
+                  "arm": 0,
+                  "shrg": 0,
+                  "eva": 5,
+                  "crit": 5,
+                  "sup": 0,
+                  "scv": 0,
+                  "dcrit": 200,
+                  "rcrit": 5
+              },
+              "characteristics": {
+                  "cpu": 0,
+                  "engines": 0,
+                  "fusionBattery": 0,
+                  "nanoFrame": 0,
+                  "sensorsArray": 0
+              },
+              "traits": [],
+              "modSets": [
+                  {
+                      "name": "default",
+                      "mods": [
+                          "Proton Blaster I",
+                          "Hunter Missiles I",
+                          "Rage Against The Nano Machines I",
+                          "Plasteel Hull I"
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "37dbd708-7472-4b1b-b629-76c8523039d9",
+              "name": "Alpha BF #804",
+              "fraction": "7",
+              "level": 1,
+              "rarity": "Common",
+              "iconic": false,
+              "stats": {
+                  "hp": 400,
+                  "hprg": 0,
+                  "shp": 200,
+                  "arm": 0,
+                  "shrg": 0,
+                  "eva": 5,
+                  "crit": 5,
+                  "sup": 0,
+                  "scv": 0,
+                  "dcrit": 200,
+                  "rcrit": 5
+              },
+              "characteristics": {
+                  "cpu": 0,
+                  "engines": 0,
+                  "fusionBattery": 0,
+                  "nanoFrame": 0,
+                  "sensorsArray": 0
+              },
+              "traits": [],
+              "modSets": [
+                  {
+                      "name": "default",
+                      "mods": [
+                          "Howitzer I",
+                          "Micro Rocket Pods I",
+                          "Force Shield: Warp I",
+                          "Plasteel Hull I"
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "7dd2086f-623a-4659-8f0c-20367e2d5f94",
+              "name": "Alpha BF #805",
+              "fraction": "2",
+              "level": 1,
+              "rarity": "Common",
+              "iconic": false,
+              "stats": {
+                  "hp": 400,
+                  "hprg": 0,
+                  "shp": 200,
+                  "arm": 0,
+                  "shrg": 0,
+                  "eva": 5,
+                  "crit": 5,
+                  "sup": 0,
+                  "scv": 0,
+                  "dcrit": 200,
+                  "rcrit": 5
+              },
+              "characteristics": {
+                  "cpu": 0,
+                  "engines": 0,
+                  "fusionBattery": 0,
+                  "nanoFrame": 0,
+                  "sensorsArray": 0
+              },
+              "traits": [],
+              "modSets": [
+                  {
+                      "name": "default",
+                      "mods": [
+                          "Hunter Missiles I",
+                          "Autocannon I",
+                          "EMP Ammo I",
+                          "Ceramo Armor I"
+                      ]
+                  }
+              ]
+          },
+            {
+                "id": "c0e2a313-3a75-47c9-a10b-f9992e62795a",
+                "name": "Alpha BF #801",
+                "fraction": "10",
+                "level": 1,
+                "rarity": "Common",
+                "iconic": false,
+                "stats": {
+                    "hp": 400,
+                    "hprg": 0,
+                    "shp": 200,
+                    "arm": 0,
+                    "shrg": 0,
+                    "eva": 5,
+                    "crit": 5,
+                    "sup": 0,
+                    "scv": 0,
+                    "dcrit": 200,
+                    "rcrit": 5
+                },
+                "characteristics": {
+                    "cpu": 0,
+                    "engines": 0,
+                    "fusionBattery": 0,
+                    "nanoFrame": 0,
+                    "sensorsArray": 0
+                },
+                "traits": [],
+                "modSets": [
+                    {
+                        "name": "default",
+                        "mods": [
+                            "Proton Blaster I",
+                            "Hunter Missiles I",
+                            "Force Shield: N.X I",
+                            "Force Shield: A.T I"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "b3d93d5e-0bdc-4d7d-b2fa-2b475b570723",
+                "name": "Alpha BF #802",
+                "fraction": "10",
+                "level": 1,
+                "rarity": "Common",
+                "iconic": false,
+                "stats": {
+                    "hp": 400,
+                    "hprg": 0,
+                    "shp": 200,
+                    "arm": 0,
+                    "shrg": 0,
+                    "eva": 5,
+                    "crit": 5,
+                    "sup": 0,
+                    "scv": 0,
+                    "dcrit": 200,
+                    "rcrit": 5
+                },
+                "characteristics": {
+                    "cpu": 0,
+                    "engines": 0,
+                    "fusionBattery": 0,
+                    "nanoFrame": 0,
+                    "sensorsArray": 0
+                },
+                "traits": [],
+                "modSets": [
+                    {
+                        "name": "default",
+                        "mods": [
+                            "Autocannon I",
+                            "Howitzer I",
+                            "EMP Ammo I",
+                            "EMP Ammo I"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "510aabe2-d11e-4786-9311-74265227e7ee",
+                "name": "Alpha BF #803",
+                "fraction": "6",
+                "level": 1,
+                "rarity": "Common",
+                "iconic": false,
+                "stats": {
+                    "hp": 400,
+                    "hprg": 0,
+                    "shp": 200,
+                    "arm": 0,
+                    "shrg": 0,
+                    "eva": 5,
+                    "crit": 5,
+                    "sup": 0,
+                    "scv": 0,
+                    "dcrit": 200,
+                    "rcrit": 5
+                },
+                "characteristics": {
+                    "cpu": 0,
+                    "engines": 0,
+                    "fusionBattery": 0,
+                    "nanoFrame": 0,
+                    "sensorsArray": 0
+                },
+                "traits": [],
+                "modSets": [
+                    {
+                        "name": "default",
+                        "mods": [
+                            "Hunter Missiles I",
+                            "Autocannon I",
+                            "Overclocking Protocols I",
+                            "Overclocking Protocols I"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "b9039aa5-453d-4b47-a55d-3ce18dba1777",
+                "name": "Alpha BF #804",
+                "fraction": "10",
+                "level": 1,
+                "rarity": "Common",
+                "iconic": false,
+                "stats": {
+                    "hp": 400,
+                    "hprg": 0,
+                    "shp": 200,
+                    "arm": 0,
+                    "shrg": 0,
+                    "eva": 5,
+                    "crit": 5,
+                    "sup": 0,
+                    "scv": 0,
+                    "dcrit": 200,
+                    "rcrit": 5
+                },
+                "characteristics": {
+                    "cpu": 0,
+                    "engines": 0,
+                    "fusionBattery": 0,
+                    "nanoFrame": 0,
+                    "sensorsArray": 0
+                },
+                "traits": [],
+                "modSets": [
+                    {
+                        "name": "default",
+                        "mods": [
+                            "Mining Laser I",
+                            "Hunter Missiles I",
+                            "Force Shield: N.X I",
+                            "Auto Reloaders I"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "fecdc23a-f809-4720-9eb5-e1951f5469e6",
+                "name": "Alpha BF #805",
+                "fraction": "9",
+                "level": 1,
+                "rarity": "Common",
+                "iconic": false,
+                "stats": {
+                    "hp": 400,
+                    "hprg": 0,
+                    "shp": 200,
+                    "arm": 0,
+                    "shrg": 0,
+                    "eva": 5,
+                    "crit": 5,
+                    "sup": 0,
+                    "scv": 0,
+                    "dcrit": 200,
+                    "rcrit": 5
+                },
+                "characteristics": {
+                    "cpu": 0,
+                    "engines": 0,
+                    "fusionBattery": 0,
+                    "nanoFrame": 0,
+                    "sensorsArray": 0
+                },
+                "traits": [],
+                "modSets": [
+                    {
+                        "name": "default",
+                        "mods": [
+                            "Hunter Missiles I",
+                            "Mining Laser I",
+                            "Force Shield: N.X I",
+                            "Regenerative Nanobot I"
+                        ]
+                    }
+                ]
+            }
+]

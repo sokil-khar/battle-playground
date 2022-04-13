@@ -1,0 +1,2416 @@
+[
+  {
+    "Mod Name": "Plasteel Hull II",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "2",
+    "Additional Effects": "12% HP bonus",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Plasteel-Hull-ee0906bf02f34c54a9ea9d35cdbae4ce"
+  },
+  {
+    "Mod Name": "Plasteel Hull III",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "3",
+    "Additional Effects": "20% HP bonus",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Plasteel-Hull-ee0906bf02f34c54a9ea9d35cdbae4ce"
+  },
+  {
+    "Mod Name": "Plasteel Hull IV",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "4",
+    "Additional Effects": "28% HP bonus",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Plasteel-Hull-ee0906bf02f34c54a9ea9d35cdbae4ce"
+  },
+  {
+    "Mod Name": "Plasteel Hull V",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "5",
+    "Additional Effects": "40% HP bonus, +5% MISSILE damage",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Plasteel-Hull-ee0906bf02f34c54a9ea9d35cdbae4ce"
+  },
+  {
+    "Mod Name": "Boosters Thrusters II",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "0",
+    "Additional Effects": "9% evasion bonus",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Booster-Thrusters-fa5f342fe4974aadbe3dec87896dfc7e"
+  },
+  {
+    "Mod Name": "Boosters Thrusters III",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "0",
+    "Additional Effects": "12% evasion bonus",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Booster-Thrusters-fa5f342fe4974aadbe3dec87896dfc7e"
+  },
+  {
+    "Mod Name": "Boosters Thrusters IV",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "0",
+    "Additional Effects": "14% evasion bonus",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Booster-Thrusters-fa5f342fe4974aadbe3dec87896dfc7e"
+  },
+  {
+    "Mod Name": "Boosters Thrusters V",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "0",
+    "Additional Effects": "15% evasion bonus, +5% ELECTRIC damage",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Booster-Thrusters-fa5f342fe4974aadbe3dec87896dfc7e"
+  },
+  {
+    "Mod Name": "Ceramo Armor II",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "6",
+    "Additional Effects": "",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Ceramo-Armor-988527194f5344dbbdca2582e8fcffce"
+  },
+  {
+    "Mod Name": "Ceramo Armor III",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "7",
+    "Additional Effects": "+5% HP bonus",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Ceramo-Armor-988527194f5344dbbdca2582e8fcffce"
+  },
+  {
+    "Mod Name": "Ceramo Armor IV",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "8",
+    "Additional Effects": "+10% HP bonus",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Ceramo-Armor-988527194f5344dbbdca2582e8fcffce"
+  },
+  {
+    "Mod Name": "Ceramo Armor V",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "10",
+    "Additional Effects": "+15% HP bonus",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Ceramo-Armor-988527194f5344dbbdca2582e8fcffce"
+  },
+  {
+    "Mod Name": "Point Defense II",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "5",
+    "Additional Effects": "19% evasion bonus vs MISSILES",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Point-Defense-5cf1f520d7574a198f7b4095a3d75a64"
+  },
+  {
+    "Mod Name": "Point Defense III",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "6",
+    "Additional Effects": "27% evasion bonus vs MISSILES",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Point-Defense-5cf1f520d7574a198f7b4095a3d75a64"
+  },
+  {
+    "Mod Name": "Point Defense IV",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "7",
+    "Additional Effects": "35% evasion bonus vs MISSILES",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Point-Defense-5cf1f520d7574a198f7b4095a3d75a64"
+  },
+  {
+    "Mod Name": "Point Defense V",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "8",
+    "Additional Effects": "45% evasion bonus vs MISSILES, +5% KINETIC damage",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Point-Defense-5cf1f520d7574a198f7b4095a3d75a64"
+  },
+  {
+    "Mod Name": "Force Shield: A.T II",
+    "Initial Shield Value": "100",
+    "Initial Armor Value": "0",
+    "Additional Effects": "Absorbs damage, recharges 1% of max shield per second",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-A-T-a98b6b26f4e14fc98c6d9a8410e12700"
+  },
+  {
+    "Mod Name": "Force Shield: A.T III",
+    "Initial Shield Value": "125",
+    "Initial Armor Value": "0",
+    "Additional Effects": "Absorbs damage, recharges 2% of max shield per second",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-A-T-a98b6b26f4e14fc98c6d9a8410e12700"
+  },
+  {
+    "Mod Name": "Force Shield: A.T IV",
+    "Initial Shield Value": "150",
+    "Initial Armor Value": "0",
+    "Additional Effects": "Absorbs damage, recharges 3% of max shield per second",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-A-T-a98b6b26f4e14fc98c6d9a8410e12700"
+  },
+  {
+    "Mod Name": "Force Shield: A.T V",
+    "Initial Shield Value": "200",
+    "Initial Armor Value": "0",
+    "Additional Effects": "Absorbs damage, recharges 5% of max shield per second",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-A-T-a98b6b26f4e14fc98c6d9a8410e12700"
+  },
+  {
+    "Mod Name": "Force Shield: N.X II",
+    "Initial Shield Value": "75",
+    "Initial Armor Value": "0",
+    "Additional Effects": "Absorbs damage, recharges 2% of max shield per second.",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-N-X-f1cfa959468a47c59a7ac4f0fe444df3"
+  },
+  {
+    "Mod Name": "Force Shield: N.X III",
+    "Initial Shield Value": "100",
+    "Initial Armor Value": "0",
+    "Additional Effects": "Absorbs damage, recharges 4% of max shield per second.",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-N-X-f1cfa959468a47c59a7ac4f0fe444df3"
+  },
+  {
+    "Mod Name": "Force Shield: N.X IV",
+    "Initial Shield Value": "125",
+    "Initial Armor Value": "0",
+    "Additional Effects": "Absorbs damage, recharges 6% of max shield per second.",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-N-X-f1cfa959468a47c59a7ac4f0fe444df3"
+  },
+  {
+    "Mod Name": "Force Shield: N.X V",
+    "Initial Shield Value": "150",
+    "Initial Armor Value": "0",
+    "Additional Effects": "Absorbs damage, recharges 9% of max shield per second, +10% ENERGY damage",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-N-X-f1cfa959468a47c59a7ac4f0fe444df3"
+  },
+  {
+    "Mod Name": "Force Shield: Warp II",
+    "Initial Shield Value": "50",
+    "Initial Armor Value": "0",
+    "Additional Effects": "Absorbs damage, recharges 4% of max shield per second.",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-Warp-bdc61b20f1fd458c925b60d4c40cb25d"
+  },
+  {
+    "Mod Name": "Force Shield: Warp III",
+    "Initial Shield Value": "75",
+    "Initial Armor Value": "0",
+    "Additional Effects": "Absorbs damage, recharges 6% of max shield per second.",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-Warp-bdc61b20f1fd458c925b60d4c40cb25d"
+  },
+  {
+    "Mod Name": "Force Shield: Warp IV",
+    "Initial Shield Value": "100",
+    "Initial Armor Value": "0",
+    "Additional Effects": "Absorbs damage, recharges 8% of max shield per second.",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-Warp-bdc61b20f1fd458c925b60d4c40cb25d"
+  },
+  {
+    "Mod Name": "Force Shield: Warp V",
+    "Initial Shield Value": "125",
+    "Initial Armor Value": "0",
+    "Additional Effects": "Absorbs damage, recharges 9% of max shield per second, +2 to Engines (One point equals: 0.5% EVA, 0.5 RCRIT, 1% KINETIC damage)",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-Warp-bdc61b20f1fd458c925b60d4c40cb25d"
+  },
+  {
+    "Mod Name": "Biohazard Shield III",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "5",
+    "Additional Effects": "25% evasion vs nuclear & electric",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Biohazard-Shield-c69e6b1d2c0a4ea6a558c12e39abb352"
+  },
+  {
+    "Mod Name": "Biohazard Shield IV",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "7.5",
+    "Additional Effects": "35% evasion vs nuclear & electric",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Biohazard-Shield-c69e6b1d2c0a4ea6a558c12e39abb352"
+  },
+  {
+    "Mod Name": "Biohazard Shield V",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "10",
+    "Additional Effects": "50% evasion vs NUCLEAR & ELECTRIC, +10% to mod drop rates",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Biohazard-Shield-c69e6b1d2c0a4ea6a558c12e39abb352"
+  },
+  {
+    "Mod Name": "Wasteland Seals II",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "5",
+    "Additional Effects": "19% evasion vs NUCLEAR",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Wasteland-Seals-b4dd5a5d241e4447a66c1fd254d6b96f"
+  },
+  {
+    "Mod Name": "Wasteland Seals III",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "7.5",
+    "Additional Effects": "27% evasion vs NUCLEAR",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Wasteland-Seals-b4dd5a5d241e4447a66c1fd254d6b96f"
+  },
+  {
+    "Mod Name": "Wasteland Seals IV",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "10",
+    "Additional Effects": "35% evasion vs NUCLEAR",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Wasteland-Seals-b4dd5a5d241e4447a66c1fd254d6b96f"
+  },
+  {
+    "Mod Name": "Wasteland Seals V",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "12.5",
+    "Additional Effects": "80% evasion vs NUCLEAR",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Wasteland-Seals-b4dd5a5d241e4447a66c1fd254d6b96f"
+  },
+  {
+    "Mod Name": "Reactive Armor II",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "2.5",
+    "Additional Effects": "Cancels the first 3 KINETIC attacks",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Reactive-Armor-8353f77958b34d3da05b726bb5112105"
+  },
+  {
+    "Mod Name": "Reactive Armor III",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "4",
+    "Additional Effects": "Cancels the first 4 KINETIC attacks",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Reactive-Armor-8353f77958b34d3da05b726bb5112105"
+  },
+  {
+    "Mod Name": "Reactive Armor IV",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "5",
+    "Additional Effects": "Cancels the first 5 KINETIC attacks",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Reactive-Armor-8353f77958b34d3da05b726bb5112105"
+  },
+  {
+    "Mod Name": "Reactive Armor V",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "6",
+    "Additional Effects": "Cancels the first 7 KINETIC attacks",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Reactive-Armor-8353f77958b34d3da05b726bb5112105"
+  },
+  {
+    "Name": "Explosive Ammo II",
+    "Additional Effects": "Increase damage of equipped kinetic weapons by 15%",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Explosive-Ammo-47a9213336d14b098fed7d59ffe77850"
+  },
+  {
+    "Name": "Explosive Ammo III",
+    "Additional Effects": "Increase damage of equipped kinetic weapons by 25%",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Explosive-Ammo-47a9213336d14b098fed7d59ffe77850"
+  },
+  {
+    "Name": "Explosive Ammo IV",
+    "Additional Effects": "Increase damage of equipped kinetic weapons by 35%",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Explosive-Ammo-47a9213336d14b098fed7d59ffe77850"
+  },
+  {
+    "Name": "Explosive Ammo V",
+    "Additional Effects": "Increase damage of equipped kinetic weapons by 50%",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Explosive-Ammo-47a9213336d14b098fed7d59ffe77850"
+  },
+  {
+    "Name": "Micro Nuclear War Heads II",
+    "Additional Effects": "All equipped MISSILES become NUCLEAR damage. Increases NUCLEAR damage by 12%",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Micro-Nuclear-War-Heads-6e763c9e57bb4b7890f70e9051a7f566"
+  },
+  {
+    "Name": "Micro Nuclear War Heads III",
+    "Additional Effects": "All equipped MISSILES become NUCLEAR Damage. Increases NUCLEAR damage by 18%",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Micro-Nuclear-War-Heads-6e763c9e57bb4b7890f70e9051a7f566"
+  },
+  {
+    "Name": "Micro Nuclear War Heads IV",
+    "Additional Effects": "All equipped MISSILES become NUCLEAR Damage. Increases NUCLEAR damage by 24%",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Micro-Nuclear-War-Heads-6e763c9e57bb4b7890f70e9051a7f566"
+  },
+  {
+    "Name": "Micro Nuclear War Heads V",
+    "Additional Effects": "All equipped MISSILES become NUCLEAR Damage. Increases NUCLEAR damage by 35%. ",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Micro-Nuclear-War-Heads-6e763c9e57bb4b7890f70e9051a7f566"
+  },
+  {
+    "Name": "EMP Ammo II",
+    "Additional Effects": "Your attacks electrify the opponent, causing your opponents attacks to deal 8% less damage for 3 seconds after each hit (Cumulative 3 times)",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/EMP-Ammo-a49d97d78b8e4b22b3cbcba272367506"
+  },
+  {
+    "Name": "EMP Ammo III",
+    "Additional Effects": "Your attacks electrify the opponent, causing your opponents attacks to deal 10% less damage for 3 seconds after each hit (Cumulative 3 times)",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/EMP-Ammo-a49d97d78b8e4b22b3cbcba272367506"
+  },
+  {
+    "Name": "EMP Ammo IV",
+    "Additional Effects": "Your attacks electrify the opponent, causing your opponents attacks to deal 12% less damage for 3 seconds after each hit (Cumulative 3 times)",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/EMP-Ammo-a49d97d78b8e4b22b3cbcba272367506"
+  },
+  {
+    "Name": "EMP Ammo V",
+    "Additional Effects": "Your attacks electrify the opponent, causing your opponents attacks to deal 20% less damage for 3 seconds after each hit (Cumulative 3 times)",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/EMP-Ammo-a49d97d78b8e4b22b3cbcba272367506"
+  },
+  {
+    "Name": "Auto Reloaders II",
+    "Additional Effects": "Increase speed of equipped weapons by 19%",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Auto-Reloaders-3b38c65b5afc4b3d8228adcc768a47b9"
+  },
+  {
+    "Name": "Auto Reloaders III",
+    "Additional Effects": "Increase speed of equipped weapons by 27%",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Auto-Reloaders-3b38c65b5afc4b3d8228adcc768a47b9"
+  },
+  {
+    "Name": "Auto Reloaders IV",
+    "Additional Effects": "Increase speed of equipped weapons by 35%",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Auto-Reloaders-3b38c65b5afc4b3d8228adcc768a47b9"
+  },
+  {
+    "Name": "Auto Reloaders V",
+    "Additional Effects": "Increase speed of equipped weapons by 50%",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Auto-Reloaders-3b38c65b5afc4b3d8228adcc768a47b9"
+  },
+  {
+    "Name": "Graviton Capacitors II",
+    "Additional Effects": "Absorbs damage, recharge 3% of max shield per second.",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Graviton-Capacitors-f7108c85f0a44db69a08c5badbe256a6"
+  },
+  {
+    "Name": "Graviton Capacitors III",
+    "Additional Effects": "Absorbs damage, recharge 4% of max shield per second.",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Graviton-Capacitors-f7108c85f0a44db69a08c5badbe256a6"
+  },
+  {
+    "Name": "Graviton Capacitors IV",
+    "Additional Effects": "Absorbs damage, recharge 5% of max shield per second.",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Graviton-Capacitors-f7108c85f0a44db69a08c5badbe256a6"
+  },
+  {
+    "Name": "Graviton Capacitors V",
+    "Additional Effects": "Absorbs damage, recharge 8% of max shield per second, +3 to sensors array (One point equals: 0.5% CRIT RATE, 1% SCAVENGE, 1% CRIT DMG)",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Graviton-Capacitors-f7108c85f0a44db69a08c5badbe256a6"
+  },
+  {
+    "Name": "Auxiliary Generators II",
+    "Additional Effects": "3% chance to fully recharge shields AFTER receiving damage.",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Auxiliary-Generators-75afa2be7d554d999e8e773b23236ce1"
+  },
+  {
+    "Name": "Auxiliary Generators III",
+    "Additional Effects": "5% chance to fully recharge AFTER receiving damage.",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Auxiliary-Generators-75afa2be7d554d999e8e773b23236ce1"
+  },
+  {
+    "Name": "Auxiliary Generators IV",
+    "Additional Effects": "7% chance to fully recharge AFTER receiving damage.",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Auxiliary-Generators-75afa2be7d554d999e8e773b23236ce1"
+  },
+  {
+    "Name": "Auxiliary Generators V",
+    "Additional Effects": "10% chance to fully recharge AFTER receiving damage.",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Auxiliary-Generators-75afa2be7d554d999e8e773b23236ce1"
+  },
+  {
+    "Name": "Combat Algorythms Processor II",
+    "Additional Effects": "+8% CRIT",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Combat-Algorythms-Processor-f6d347802e1544c197a53ff2743c140e"
+  },
+  {
+    "Name": "Combat Algorythms Processor III",
+    "Additional Effects": "+10% CRIT",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Combat-Algorythms-Processor-f6d347802e1544c197a53ff2743c140e"
+  },
+  {
+    "Name": "Combat Algorythms Processor IV",
+    "Additional Effects": "+12% CRIT",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Combat-Algorythms-Processor-f6d347802e1544c197a53ff2743c140e"
+  },
+  {
+    "Name": "Combat Algorythms Processor V",
+    "Additional Effects": "+20% CRIT",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Combat-Algorythms-Processor-f6d347802e1544c197a53ff2743c140e"
+  },
+  {
+    "Name": "Linked Combat Systems III",
+    "Additional Effects": "When weapon 1 shoots, 10% chance that Weapon 2 reload bar is instantly filled, and weapon 2 also shoots.",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Linked-Combat-Systems-9a3cc20e66614337926987655b557bff"
+  },
+  {
+    "Name": "Stealth Tech III",
+    "Additional Effects": "Cannot be attacked before first attack is made, or 8 seconds pass. (Also protected from BARRAGE), 5% Evasion bonus",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Stealth-Tech-9dcb15ee293d4960ac56eea5b6b21601"
+  },
+  {
+    "Name": "Stealth Tech IV",
+    "Additional Effects": "Cannot be attacked before first attack is made, or 8 seconds pass. (Also protected from BARRAGE), 8% Evasion bonus",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Stealth-Tech-9dcb15ee293d4960ac56eea5b6b21601"
+  },
+  {
+    "Name": "Stealth Tech V",
+    "Additional Effects": "Cannot be attacked before first attack is made, or 8 seconds pass. (Also protected from BARRAGE), 15% Evasion bonus",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Stealth-Tech-9dcb15ee293d4960ac56eea5b6b21601"
+  },
+  {
+    "Name": "Mirror Image Generator II",
+    "Additional Effects": "+19% Critical resist",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Mirror-Image-Generators-b1563c46721f49f3bcbf993cbe97994f"
+  },
+  {
+    "Name": "Mirror Image Generator III",
+    "Additional Effects": "+27% Critical resist",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Mirror-Image-Generators-b1563c46721f49f3bcbf993cbe97994f"
+  },
+  {
+    "Name": "Mirror Image Generator IV",
+    "Additional Effects": "+35% Critical resist",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Mirror-Image-Generators-b1563c46721f49f3bcbf993cbe97994f"
+  },
+  {
+    "Name": "Mirror Image Generator V",
+    "Additional Effects": "+45% Critical resist, +3 to sensors array (One point equals: 0.5% CRIT RATE, 1% SCAVENGE, 1% CRIT DMG)",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Mirror-Image-Generators-b1563c46721f49f3bcbf993cbe97994f"
+  },
+  {
+    "Name": "Diamond Nuclear Voltaic Battery II",
+    "Additional Effects": "+2% to CRIT, Evasion, HP",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Diamond-Nuclear-Voltaic-Battery-30157e78027e48809572fbc3fa17d353"
+  },
+  {
+    "Name": "Diamond Nuclear Voltaic Battery III",
+    "Additional Effects": "+4% to CRIT, Evasion, HP",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Diamond-Nuclear-Voltaic-Battery-30157e78027e48809572fbc3fa17d353"
+  },
+  {
+    "Name": "Diamond Nuclear Voltaic Battery IV",
+    "Additional Effects": "+6% to CRIT, Evasion, HP",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Diamond-Nuclear-Voltaic-Battery-30157e78027e48809572fbc3fa17d353"
+  },
+  {
+    "Name": "Diamond Nuclear Voltaic Battery V",
+    "Additional Effects": "+10% to CRIT, Evasion, HP, all weapons speed",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Diamond-Nuclear-Voltaic-Battery-30157e78027e48809572fbc3fa17d353"
+  },
+  {
+    "Name": "Regenerative Nanobot II",
+    "Additional Effects": "Increase HP regeneration by 0.5% per second",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Regenerative-Nanobot-21d8c1667f8846ed9c87a5b55a147a67"
+  },
+  {
+    "Name": "Regenerative Nanobot III",
+    "Additional Effects": "Increase HP regeneration by 0.8% per second",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Regenerative-Nanobot-21d8c1667f8846ed9c87a5b55a147a67"
+  },
+  {
+    "Name": "Regenerative Nanobot IV",
+    "Additional Effects": "Increase HP regeneration by 1.2% per second",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Regenerative-Nanobot-21d8c1667f8846ed9c87a5b55a147a67"
+  },
+  {
+    "Name": "Regenerative Nanobot V",
+    "Additional Effects": "Increase HP regeneration by 1.7% per second, recharges 2% of max shield per second",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Regenerative-Nanobot-21d8c1667f8846ed9c87a5b55a147a67"
+  },
+  {
+    "Name": "Overclocking protocols II",
+    "Additional Effects": "When your battlefly is 30% health or below, it\u2019s attack speed and attack damage are increased by 19%",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Overclocking-Protocols-8f9416c809d74b2babfc02e7f18c3129"
+  },
+  {
+    "Name": "Overclocking protocols III",
+    "Additional Effects": "When your battlefly is 30% health or below, it\u2019s attack speed and attack damage are increased by 27%",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Overclocking-Protocols-8f9416c809d74b2babfc02e7f18c3129"
+  },
+  {
+    "Name": "Overclocking protocols IV",
+    "Additional Effects": "When your battlefly is 30% health or below, it\u2019s attack speed and attack damage are increased by 35%",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Overclocking-Protocols-8f9416c809d74b2babfc02e7f18c3129"
+  },
+  {
+    "Name": "Overclocking protocols V",
+    "Additional Effects": "When your BF’s HP is 30% or less, its damage is increased by 50% and reload time is decreased by 50%",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Overclocking-Protocols-8f9416c809d74b2babfc02e7f18c3129"
+  },
+  {
+    "Name": "Rage Against The Nano Machines II",
+    "Additional Effects": "Increase all damage by 8%",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Rage-Against-The-Nano-Machines-69ce708a428a453692c2822403ac49c2"
+  },
+  {
+    "Name": "Rage Against The Nano Machines III",
+    "Additional Effects": "Increase all damage by 12%",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Rage-Against-The-Nano-Machines-69ce708a428a453692c2822403ac49c2"
+  },
+  {
+    "Name": "Rage Against The Nano Machines IV",
+    "Additional Effects": "Increase all damage by 15%",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Rage-Against-The-Nano-Machines-69ce708a428a453692c2822403ac49c2"
+  },
+  {
+    "Name": "Rage Against The Nano Machines V",
+    "Additional Effects": "Increase all damage by 25%, +5% CRIT",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Rage-Against-The-Nano-Machines-69ce708a428a453692c2822403ac49c2"
+  },
+  {
+    "Name": "Sharp Armored Components II",
+    "Additional Effects": "Each time you suffer an attack, your opponent also suffers 3 damage",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Sharp-Armored-Components-6654a9c7e0304dcaa4bc529626abf804"
+  },
+  {
+    "Name": "Sharp Armored Components III",
+    "Additional Effects": "Each time you suffer an attack, your opponent also suffers 5 damage",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Sharp-Armored-Components-6654a9c7e0304dcaa4bc529626abf804"
+  },
+  {
+    "Name": "Sharp Armored Components IV",
+    "Additional Effects": "Each time you suffer an attack, your opponent also suffers 7 damage",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Sharp-Armored-Components-6654a9c7e0304dcaa4bc529626abf804"
+  },
+  {
+    "Name": "Sharp Armored Components V",
+    "Additional Effects": "Each time you suffer an attack, your opponent also suffers 10 damage, +10% armor",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Sharp-Armored-Components-6654a9c7e0304dcaa4bc529626abf804"
+  },
+  {
+    "Name": "Phoenix protocols IV",
+    "Additional Effects": "Resurrect once after going to 0 HP (With 30% health)",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Phoenix-Protocols-39dc92815cbd4d308396ce5032853f72"
+  },
+  {
+    "Name": "Leeeroy Chip 3.7 III",
+    "Additional Effects": "Increases chance by 8% to be selected to fight in the hyperdome, each attack gives +1% to CRIT, and +1% to CRIT DAMAGE (Max 20% percent)",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Leeeroy-Chip-3-7-8eac54bceeb3494fac84f3c1915d31c6"
+  },
+  {
+    "Name": "Leeeroy Chip 3.7 IV",
+    "Additional Effects": "Increases chance by 12% to be selected to fight in the hyperdome, each attack gives +1% to CRIT, and +1% to CRIT DAMAGE (Max 25% percent)",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Leeeroy-Chip-3-7-8eac54bceeb3494fac84f3c1915d31c6"
+  },
+  {
+    "Name": "Leeeroy Chip 3.7 V",
+    "Additional Effects": "Increases chance by 20% to be selected to fight in the hyperdome, each attack gives +1.5% to CRIT, and +1.5% to CRIT DAMAGE (Max 30% percent)",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Leeeroy-Chip-3-7-8eac54bceeb3494fac84f3c1915d31c6"
+  },
+  {
+    "Name": "Red Panda protocols III",
+    "Additional Effects": "Decreases chance by 8% to be selected to fight in the hyperdome, trigger a +1% evasion buff that stacks each time your opponent attacks (Max 5%).",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Red-Panda-Protocols-b837074622084d6e8c24fec13b117cf6"
+  },
+  {
+    "Name": "Red Panda protocols IV",
+    "Additional Effects": "Decreases chance by 12% to be selected to fight in the hyperdome, trigger a +1% evasion buff that stacks each time your opponent attacks (Max 8%).",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Red-Panda-Protocols-b837074622084d6e8c24fec13b117cf6"
+  },
+  {
+    "Name": "Red Panda protocols V",
+    "Additional Effects": "Decreases chance by 20% to be selected to fight in the hyperdome, trigger a +1% evasion buff that stacks each time your opponent attacks (Max 12%).",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Red-Panda-Protocols-b837074622084d6e8c24fec13b117cf6"
+  },
+  {
+    "Name": "Supersonic Sensor Radar III",
+    "Additional Effects": "+3 to sensors array (One point equals: 0.5% CRIT RATE, 1% SCAVENGE, 1% CRIT DMG)",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Supersonic-Sensor-Radar-7f54fa03c1284237a15b136def611ee8"
+  },
+  {
+    "Name": "Supersonic Sensor Radar IV",
+    "Additional Effects": "+4 to sensors array (One point equals: 0.5% CRIT RATE, 1% SCAVENGE, 1% CRIT DMG)",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Supersonic-Sensor-Radar-7f54fa03c1284237a15b136def611ee8"
+  },
+  {
+    "Name": "Supersonic Sensor Radar V",
+    "Additional Effects": "+5 to sensors array (One point equals: 0.5% CRIT RATE, 1% SCAVENGE, 1% CRIT DMG), +10% weapon speed",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Supersonic-Sensor-Radar-7f54fa03c1284237a15b136def611ee8"
+  },
+  {
+    "Name": "Promethium Neogenic Battery III",
+    "Additional Effects": "+3 to Fusion Battery (One point equals: 1 SHP, 1%/s SHRG, 1% ENERGY damage",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Promethium-Neogenic-Battery-bb7c7d4fa20f464aa4afebf2c060b408"
+  },
+  {
+    "Name": "Promethium Neogenic Battery IV",
+    "Additional Effects": "+4 to Fusion Battery (One point equals: 1 SHP, 1%/s SHRG, 1% ENERGY damage",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Promethium-Neogenic-Battery-bb7c7d4fa20f464aa4afebf2c060b408"
+  },
+  {
+    "Name": "Promethium Neogenic Battery V",
+    "Additional Effects": "+5 to Fusion Battery (One point equals: 1 SHP, 1%/s SHRG, 1% ENERGY damage, all equipped ELECTRIC weapons become ENERGY damage.",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Promethium-Neogenic-Battery-bb7c7d4fa20f464aa4afebf2c060b408"
+  },
+  {
+    "Name": "Celsium Quantum Frame III",
+    "Additional Effects": "+3 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Celsium-Quantum-Frame-a8d7d6e7def44b5c92143c1c9c18e6a5"
+  },
+  {
+    "Name": "Celsium Quantum Frame IV",
+    "Additional Effects": "+4 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Celsium-Quantum-Frame-a8d7d6e7def44b5c92143c1c9c18e6a5"
+  },
+  {
+    "Name": "Celsium Quantum Frame V",
+    "Additional Effects": "+5 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT, +10% armor",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Celsium-Quantum-Frame-a8d7d6e7def44b5c92143c1c9c18e6a5"
+  },
+  {
+    "Name": "Supercharged Jumpdrive Engine III",
+    "Additional Effects": "+3 to Engines (One point equals: 0.5% EVA, 1% KINETIC damage)",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Supercharged-Jumpdrive-Engine-3632a0739be34ca49852ffbcb0e12bbc"
+  },
+  {
+    "Name": "Supercharged Jumpdrive Engine IV",
+    "Additional Effects": "+4 to Engines (One point equals: 0.5% EVA, 1% KINETIC damage)",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Supercharged-Jumpdrive-Engine-3632a0739be34ca49852ffbcb0e12bbc"
+  },
+  {
+    "Name": "Supercharged Jumpdrive Engine V",
+    "Additional Effects": "+5 to Engines (One point equals: 0.5% EVA, 1% KINETIC damage), all equipped ENERGY weapons become KINETIC damage.",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Supercharged-Jumpdrive-Engine-3632a0739be34ca49852ffbcb0e12bbc"
+  },
+  {
+    "Name": "Gold-Plated Hyper CPU III",
+    "Additional Effects": "+3% reload time, +6% MISSILE damage",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Gold-Plated-Hyper-CPU-5c1718dc66574506a35308cba8cacb95"
+  },
+  {
+    "Name": "Gold-Plated Hyper CPU IV",
+    "Additional Effects": "+6% reload time, +12% MISSILE damage",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Gold-Plated-Hyper-CPU-5c1718dc66574506a35308cba8cacb95"
+  },
+  {
+    "Name": "Gold-Plated Hyper CPU V",
+    "Additional Effects": "+10% reload time, +20% MISSILE damage",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Gold-Plated-Hyper-CPU-5c1718dc66574506a35308cba8cacb95"
+  },
+  {
+    "Name": "Nano Go Neuronet II",
+    "Additional Effects": "+10% to Self Update Protocols",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Nano-Go-Neuronet-cca3504e188140e7a4d829469fb20c23"
+  },
+  {
+    "Name": "Nano Go Neuronet III",
+    "Additional Effects": "+15% to Self Update Protocols",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/Nano-Go-Neuronet-cca3504e188140e7a4d829469fb20c23"
+  },
+  {
+    "Name": "Nano Go Neuronet IV",
+    "Additional Effects": "+20% to Self Update Protocols",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/Nano-Go-Neuronet-cca3504e188140e7a4d829469fb20c23"
+  },
+  {
+    "Name": "Nano Go Neuronet V",
+    "Additional Effects": "+40% to Self Update Protocols",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/Nano-Go-Neuronet-cca3504e188140e7a4d829469fb20c23"
+  },
+  {
+    "Name": "SVM Multi band Scanner II",
+    "Additional Effects": "+10% Scavenge",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/SVM-Multi-Band-Scanner-5303dbf4e4c14acbb147fc266222d821"
+  },
+  {
+    "Name": "SVM Multi band Scanner III",
+    "Additional Effects": "+15% Scavenge",
+    "Rarity": "Rare",
+    "Power Rating": "150",
+    "Relation to System Model List": "https://www.notion.so/SVM-Multi-Band-Scanner-5303dbf4e4c14acbb147fc266222d821"
+  },
+  {
+    "Name": "SVM Multi band Scanner IV",
+    "Additional Effects": "+20% Scavenge",
+    "Rarity": "Epic",
+    "Power Rating": "200",
+    "Relation to System Model List": "https://www.notion.so/SVM-Multi-Band-Scanner-5303dbf4e4c14acbb147fc266222d821"
+  },
+  {
+    "Name": "SVM Multi band Scanner V",
+    "Additional Effects": "+40% Scavenge",
+    "Rarity": "Legendary",
+    "Power Rating": "250",
+    "Relation to System Model List": "https://www.notion.so/SVM-Multi-Band-Scanner-5303dbf4e4c14acbb147fc266222d821"
+  },
+  {
+    "Weapon Name": "Lightning Probe II",
+    "Damage Type": "Electric",
+    "Reload": "2",
+    "Fire Rate": "2",
+    "Damage Per Fire": "27.5",
+    "Damage": "55",
+    "DPS": "27.5",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "40% less damage to shields",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Lightning-Probe-962c7eb319c8415599780500b35e3489"
+  },
+  {
+    "Weapon Name": "Lightning Probe III",
+    "Damage Type": "Electric",
+    "Reload": "2",
+    "Fire Rate": "2",
+    "Damage Per Fire": "32.5",
+    "Damage": "65",
+    "DPS": "32.5",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "30% less damage to shields",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Lightning-Probe-962c7eb319c8415599780500b35e3489"
+  },
+  {
+    "Weapon Name": "Lightning Probe IV",
+    "Damage Type": "Electric",
+    "Reload": "2",
+    "Fire Rate": "2",
+    "Damage Per Fire": "37.5",
+    "Damage": "75",
+    "DPS": "37.5",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "25% less damage to shields",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Lightning-Probe-962c7eb319c8415599780500b35e3489"
+  },
+  {
+    "Weapon Name": "Electroblast Zapper",
+    "Damage Type": "Electric",
+    "Reload": "2",
+    "Fire Rate": "2",
+    "Damage Per Fire": "42.5",
+    "Damage": "85",
+    "DPS": "42.5",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "15% less damage to shields, next enemy attack -15% damage. (Non-cumulative)",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Lightning-Probe-962c7eb319c8415599780500b35e3489"
+  },
+  {
+    "Weapon Name": "Gravity Gun III",
+    "Damage Type": "Electric",
+    "Reload": "2",
+    "Fire Rate": "1",
+    "Damage Per Fire": "40",
+    "Damage": "40",
+    "DPS": "20",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "+3 damage for each 1 of opponents armor",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Gravity-Gun-5e3d94feeaba4c84a09b5e0bc537afbc"
+  },
+  {
+    "Weapon Name": "Gravity Gun IV",
+    "Damage Type": "Electric",
+    "Reload": "2",
+    "Fire Rate": "1",
+    "Damage Per Fire": "50",
+    "Damage": "50",
+    "DPS": "25",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "+3 damage for each 1 of opponents armor",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Gravity-Gun-5e3d94feeaba4c84a09b5e0bc537afbc"
+  },
+  {
+    "Weapon Name": "Zero Point Energy Dislocator ",
+    "Damage Type": "Electric",
+    "Reload": "2",
+    "Fire Rate": "1",
+    "Damage Per Fire": "60",
+    "Damage": "60",
+    "DPS": "30",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "+3 damage for each 1 of opponents armor, +10% to SUP (Increases mod loot chances)",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Gravity-Gun-5e3d94feeaba4c84a09b5e0bc537afbc"
+  },
+  {
+    "Weapon Name": "Monofilament Spinner II",
+    "Damage Type": "Electric",
+    "Reload": "3",
+    "Fire Rate": "5",
+    "Damage Per Fire": "10",
+    "Damage": "50",
+    "DPS": "16.67",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "This weapon only: +20% CRIT ",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Monofilament-Spinner-1971260a3873428f85480b79f73955df"
+  },
+  {
+    "Weapon Name": "Monofilament Spinner III",
+    "Damage Type": "Electric",
+    "Reload": "3",
+    "Fire Rate": "5",
+    "Damage Per Fire": "12.5",
+    "Damage": "62.5",
+    "DPS": "20.83",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "This weapon only: +22% CRIT",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Monofilament-Spinner-1971260a3873428f85480b79f73955df"
+  },
+  {
+    "Weapon Name": "Monofilament Spinner IV",
+    "Damage Type": "Electric",
+    "Reload": "3",
+    "Fire Rate": "5",
+    "Damage Per Fire": "15",
+    "Damage": "75",
+    "DPS": "25",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "This weapon only: +25% CRIT",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Monofilament-Spinner-1971260a3873428f85480b79f73955df"
+  },
+  {
+    "Weapon Name": "Superslicer Rotator G2000",
+    "Damage Type": "Electric",
+    "Reload": "3",
+    "Fire Rate": "5",
+    "Damage Per Fire": "17.5",
+    "Damage": "87.5",
+    "DPS": "29.17",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "This weapon only: +25% CRIT, +20% CRIT DMG",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Monofilament-Spinner-1971260a3873428f85480b79f73955df"
+  },
+  {
+    "Weapon Name": "EMP Blaster II",
+    "Damage Type": "Electric",
+    "Reload": "4",
+    "Fire Rate": "1",
+    "Damage Per Fire": "0",
+    "Damage": "0",
+    "DPS": "0",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "Stops all opponent weapons for 1.5 sec (Freeze)",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/EMP-Blaster-ac07b06f3f51412d83f04a2790fa36e8"
+  },
+  {
+    "Weapon Name": "EMP Blaster III",
+    "Damage Type": "Electric",
+    "Reload": "4",
+    "Fire Rate": "1",
+    "Damage Per Fire": "0",
+    "Damage": "0",
+    "DPS": "0",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "Stops all opponent weapons for 1.6 sec (Freeze)",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/EMP-Blaster-ac07b06f3f51412d83f04a2790fa36e8"
+  },
+  {
+    "Weapon Name": "EMP Blaster IV",
+    "Damage Type": "Electric",
+    "Reload": "4",
+    "Fire Rate": "1",
+    "Damage Per Fire": "0",
+    "Damage": "0",
+    "DPS": "0",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "Stops all opponent weapons for 1.7 sec (Freeze)",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/EMP-Blaster-ac07b06f3f51412d83f04a2790fa36e8"
+  },
+  {
+    "Weapon Name": "Electromagnetic Destabilization Sphere",
+    "Damage Type": "Electric",
+    "Reload": "4",
+    "Fire Rate": "1",
+    "Damage Per Fire": "0",
+    "Damage": "0",
+    "DPS": "0",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "Stops all opponent weapons for 1.9 sec (Freeze)",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/EMP-Blaster-ac07b06f3f51412d83f04a2790fa36e8"
+  },
+  {
+    "Weapon Name": "Hacking Ray III",
+    "Damage Type": "Electric",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "0",
+    "Damage": "0",
+    "DPS": "0",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "55% chance opponents next attack is inflicted to themselves",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Hacking-Ray-caf70f7c43fb4f9588eae5d05d882d6e"
+  },
+  {
+    "Weapon Name": "Hacking Ray IV",
+    "Damage Type": "Electric",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "0",
+    "Damage": "0",
+    "DPS": "0",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "65% chance opponents next attack is inflicted to themselves",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Hacking-Ray-caf70f7c43fb4f9588eae5d05d882d6e"
+  },
+  {
+    "Weapon Name": "XPLOIT infiltration device",
+    "Damage Type": "Electric",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "0",
+    "Damage": "0",
+    "DPS": "0",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "75% chance opponents next attack is inflicted to themselves",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Hacking-Ray-caf70f7c43fb4f9588eae5d05d882d6e"
+  },
+  {
+    "Weapon Name": "ACS Probe II",
+    "Damage Type": "Electric",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "22.5",
+    "Damage": "22.5",
+    "DPS": "4.5",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "Apply a virus debuff to the opponent on hit causing -5% CRIT, -5% evasion (Effect stacks up to -50%)",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/ACS-Probe-9de0bc4d4fa54e8fbcb9232db5841351"
+  },
+  {
+    "Weapon Name": "ACS Probe III",
+    "Damage Type": "Electric",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "25",
+    "Damage": "25",
+    "DPS": "5",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "Apply a virus debuff to the opponent on hit causing -8% CRIT, -8% evasion (Effect stacks up to -55%)",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/ACS-Probe-9de0bc4d4fa54e8fbcb9232db5841351"
+  },
+  {
+    "Weapon Name": "ACS Probe IV",
+    "Damage Type": "Electric",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "27.5",
+    "Damage": "27.5",
+    "DPS": "5.5",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "Apply a virus debuff to the opponent on hit causing -12% CRIT, -12% evasion (Effect stacks up to -60%)",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/ACS-Probe-9de0bc4d4fa54e8fbcb9232db5841351"
+  },
+  {
+    "Weapon Name": "ILOVEU2 Probe",
+    "Damage Type": "Electric",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "30",
+    "Damage": "30",
+    "DPS": "6",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "Apply a virus debuff to the opponent on hit causing -18% CRIT, -18% evasion (Effect stacks up to -70%)",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/ACS-Probe-9de0bc4d4fa54e8fbcb9232db5841351"
+  },
+  {
+    "Weapon Name": "Mini Gun II",
+    "Damage Type": "Kinetic",
+    "Reload": "3",
+    "Fire Rate": "10",
+    "Damage Per Fire": "5.75",
+    "Damage": "57.5",
+    "DPS": "19.17",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "25% additional damage to shields",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Mini-Gun-4a799008f97f4f29843abe79160e2497"
+  },
+  {
+    "Weapon Name": "Mini Gun III",
+    "Damage Type": "Kinetic",
+    "Reload": "2.5",
+    "Fire Rate": "10",
+    "Damage Per Fire": "5.75",
+    "Damage": "57.5",
+    "DPS": "23",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "25% additional damage to shields",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Mini-Gun-4a799008f97f4f29843abe79160e2497"
+  },
+  {
+    "Weapon Name": "Mini Gun IV",
+    "Damage Type": "Kinetic",
+    "Reload": "2",
+    "Fire Rate": "10",
+    "Damage Per Fire": "5.75",
+    "Damage": "57.5",
+    "DPS": "28.75",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "25% additional damage to shields",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Mini-Gun-4a799008f97f4f29843abe79160e2497"
+  },
+  {
+    "Weapon Name": "Greased Gatling Gator",
+    "Damage Type": "Kinetic",
+    "Reload": "1.75",
+    "Fire Rate": "10",
+    "Damage Per Fire": "5.75",
+    "Damage": "57.5",
+    "DPS": "32.86",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "35% additional damage to shields. +1% CRIT",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Mini-Gun-4a799008f97f4f29843abe79160e2497"
+  },
+  {
+    "Weapon Name": "Flak Gun II",
+    "Damage Type": "Kinetic",
+    "Reload": "2",
+    "Fire Rate": "3",
+    "Damage Per Fire": "11.6",
+    "Damage": "34.8",
+    "DPS": "17.4",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "Ignores 20% evasion",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Flak-Gun-d395d3ad7374451cb9b6146c2cb4344f"
+  },
+  {
+    "Weapon Name": "Flak Gun III",
+    "Damage Type": "Kinetic",
+    "Reload": "2",
+    "Fire Rate": "3",
+    "Damage Per Fire": "14",
+    "Damage": "42",
+    "DPS": "21",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "Ignores 25% evasion",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Flak-Gun-d395d3ad7374451cb9b6146c2cb4344f"
+  },
+  {
+    "Weapon Name": "Flak Gun IV",
+    "Damage Type": "Kinetic",
+    "Reload": "2",
+    "Fire Rate": "3",
+    "Damage Per Fire": "17",
+    "Damage": "51",
+    "DPS": "25.5",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "Ignores 25% evasion",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Flak-Gun-d395d3ad7374451cb9b6146c2cb4344f"
+  },
+  {
+    "Weapon Name": "Supersonic Flak Launcher",
+    "Damage Type": "Kinetic",
+    "Reload": "2",
+    "Fire Rate": "3",
+    "Damage Per Fire": "20",
+    "Damage": "60",
+    "DPS": "30",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "Ignores evasion, +2 to Engines (One point equals: 0.5% EVA, 0.5 RCRIT, 1% KINETIC damage)",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Flak-Gun-d395d3ad7374451cb9b6146c2cb4344f"
+  },
+  {
+    "Weapon Name": "Railgun II",
+    "Damage Type": "Kinetic",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "112",
+    "Damage": "112",
+    "DPS": "22.4",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "20% additional damage to shields",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Railgun-95a24f354f954c28863ce2d8d24d3de1"
+  },
+  {
+    "Weapon Name": "Railgun III",
+    "Damage Type": "Kinetic",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "125",
+    "Damage": "125",
+    "DPS": "25",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "20% additional damage to shields",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Railgun-95a24f354f954c28863ce2d8d24d3de1"
+  },
+  {
+    "Weapon Name": "Railgun IV",
+    "Damage Type": "Kinetic",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "137",
+    "Damage": "137",
+    "DPS": "27.4",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "20% additional damage to shields",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Railgun-95a24f354f954c28863ce2d8d24d3de1"
+  },
+  {
+    "Weapon Name": "Rapid-Fire Rolling Chamber",
+    "Damage Type": "Kinetic",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "150",
+    "Damage": "150",
+    "DPS": "30",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "45% additional damage to shields",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Railgun-95a24f354f954c28863ce2d8d24d3de1"
+  },
+  {
+    "Weapon Name": "Autocannon II",
+    "Damage Type": "Kinetic",
+    "Reload": "2",
+    "Fire Rate": "2",
+    "Damage Per Fire": "17",
+    "Damage": "34",
+    "DPS": "17",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "60% additional damage to shields",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Autocannon-c7248f8352c049b18aa90c9481a1382e"
+  },
+  {
+    "Weapon Name": "Autocannon III",
+    "Damage Type": "Kinetic",
+    "Reload": "2",
+    "Fire Rate": "2",
+    "Damage Per Fire": "20",
+    "Damage": "40",
+    "DPS": "20",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "70% additional damage to shields",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Autocannon-c7248f8352c049b18aa90c9481a1382e"
+  },
+  {
+    "Weapon Name": "Autocannon IV",
+    "Damage Type": "Kinetic",
+    "Reload": "2",
+    "Fire Rate": "2",
+    "Damage Per Fire": "22",
+    "Damage": "44",
+    "DPS": "22",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "75% additional damage to shields",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Autocannon-c7248f8352c049b18aa90c9481a1382e"
+  },
+  {
+    "Weapon Name": "Low-Frequency Proton Cannon",
+    "Damage Type": "Kinetic",
+    "Reload": "2",
+    "Fire Rate": "2",
+    "Damage Per Fire": "26",
+    "Damage": "52",
+    "DPS": "26",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "80% additional damage to shields",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Autocannon-c7248f8352c049b18aa90c9481a1382e"
+  },
+  {
+    "Weapon Name": "Howitzer II",
+    "Damage Type": "Kinetic",
+    "Reload": "4",
+    "Fire Rate": "1",
+    "Damage Per Fire": "75",
+    "Damage": "75",
+    "DPS": "18.75",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "20% additional damage to shields",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Howitzer-b23300f7b68d4304b2ea335d19b0abac"
+  },
+  {
+    "Weapon Name": "Howitzer III",
+    "Damage Type": "Kinetic",
+    "Reload": "4",
+    "Fire Rate": "1",
+    "Damage Per Fire": "85",
+    "Damage": "85",
+    "DPS": "21.25",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "25% additional damage to shields",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Howitzer-b23300f7b68d4304b2ea335d19b0abac"
+  },
+  {
+    "Weapon Name": "Howitzer IV",
+    "Damage Type": "Kinetic",
+    "Reload": "4",
+    "Fire Rate": "1",
+    "Damage Per Fire": "95",
+    "Damage": "95",
+    "DPS": "23.75",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "30% additional damage to shields",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Howitzer-b23300f7b68d4304b2ea335d19b0abac"
+  },
+  {
+    "Weapon Name": "Chaos Fusion Disintegrator",
+    "Damage Type": "Kinetic",
+    "Reload": "4",
+    "Fire Rate": "1",
+    "Damage Per Fire": "110",
+    "Damage": "110",
+    "DPS": "27.5",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "40% additional damage to shields",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Howitzer-b23300f7b68d4304b2ea335d19b0abac"
+  },
+  {
+    "Weapon Name": "Mining Laser II",
+    "Damage Type": "Energy",
+    "Reload": "5",
+    "Fire Rate": "2",
+    "Damage Per Fire": "40",
+    "Damage": "80",
+    "DPS": "16",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "Destroys 0.7 point of opponents armor per attack",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Mining-Laser-efc83656b2c24bb1a87b1fc46685a0a3"
+  },
+  {
+    "Weapon Name": "Mining Laser III",
+    "Damage Type": "Energy",
+    "Reload": "5",
+    "Fire Rate": "2",
+    "Damage Per Fire": "50",
+    "Damage": "100",
+    "DPS": "20",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "Destroys 0.8 point of opponents armor per attack",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Mining-Laser-efc83656b2c24bb1a87b1fc46685a0a3"
+  },
+  {
+    "Weapon Name": "Mining Laser IV",
+    "Damage Type": "Energy",
+    "Reload": "5",
+    "Fire Rate": "2",
+    "Damage Per Fire": "60",
+    "Damage": "120",
+    "DPS": "24",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "Destroys 0.9 point of opponents armor per attack",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Mining-Laser-efc83656b2c24bb1a87b1fc46685a0a3"
+  },
+  {
+    "Weapon Name": "Powered Pulse Phaser",
+    "Damage Type": "Energy",
+    "Reload": "5",
+    "Fire Rate": "2",
+    "Damage Per Fire": "75",
+    "Damage": "150",
+    "DPS": "30",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "Destroys 1 point of opponents armor per attack",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Mining-Laser-efc83656b2c24bb1a87b1fc46685a0a3"
+  },
+  {
+    "Weapon Name": "Proton Blaster II",
+    "Damage Type": "Energy",
+    "Reload": "2",
+    "Fire Rate": "1",
+    "Damage Per Fire": "45",
+    "Damage": "45",
+    "DPS": "22.5",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Proton-Blaster-467ee783a7654f2a98c45c2e497d99cd"
+  },
+  {
+    "Weapon Name": "Proton Blaster III",
+    "Damage Type": "Energy",
+    "Reload": "2",
+    "Fire Rate": "1",
+    "Damage Per Fire": "50",
+    "Damage": "50",
+    "DPS": "25",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Proton-Blaster-467ee783a7654f2a98c45c2e497d99cd"
+  },
+  {
+    "Weapon Name": "Proton Blaster IV",
+    "Damage Type": "Energy",
+    "Reload": "2",
+    "Fire Rate": "1",
+    "Damage Per Fire": "55",
+    "Damage": "55",
+    "DPS": "27.5",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Proton-Blaster-467ee783a7654f2a98c45c2e497d99cd"
+  },
+  {
+    "Weapon Name": "Veteran Meson Blaster",
+    "Damage Type": "Energy",
+    "Reload": "2",
+    "Fire Rate": "1",
+    "Damage Per Fire": "60",
+    "Damage": "60",
+    "DPS": "30",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "+5% ENERGY damage (All weapons)",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Proton-Blaster-467ee783a7654f2a98c45c2e497d99cd"
+  },
+  {
+    "Weapon Name": "Laser Cannon II",
+    "Damage Type": "Energy",
+    "Reload": "2",
+    "Fire Rate": "1",
+    "Damage Per Fire": "35",
+    "Damage": "35",
+    "DPS": "17.5",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "10% extra damage to HP",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Laser-Cannon-c86074c0beb943a59bf42e1fe4603b89"
+  },
+  {
+    "Weapon Name": "Laser Cannon III",
+    "Damage Type": "Energy",
+    "Reload": "2",
+    "Fire Rate": "1",
+    "Damage Per Fire": "40",
+    "Damage": "40",
+    "DPS": "20",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "12% extra damage to HP",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Laser-Cannon-c86074c0beb943a59bf42e1fe4603b89"
+  },
+  {
+    "Weapon Name": "Laser Cannon IV",
+    "Damage Type": "Energy",
+    "Reload": "2",
+    "Fire Rate": "1",
+    "Damage Per Fire": "45",
+    "Damage": "45",
+    "DPS": "22.5",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "14% extra damage to HP",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Laser-Cannon-c86074c0beb943a59bf42e1fe4603b89"
+  },
+  {
+    "Weapon Name": "Cataclysm Plasma Cannon",
+    "Damage Type": "Energy",
+    "Reload": "2",
+    "Fire Rate": "1",
+    "Damage Per Fire": "50",
+    "Damage": "50",
+    "DPS": "25",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "20% extra damage to HP",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Laser-Cannon-c86074c0beb943a59bf42e1fe4603b89"
+  },
+  {
+    "Weapon Name": "Scatter Laser II",
+    "Damage Type": "Energy",
+    "Reload": "1",
+    "Fire Rate": "3",
+    "Damage Per Fire": "6",
+    "Damage": "18",
+    "DPS": "18",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "Ignores 50% of opponents armor",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Scatter-Laser-f7210da111784e28997bf986e1ea7ad1"
+  },
+  {
+    "Weapon Name": "Scatter Laser III",
+    "Damage Type": "Energy",
+    "Reload": "1",
+    "Fire Rate": "3",
+    "Damage Per Fire": "8",
+    "Damage": "24",
+    "DPS": "24",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "Ignores 50% of opponents armor",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Scatter-Laser-f7210da111784e28997bf986e1ea7ad1"
+  },
+  {
+    "Weapon Name": "Scatter Laser IV",
+    "Damage Type": "Energy",
+    "Reload": "1",
+    "Fire Rate": "3",
+    "Damage Per Fire": "9",
+    "Damage": "27",
+    "DPS": "27",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "Ignores 50% of opponents armor",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Scatter-Laser-f7210da111784e28997bf986e1ea7ad1"
+  },
+  {
+    "Weapon Name": "Vortex Laser Equalizer",
+    "Damage Type": "Energy",
+    "Reload": "1",
+    "Fire Rate": "3",
+    "Damage Per Fire": "11",
+    "Damage": "33",
+    "DPS": "33",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "Ignores 60% of opponents armor",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Scatter-Laser-f7210da111784e28997bf986e1ea7ad1"
+  },
+  {
+    "Weapon Name": "Plasma Spear II",
+    "Damage Type": "Energy",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "100",
+    "Damage": "100",
+    "DPS": "20",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "2% additional damage per point of armor the opponent possesses.",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Plasma-Spear-c81a920499d345868fd567b661e323e0"
+  },
+  {
+    "Weapon Name": "Plasma Spear III",
+    "Damage Type": "Energy",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "125",
+    "Damage": "125",
+    "DPS": "25",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "2% additional damage per point of armor the opponent possesses.",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Plasma-Spear-c81a920499d345868fd567b661e323e0"
+  },
+  {
+    "Weapon Name": "Plasma Spear IV",
+    "Damage Type": "Energy",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "150",
+    "Damage": "150",
+    "DPS": "30",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "2% additional damage per point of armor the opponent possesses.",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Plasma-Spear-c81a920499d345868fd567b661e323e0"
+  },
+  {
+    "Weapon Name": "Augmented Proton Eraser",
+    "Damage Type": "Energy",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "175",
+    "Damage": "175",
+    "DPS": "35",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "2% additional damage per point of armor the opponent possesses.",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Plasma-Spear-c81a920499d345868fd567b661e323e0"
+  },
+  {
+    "Weapon Name": "Nova Flak Flare II",
+    "Damage Type": "Energy",
+    "Reload": "6",
+    "Fire Rate": "4",
+    "Damage Per Fire": "20",
+    "Damage": "80",
+    "DPS": "13.33",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "Provides 10% armor bonus",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Nova-Flak-Flare-6cc158627d55437f8e2c390e4c8389cc"
+  },
+  {
+    "Weapon Name": "Nova Flak Flare III",
+    "Damage Type": "Energy",
+    "Reload": "6",
+    "Fire Rate": "4",
+    "Damage Per Fire": "30",
+    "Damage": "120",
+    "DPS": "20",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "Provides 10% armor bonus",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Nova-Flak-Flare-6cc158627d55437f8e2c390e4c8389cc"
+  },
+  {
+    "Weapon Name": "Nova Flak Flare IV",
+    "Damage Type": "Energy",
+    "Reload": "6",
+    "Fire Rate": "4",
+    "Damage Per Fire": "40",
+    "Damage": "160",
+    "DPS": "26.67",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "Provides 10% armor bonus",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Nova-Flak-Flare-6cc158627d55437f8e2c390e4c8389cc"
+  },
+  {
+    "Weapon Name": "Discharge Anti-Matter Nova Flare",
+    "Damage Type": "Energy",
+    "Reload": "6",
+    "Fire Rate": "4",
+    "Damage Per Fire": "50",
+    "Damage": "200",
+    "DPS": "33.33",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "Provides 15% armor bonus",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Nova-Flak-Flare-6cc158627d55437f8e2c390e4c8389cc"
+  },
+  {
+    "Weapon Name": "Microwave Emitter III",
+    "Damage Type": "Energy",
+    "Reload": "3",
+    "Fire Rate": "1",
+    "Damage Per Fire": "50",
+    "Damage": "50",
+    "DPS": "16.67",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "Ignores all armor & evasion",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Microwave-Emitter-fb549c1571d943c4b8aacc4b53be80ac"
+  },
+  {
+    "Weapon Name": "Microwave Emitter IV",
+    "Damage Type": "Energy",
+    "Reload": "3",
+    "Fire Rate": "1",
+    "Damage Per Fire": "65",
+    "Damage": "65",
+    "DPS": "21.67",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "Ignores all armor & evasion",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Microwave-Emitter-fb549c1571d943c4b8aacc4b53be80ac"
+  },
+  {
+    "Weapon Name": "Cosmic Equalizer",
+    "Damage Type": "Energy",
+    "Reload": "3",
+    "Fire Rate": "1",
+    "Damage Per Fire": "80",
+    "Damage": "80",
+    "DPS": "26.67",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "Ignores all armor & evasion, +3 to Fusion Battery (One point equals: 1 SHP, 1%/s SHRG, 1% ENERGY damage",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Microwave-Emitter-fb549c1571d943c4b8aacc4b53be80ac"
+  },
+  {
+    "Weapon Name": "Hunter Missiles II",
+    "Damage Type": "Missile",
+    "Reload": "4.5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "76",
+    "Damage": "76",
+    "DPS": "16.89",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "Ignores all evasion",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Hunter-Missile-6fcee41c4be9497cb48c617572c1da92"
+  },
+  {
+    "Weapon Name": "Hunter Missiles III",
+    "Damage Type": "Missile",
+    "Reload": "4.5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "80",
+    "Damage": "80",
+    "DPS": "17.78",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "Ignores all evasion",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Hunter-Missile-6fcee41c4be9497cb48c617572c1da92"
+  },
+  {
+    "Weapon Name": "Hunter Missiles IV",
+    "Damage Type": "Missile",
+    "Reload": "4.5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "84",
+    "Damage": "84",
+    "DPS": "18.67",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "Ignores all evasion",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Hunter-Missile-6fcee41c4be9497cb48c617572c1da92"
+  },
+  {
+    "Weapon Name": "Self-Guided Gravity Disintegrators",
+    "Damage Type": "Missile",
+    "Reload": "4.5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "88",
+    "Damage": "88",
+    "DPS": "19.56",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "Ignores all evasion, +3 to CPU (One point equals: 0.5% RS, +1% SUP, +1% MISSILE damage)",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Hunter-Missile-6fcee41c4be9497cb48c617572c1da92"
+  },
+  {
+    "Weapon Name": "Micro Rocket Pods II",
+    "Damage Type": "Missile",
+    "Reload": "10",
+    "Fire Rate": "18",
+    "Damage Per Fire": "12",
+    "Damage": "216",
+    "DPS": "21.6",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Micro-Rocket-Pods-e24b13e416d744b3bbb7eb7b564a6c69"
+  },
+  {
+    "Weapon Name": "Micro Rocket Pods III",
+    "Damage Type": "Missile",
+    "Reload": "10",
+    "Fire Rate": "18",
+    "Damage Per Fire": "14",
+    "Damage": "252",
+    "DPS": "25.2",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Micro-Rocket-Pods-e24b13e416d744b3bbb7eb7b564a6c69"
+  },
+  {
+    "Weapon Name": "Micro Rocket Pods IV",
+    "Damage Type": "Missile",
+    "Reload": "10",
+    "Fire Rate": "18",
+    "Damage Per Fire": "16",
+    "Damage": "288",
+    "DPS": "28.8",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Micro-Rocket-Pods-e24b13e416d744b3bbb7eb7b564a6c69"
+  },
+  {
+    "Weapon Name": "Astral Proton Rockets",
+    "Damage Type": "Missile",
+    "Reload": "10",
+    "Fire Rate": "18",
+    "Damage Per Fire": "18",
+    "Damage": "324",
+    "DPS": "32.4",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "When a KINETIC weapon is also equipped, this weapon deals 15% bonus damage.",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Micro-Rocket-Pods-e24b13e416d744b3bbb7eb7b564a6c69"
+  },
+  {
+    "Weapon Name": "Long Range Micromissiles II",
+    "Damage Type": "Missile",
+    "Reload": "5",
+    "Fire Rate": "9",
+    "Damage Per Fire": "10",
+    "Damage": "90",
+    "DPS": "18",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "One free attack at the start of combat (First 0.1 seconds) ",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Long-Range-Micromissiles-abba0e1d6dc34c3b8d84d4bec78ce833"
+  },
+  {
+    "Weapon Name": "Long Range Micromissiles III",
+    "Damage Type": "Missile",
+    "Reload": "5",
+    "Fire Rate": "9",
+    "Damage Per Fire": "12",
+    "Damage": "108",
+    "DPS": "21.6",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "One free attack at the start of combat (First 0.1 seconds)",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Long-Range-Micromissiles-abba0e1d6dc34c3b8d84d4bec78ce833"
+  },
+  {
+    "Weapon Name": "Long Range Micromissiles IV",
+    "Damage Type": "Missile",
+    "Reload": "5",
+    "Fire Rate": "9",
+    "Damage Per Fire": "14",
+    "Damage": "126",
+    "DPS": "25.2",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "One free attack at the start of combat (First 0.1 seconds)",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Long-Range-Micromissiles-abba0e1d6dc34c3b8d84d4bec78ce833"
+  },
+  {
+    "Weapon Name": "Nail Biter F2M2 Missiles",
+    "Damage Type": "Missile",
+    "Reload": "5",
+    "Fire Rate": "9",
+    "Damage Per Fire": "18",
+    "Damage": "162",
+    "DPS": "32.4",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "One free attack at the start of combat (First 0.1 seconds)",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Long-Range-Micromissiles-abba0e1d6dc34c3b8d84d4bec78ce833"
+  },
+  {
+    "Weapon Name": "Rocket Pods II",
+    "Damage Type": "Missile",
+    "Reload": "4",
+    "Fire Rate": "4",
+    "Damage Per Fire": "22",
+    "Damage": "88",
+    "DPS": "22",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "25% additional damage to shields",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Rocket-Pods-44b738a1b98d4fd8bd96402c9fa2ff68"
+  },
+  {
+    "Weapon Name": "Rocket Pods III",
+    "Damage Type": "Missile",
+    "Reload": "4",
+    "Fire Rate": "4",
+    "Damage Per Fire": "25",
+    "Damage": "100",
+    "DPS": "25",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "25% additional damage to shields",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Rocket-Pods-44b738a1b98d4fd8bd96402c9fa2ff68"
+  },
+  {
+    "Weapon Name": "Rocket Pods IV",
+    "Damage Type": "Missile",
+    "Reload": "4",
+    "Fire Rate": "4",
+    "Damage Per Fire": "27",
+    "Damage": "108",
+    "DPS": "27",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "25% additional damage to shields",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Rocket-Pods-44b738a1b98d4fd8bd96402c9fa2ff68"
+  },
+  {
+    "Weapon Name": "Heavy Flux Photon Rockets",
+    "Damage Type": "Missile",
+    "Reload": "4",
+    "Fire Rate": "4",
+    "Damage Per Fire": "30",
+    "Damage": "120",
+    "DPS": "30",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "50% additional damage to shields, 5% more damage for each point of armor opponent possesses.",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Rocket-Pods-44b738a1b98d4fd8bd96402c9fa2ff68"
+  },
+  {
+    "Weapon Name": "Hammerhead Missiles II",
+    "Damage Type": "Missile",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "70",
+    "Damage": "70",
+    "DPS": "14",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "Ignores armor and deals 50% additional damage to shields",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Hammerhead-Missiles-2dc5430304f4470c8bc11ad390862e58"
+  },
+  {
+    "Weapon Name": "Hammerhead Missiles III",
+    "Damage Type": "Missile",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "90",
+    "Damage": "90",
+    "DPS": "18",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "Ignores armor and deals 50% additional damage to shields",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Hammerhead-Missiles-2dc5430304f4470c8bc11ad390862e58"
+  },
+  {
+    "Weapon Name": "Hammerhead Missiles IV",
+    "Damage Type": "Missile",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "110",
+    "Damage": "110",
+    "DPS": "22",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "Ignores armor and deals 50% additional damage to shields",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Hammerhead-Missiles-2dc5430304f4470c8bc11ad390862e58"
+  },
+  {
+    "Weapon Name": "Supernova Neon Revolutionizers",
+    "Damage Type": "Missile",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "130",
+    "Damage": "130",
+    "DPS": "26",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "Ignores armor and deals 50% additional damage to shields, when an ENERGY weapon is also equipped, this weapon deals 15% bonus damage.",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Hammerhead-Missiles-2dc5430304f4470c8bc11ad390862e58"
+  },
+  {
+    "Weapon Name": "Micro Nuke III",
+    "Damage Type": "Nuclear",
+    "Reload": "10",
+    "Fire Rate": "1",
+    "Damage Per Fire": "320",
+    "Damage": "320",
+    "DPS": "32",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "Damages both battleflys (Single use)",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Micro-Nuke-2f38ace544744a88af7349bb444395ff"
+  },
+  {
+    "Weapon Name": "Micro Nuke IV",
+    "Damage Type": "Nuclear",
+    "Reload": "10",
+    "Fire Rate": "1",
+    "Damage Per Fire": "400",
+    "Damage": "400",
+    "DPS": "40",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "Damages both battleflys (Single use)",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Micro-Nuke-2f38ace544744a88af7349bb444395ff"
+  },
+  {
+    "Weapon Name": "Emissary of the End",
+    "Damage Type": "Nuclear",
+    "Reload": "10",
+    "Fire Rate": "1",
+    "Damage Per Fire": "500",
+    "Damage": "500",
+    "DPS": "50",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "Damages both battleflys (Single use)",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Micro-Nuke-2f38ace544744a88af7349bb444395ff"
+  },
+  {
+    "Weapon Name": "Rad Blaster II",
+    "Damage Type": "Nuclear",
+    "Reload": "3",
+    "Fire Rate": "0",
+    "Damage Per Fire": "0",
+    "Damage": "0",
+    "DPS": "0",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "Burns your opponent, causing 20 damage per second for the rest of combat. (Burn)",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Rad-Blaster-9cae5cb426b74efdb655171747927ab7"
+  },
+  {
+    "Weapon Name": "Rad Blaster III",
+    "Damage Type": "Nuclear",
+    "Reload": "3",
+    "Fire Rate": "0",
+    "Damage Per Fire": "0",
+    "Damage": "0",
+    "DPS": "0",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "Burns your opponent, causing 25 damage per second for the rest of combat. (Burn)",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Rad-Blaster-9cae5cb426b74efdb655171747927ab7"
+  },
+  {
+    "Weapon Name": "Rad Blaster IV",
+    "Damage Type": "Nuclear",
+    "Reload": "3",
+    "Fire Rate": "0",
+    "Damage Per Fire": "0",
+    "Damage": "0",
+    "DPS": "0",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "Burns your opponent, causing 30 damage per second for the rest of combat. (Burn)",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Rad-Blaster-9cae5cb426b74efdb655171747927ab7"
+  },
+  {
+    "Weapon Name": "Nuclear Firestorm",
+    "Damage Type": "Nuclear",
+    "Reload": "3",
+    "Fire Rate": "0",
+    "Damage Per Fire": "0",
+    "Damage": "0",
+    "DPS": "0",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "Burns your opponent, causing 35 damage per second for the rest of combat. While opponent is burning, your secondary weapon deals 10% bonus damage. (Burn)",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Rad-Blaster-9cae5cb426b74efdb655171747927ab7"
+  },
+  {
+    "Weapon Name": "Micro Black Hole Turbine III",
+    "Damage Type": "Nuclear",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "0",
+    "Damage": "0",
+    "DPS": "0",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "Deals 5% of opponents max health as damage",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Micro-Black-Hole-Turbine-79253e2c415d43faa04916a0bd39be36"
+  },
+  {
+    "Weapon Name": "Micro Black Hole Turbine IV",
+    "Damage Type": "Nuclear",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "0",
+    "Damage": "0",
+    "DPS": "0",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "Deals 7% of opponents max health as damage",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Micro-Black-Hole-Turbine-79253e2c415d43faa04916a0bd39be36"
+  },
+  {
+    "Weapon Name": "Radiated Nuclear Abyss Generator",
+    "Damage Type": "Nuclear",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "0",
+    "Damage": "0",
+    "DPS": "0",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "Deals 10% of opponents max health as damage",
+    "Power Rating": "250",
+    "Related to 3D Models": "https://www.notion.so/Micro-Black-Hole-Turbine-79253e2c415d43faa04916a0bd39be36"
+  },
+  {
+    "Mod Name": "Plasteel Hull I",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "1",
+    "Additional Effects": "+6% health points bonus",
+    "Rarity": "Common",
+    "Power Rating": "50",
+    "Relation to System Model List": "https://www.notion.so/Plasteel-Hull-ee0906bf02f34c54a9ea9d35cdbae4ce"
+  },
+  {
+    "Mod Name": "Boosters Thrusters I",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "0",
+    "Additional Effects": "+5% evasion bonus",
+    "Rarity": "Common",
+    "Power Rating": "50",
+    "Relation to System Model List": "https://www.notion.so/Booster-Thrusters-fa5f342fe4974aadbe3dec87896dfc7e"
+  },
+  {
+    "Mod Name": "Ceramo Armor I",
+    "Initial Shield Value": "0",
+    "Initial Armor Value": "5",
+    "Additional Effects": "",
+    "Rarity": "Common",
+    "Power Rating": "50",
+    "Relation to System Model List": "https://www.notion.so/Ceramo-Armor-988527194f5344dbbdca2582e8fcffce"
+  },
+  {
+    "Mod Name": "Force Shield: A.T I",
+    "Initial Shield Value": "75",
+    "Initial Armor Value": "",
+    "Additional Effects": "Absorbs damage.",
+    "Rarity": "Common",
+    "Power Rating": "50",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-A-T-a98b6b26f4e14fc98c6d9a8410e12700"
+  },
+  {
+    "Mod Name": "Force Shield: N.X I",
+    "Initial Shield Value": "50",
+    "Initial Armor Value": "",
+    "Additional Effects": "Absorbs damage, recharges 2% of max shield per second",
+    "Rarity": "Common",
+    "Power Rating": "50",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-N-X-f1cfa959468a47c59a7ac4f0fe444df3"
+  },
+  {
+    "Mod Name": "Force Shield: Warp I",
+    "Initial Shield Value": "25",
+    "Initial Armor Value": "",
+    "Additional Effects": "Absorbs damage, recharges 4% of max shield per second",
+    "Rarity": "Common",
+    "Power Rating": "50",
+    "Relation to System Model List": "https://www.notion.so/Force-Shield-Warp-bdc61b20f1fd458c925b60d4c40cb25d"
+  },
+  {
+    "Name": "EMP Ammo I",
+    "Additional Effects": "Your attacks electrify the opponent, causing your opponents attacks to deal 5% less damage for 3 seconds after each hit (Cumulative up to 3 times)",
+    "Rarity": "Common",
+    "Power Rating": "50",
+    "Relation to System Model List": "https://www.notion.so/EMP-Ammo-a49d97d78b8e4b22b3cbcba272367506"
+  },
+  {
+    "Name": "Auto Reloaders I",
+    "Additional Effects": "Increase speed of equipped weapons by 10%",
+    "Rarity": "Common",
+    "Power Rating": "50",
+    "Relation to System Model List": "https://www.notion.so/Auto-Reloaders-3b38c65b5afc4b3d8228adcc768a47b9"
+  },
+  {
+    "Name": "Combat Algorithms Processor I",
+    "Additional Effects": "5% Critical Chance bonus",
+    "Rarity": "Common",
+    "Power Rating": "50",
+    "Relation to System Model List": "https://www.notion.so/Combat-Algorythms-Processor-f6d347802e1544c197a53ff2743c140e"
+  },
+  {
+    "Name": "Regenerative Nanobot I",
+    "Additional Effects": "Increase HP regeneration by 0.3% per second",
+    "Rarity": "Common",
+    "Power Rating": "50",
+    "Relation to System Model List": "https://www.notion.so/Regenerative-Nanobot-21d8c1667f8846ed9c87a5b55a147a67"
+  },
+  {
+    "Name": "Overclocking Protocols I",
+    "Additional Effects": "When your battlefly is 30% health or below, its attack speed and attack damage are increased by 10%",
+    "Rarity": "Common",
+    "Power Rating": "50",
+    "Relation to System Model List": "https://www.notion.so/Overclocking-Protocols-8f9416c809d74b2babfc02e7f18c3129"
+  },
+  {
+    "Name": "Rage Against The Nano Machines I",
+    "Additional Effects": "Increase all damage by 5%",
+    "Rarity": "Common",
+    "Power Rating": "50",
+    "Relation to System Model List": "https://www.notion.so/Rage-Against-The-Nano-Machines-69ce708a428a453692c2822403ac49c2"
+  },
+  {
+    "Weapon Name": "Howitzer I",
+    "Damage Type": "Kinetic",
+    "Reload": "4",
+    "Fire Rate": "1",
+    "Damage per Fire": "65",
+    "Damage": "65",
+    "DPS": "16.25",
+    "Rarity": "Common",
+    "Additional Effects": "15% additional damage to shields",
+    "Power Rating": "50",
+    "Related to 3D Models (Property)": "https://www.notion.so/Howitzer-b23300f7b68d4304b2ea335d19b0abac"
+  },
+  {
+    "Weapon Name": "Autocannon I",
+    "Damage Type": "Kinetic",
+    "Reload": "2",
+    "Fire Rate": "2",
+    "Damage per Fire": "15",
+    "Damage": "30",
+    "DPS": "15",
+    "Rarity": "Common",
+    "Additional Effects": "50% additional damage to shields",
+    "Power Rating": "50",
+    "Related to 3D Models (Property)": "https://www.notion.so/Autocannon-c7248f8352c049b18aa90c9481a1382e"
+  },
+  {
+    "Weapon Name": "Mining Laser I",
+    "Damage Type": "Energy",
+    "Reload": "4",
+    "Fire Rate": "2",
+    "Damage per Fire": "30",
+    "Damage": "60",
+    "DPS": "15",
+    "Rarity": "Common",
+    "Additional Effects": "Destroys 0.5 point of opponents armor per attack",
+    "Power Rating": "50",
+    "Related to 3D Models (Property)": "https://www.notion.so/Mining-Laser-efc83656b2c24bb1a87b1fc46685a0a3"
+  },
+  {
+    "Weapon Name": "Proton Blaster I",
+    "Damage Type": "Energy",
+    "Reload": "2",
+    "Fire Rate": "1",
+    "Damage per Fire": "38",
+    "Damage": "38",
+    "DPS": "19",
+    "Rarity": "Common",
+    "Additional Effects": "",
+    "Power Rating": "50",
+    "Related to 3D Models (Property)": "https://www.notion.so/Proton-Blaster-467ee783a7654f2a98c45c2e497d99cd"
+  },
+  {
+    "Weapon Name": "Hunter Missiles I",
+    "Damage Type": "Missile",
+    "Reload": "4.5",
+    "Fire Rate": "1",
+    "Damage per Fire": "72",
+    "Damage": "72",
+    "DPS": "16",
+    "Rarity": "Common",
+    "Additional Effects": "Ignores all evasion",
+    "Power Rating": "50",
+    "Related to 3D Models (Property)": "https://www.notion.so/Hunter-Missile-6fcee41c4be9497cb48c617572c1da92"
+  },
+  {
+    "Weapon Name": "Micro Rocket Pods I",
+    "Damage Type": "Missile",
+    "Reload": "8",
+    "Fire Rate": "16",
+    "Damage per Fire": "10",
+    "Damage": "160",
+    "DPS": "20",
+    "Rarity": "Common",
+    "Additional Effects": "",
+    "Power Rating": "50",
+    "Related to 3D Models (Property)": "https://www.notion.so/Micro-Rocket-Pods-e24b13e416d744b3bbb7eb7b564a6c69"
+  }
+]

@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.link {
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+
+.highlight {
+  color: blue;
+  font-weight: 700
+}
+
+.highlight-stat {
+  color: rgb(204, 204, 43);
+  font-weight: 700
+}
+
+.highlight-value {
+  color: red;
+  font-weight: 700
+}
+
+.highlight-failed {
+  color: red;
+  font-weight: 900;
+}
+
+.highlight-red {
+  color: red;
+  font-weight: 900;
+}
+
+.highlight-green {
+  color: rgb(30, 180, 0);
+  font-weight: 900;
+}
+
+
+.report-list {
+  font-size: 20px;
+}
+
+.report-list .nested {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.winner {
+  color:rgb(204, 204, 43);
+  font-weight: bold;
+}
+
+.highlight-weapon {
+  font-weight: 700;
+}
+
+.highlight-weapon-uncommon {
+  color: #00e749;
+}
+
+.highlight-weapon-rare {
+  color: #00d9fe;
+
+}
+
+.highlight-weapon-common {
+  color: #fff;
+  background: rgb(54, 41, 41);
+}
+
+.highlight-weapon-epic {
+  color: #d600ff;
+}
+
+
+.highlight-weapon-legendary {
+  color: #ff9900
+}
+
+.damage {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+
+  vertical-align: middle;
+
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.damage-kinetic {
+  background-image: url('./assets/icon_dmg_kinetic_b.png');
+}
+
+.damage-energy {
+  background-image: url('./assets/icon_dmg_energy_b.png');
+}
+
+.damage-missile {
+  background-image: url('./assets/icon_dmg_missile_b.png');
+}
+
+.damage-electric {
+  background-image: url('./assets/icon_dmg_electric_b.png');
+}
+
+.damage-nuclear {
+  background-image: url('./assets/icon_dmg_nuclear_b.png');
+}

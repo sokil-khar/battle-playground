@@ -1,0 +1,217 @@
+[
+  {
+    "fraction": "BH Kang Core",
+    "name": "D-975A-3 Bagger",
+    "rarity": "Epic",
+    "modSets": [
+      {
+        "name": "default",
+        "mods": [
+          "Mining Laser III",
+          "Mining Laser III",
+          "Plasteel Hull III",
+          "Point Defense III"
+        ]
+      }
+    ]
+  },
+  {
+    "fraction": "HELL-A",
+    "name": "Ms Black No.1",
+    "rarity": "Epic",
+    "modSets": [
+      {
+        "name": "default",
+        "mods": [
+          "Monofilament Spinner III",
+          "Rage Against The Nano Machines III",
+          "Monofilament Spinner III",
+          "Combat Algorythms Processor III"
+        ]
+      }
+    ],
+    "traits": [1, 12, 11]
+  },
+  {
+    "name": "Dryad 36",
+    "fraction": "Project Neo Gaia",
+    "rarity": "Epic",
+    "modSets": [
+      {
+        "name": "default",
+        "mods": [
+          "Gravity Gun III",
+          "Gravity Gun III",
+          "Regenerative Nanobot III",
+          "Phoenix protocols IV"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Biomutant",
+    "fraction": "FATHER B",
+    "rarity": "Epic",
+    "modSets": [
+      {
+        "name": "default",
+        "mods": [
+          "Rad Blaster III",
+          "Rad Blaster III",
+          "Overclocking protocols III",
+          "Sharp Armored Components III"
+        ]
+      }
+    ],
+    "traits": [5, 4, 6]
+  },
+  {
+    "name": "Ang3773",
+    "fraction": "EO-WA / N0KE-0509",
+    "rarity": "Epic",
+    "modSets": [
+      {
+        "name": "default",
+        "mods": [
+          "Hacking Ray III",
+          "Scatter Laser III",
+          "Graviton Capacitors III",
+          "Force Shield: N.X III"
+        ]
+      }
+    ],
+    "traits": [3, 9, 8]
+  },
+  {
+    "name": "Carbon",
+    "fraction": "Silicium & Carbon",
+    "rarity": "Epic",
+    "modSets": [
+      {
+        "name": "default",
+        "mods": [
+          "Microwave Emitter III",
+          "Microwave Emitter III",
+          "EMP Ammo III",
+          "Force Shield: Warp III"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clock-E Snatch-E",
+    "fraction": "Tsuro 2.0",
+    "rarity": "Epic",
+    "modSets": [
+      {
+        "name": "default",
+        "mods": [
+          "Hunter Missiles III",
+          "Hunter Missiles III",
+          "Boosters Thrusters III",
+          "Stealth Tech III"
+        ]
+      }
+    ],
+    "traits": [12, 15, 1]
+  },
+  {
+    "name": "Neon-MUSS",
+    "fraction": "ASI Polaris",
+    "rarity": "Epic",
+    "modSets": [
+      {
+        "name": "default",
+        "mods": [
+          "Plasma Spear III",
+          "Plasma Spear III",
+          "Ceramo Armor III",
+          "Reactive Armor III"
+        ]
+      }
+    ],
+    "traits": [5, 6, 4]
+  },
+  {
+    "name": "Moravec IV",
+    "fraction": "Moon Matsushita",
+    "rarity": "Epic",
+    "modSets": [
+      {
+        "name": "default",
+        "mods": [
+          "EMP Blaster III",
+          "Gravity Gun III",
+          "Linked Combat Systems III",
+          "Force Shield: A.T III"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mandrake Ripper",
+    "fraction": "I.G.I.N.E.C.I",
+    "rarity": "Epic",
+    "modSets": [
+      {
+        "name": "default",
+        "mods": [
+          "Micro Nuke III",
+          "Micro Nuke III",
+          "Biohazard Shield III",
+          "Wasteland Seals III"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Robby",
+    "fraction": "BH Kang Core",
+    "rarity": "Common"
+  },
+  {
+    "name": "Gort",
+    "fraction": "Project Neo Gaia",
+    "rarity": "Common"
+  },
+  {
+    "name": "The Iron BF",
+    "fraction": "FATHER B",
+    "rarity": "Common"
+  },
+  {
+    "name": "Marvin",
+    "fraction": "EO-WA / N0KE-0509",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Roy Batty",
+    "fraction": "Silicium & Carbon",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Maria Futura",
+    "fraction": "Tsuro 2.0",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Tom Servo",
+    "fraction": "ASI Polaris",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Sentinel",
+    "fraction": "HELL-A",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Number 6",
+    "fraction": "Moon Matsushita",
+    "rarity": "Legendary"
+  },
+  {
+    "name": "Johnny 5",
+    "fraction": "I.G.I.N.E.C.I",
+    "rarity": "Legendary"
+  }
+]

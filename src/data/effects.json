@@ -1,0 +1,2041 @@
+[
+  {
+    "name": "Autocannon I",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 50,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Howitzer I",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 25,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Mining Laser I",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -50,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Proton Blaster I",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Lightning Probe II",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": -50,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Lightning Probe III",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": -45,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Lightning Probe IV",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": -40,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Electroblast Zapper",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": -35,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      },
+      {
+        "id": "id-1",
+        "type": "AddEffect",
+        "trigger": "AfterDamage",
+        "cumulative": false,
+        "target": "target",
+        "effect": {
+          "type": "UpdateStat",
+          "data": {
+            "attributeName": "damagePerFire",
+            "attributeValue": -15,
+            "attributeSign": "%"
+          },
+          "times": 1,
+          "used": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Monofilament Spinner II",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "source",
+        "data": {
+          "attributeName": "crit",
+          "attributeValue": 10
+        }
+      }
+    ]
+  },
+  {
+    "name": "Monofilament Spinner III",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "source",
+        "data": {
+          "attributeName": "crit",
+          "attributeValue": 12
+        }
+      }
+    ]
+  },
+  {
+    "name": "Monofilament Spinner IV",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "source",
+        "data": {
+          "attributeName": "crit",
+          "attributeValue": 15
+        }
+      }
+    ]
+  },
+  {
+    "name": "Superslicer Rotator G2000",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "source",
+        "data": {
+          "attributeName": "crit",
+          "attributeValue": 15
+        }
+      },
+      {
+        "type": "UpdateStat",
+        "target": "source",
+        "data": {
+          "attributeName": "dcrit",
+          "attributeValue": 20
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gravity Gun III",
+    "effects": [
+      {
+        "type": "ArmorDamage",
+        "target": "source",
+        "data": {
+          "arm": 1,
+          "dmg": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gravity Gun IV",
+    "effects": [
+      {
+        "type": "ArmorDamage",
+        "target": "source",
+        "data": {
+          "arm": 1,
+          "dmg": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Zero Point Energy Dislocator",
+    "effects": [
+      {
+        "type": "ArmorDamage",
+        "target": "source",
+        "data": {
+          "arm": 1,
+          "dmg": 3
+        }
+      },
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "scv",
+          "attributeValue": 10
+        }
+      }
+    ]
+  },
+  {
+    "name": "EMP Blaster II",
+    "effects": [
+      {
+        "id": "id-2",
+        "type": "AddEffect",
+        "trigger": "AfterDamage",
+        "cumulative": false,
+        "target": "target",
+        "effect": {
+          "type": "UpdateStat",
+          "data": {
+            "attributeName": "reload",
+            "attributeValue": "Infinity"
+          },
+          "seconds": 1,
+          "used": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "EMP Blaster III",
+    "effects": [
+      {
+        "id": "id-3",
+        "type": "AddEffect",
+        "trigger": "AfterDamage",
+        "cumulative": false,
+        "target": "target",
+        "effect": {
+          "type": "UpdateStat",
+          "data": {
+            "attributeName": "reload",
+            "attributeValue": "Infinity"
+          },
+          "seconds": 1,
+          "used": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "EMP Blaster IV",
+    "effects": [
+      {
+        "id": "id-4",
+        "type": "AddEffect",
+        "trigger": "AfterDamage",
+        "cumulative": false,
+        "target": "target",
+        "effect": {
+          "type": "UpdateStat",
+          "data": {
+            "attributeName": "reload",
+            "attributeValue": "Infinity"
+          },
+          "seconds": 1,
+          "used": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Electromagnetic Destabilization Sphere",
+    "effects": [
+      {
+        "id": "id-5",
+        "type": "AddEffect",
+        "trigger": "AfterDamage",
+        "cumulative": false,
+        "target": "target",
+        "effect": {
+          "type": "UpdateStat",
+          "data": {
+            "attributeName": "reload",
+            "attributeValue": "Infinity"
+          },
+          "seconds": 1.2,
+          "used": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Mini Gun II",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 50,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Mini Gun III",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 50,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Mini Gun IV",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 50,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Greased Gatling Gator",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 50,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      },
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "crit",
+          "attributeValue": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "Flak Gun II",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Flak Gun III",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Flak Gun IV",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Supersonic Flak Launcher",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      },
+      {
+        "type": "UpdateCharacteristic",
+        "data": {
+          "attributeName": "engines",
+          "attributeValue": 2
+        }
+      }
+    ]
+  },
+  {
+    "name": "Railgun II",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 50,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Railgun III",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 50,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Railgun IV",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 50,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Rapid-Fire Rolling Chamber",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 70,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Autocannon II",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 50,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Autocannon III",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 50,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Autocannon IV",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 50,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Low-Frequency Proton Cannon",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 55,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Howitzer II",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 25,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Howitzer III",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 25,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Howitzer IV",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 25,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Chaos Fusion Disintegrator",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 25,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Mining Laser II",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -50,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Mining Laser III",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -50,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Mining Laser IV",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -50,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Powered Pulse Phaser",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Laser Cannon II",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -50,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Laser Cannon III",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -50,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Laser Cannon IV",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -50,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Cataclysm Plasma Cannon",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Scatter Laser II",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -75,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Scatter Laser III",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -75,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Scatter Laser IV",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -75,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Vortex Laser Equalizer",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Plasma Spear II",
+    "effects": [
+      {
+        "type": "ArmorDamage",
+        "target": "source",
+        "data": {
+          "arm": 1,
+          "dmg": 10,
+          "dmgSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Plasma Spear III",
+    "effects": [
+      {
+        "type": "ArmorDamage",
+        "target": "source",
+        "data": {
+          "arm": 1,
+          "dmg": 10,
+          "dmgSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Plasma Spear IV",
+    "effects": [
+      {
+        "type": "ArmorDamage",
+        "target": "source",
+        "data": {
+          "arm": 1,
+          "dmg": 10,
+          "dmgSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Augmented Proton Eraser",
+    "effects": [
+      {
+        "type": "ArmorDamage",
+        "target": "source",
+        "data": {
+          "arm": 1,
+          "dmg": 15,
+          "dmgSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Nova Flak Flare II",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": 10,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Nova Flak Flare III",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": 10,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Nova Flak Flare IV",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": 10,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Discharge Anti-Matter Nova Flare",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": 15,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Microwave Emitter III",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      },
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      },
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "shp",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Microwave Emitter IV",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      },
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      },
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "shp",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Hunter Missiles II",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Hunter Missiles III",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Hunter Missiles IV",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Self-Guided Gravity Disintegrators",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      },
+      {
+        "type": "UpdateCharacteristic",
+        "data": {
+          "attributeName": "cpu",
+          "attributeValue": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Long Range Micromissiles II",
+    "effects": [
+      {
+        "type": "UsageCount",
+        "data": {
+          "value": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "Long Range Micromissiles III",
+    "effects": [
+      {
+        "type": "UsageCount",
+        "data": {
+          "value": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "Long Range Micromissiles IV",
+    "effects": [
+      {
+        "type": "UsageCount",
+        "data": {
+          "value": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "Nail Biter F2M2 Missiles",
+    "effects": [
+      {
+        "type": "UsageCount",
+        "data": {
+          "value": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "Rocket Pods II",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 25,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Rocket Pods III",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 25,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Rocket Pods IV",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 25,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Heavy Flux Photon Rockets",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 50,
+          "attributeTarget": "Shield",
+          "attributeSign": "%"
+        }
+      },
+      {
+        "type": "ArmorDamage",
+        "target": "source",
+        "data": {
+          "arm": 1,
+          "dmg": 15,
+          "dmgSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Hammerhead Missiles II",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      },
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "shp",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Hammerhead Missiles III",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      },
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "shp",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Hammerhead Missiles IV",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      },
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "shp",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Supernova Neon Revolutionizers",
+    "effects": [
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "arm",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      },
+      {
+        "type": "UpdateStat",
+        "target": "target",
+        "data": {
+          "attributeName": "shp",
+          "attributeValue": -100,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Micro Nuke III",
+    "effects": [
+      {
+        "type": "UsageCount",
+        "data": {
+          "value": 1
+        }
+      },
+      {
+        "type": "DamageBoth"
+      }
+    ]
+  },
+  {
+    "name": "Micro Nuke IV",
+    "effects": [
+      {
+        "type": "UsageCount",
+        "data": {
+          "value": 1
+        }
+      },
+      {
+        "type": "DamageBoth"
+      }
+    ]
+  },
+  {
+    "name": "Emissary of the End",
+    "effects": [
+      {
+        "type": "UsageCount",
+        "data": {
+          "value": 1
+        }
+      },
+      {
+        "type": "DamageBoth"
+      }
+    ]
+  },
+  {
+    "name": "Micro Black Hole Turbine III",
+    "effects": [
+      {
+        "type": "HPDamage",
+        "data": {
+          "hp": 5,
+          "hpSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Micro Black Hole Turbine IV",
+    "effects": [
+      {
+        "type": "HPDamage",
+        "data": {
+          "hp": 7,
+          "hpSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Radiated Nuclear Abyss Generator",
+    "effects": [
+      {
+        "type": "HPDamage",
+        "data": {
+          "hp": 10,
+          "hpSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Rad Blaster II",
+    "effects": [
+      {
+        "type": "Debuff",
+        "debuffType": "Burn",
+        "data": {
+          "damage": 20
+        }
+      }
+    ]
+  },
+  {
+    "name": "Rad Blaster III",
+    "effects": [
+      {
+        "type": "Debuff",
+        "debuffType": "Burn",
+        "data": {
+          "damage": 25
+        }
+      }
+    ]
+  },
+  {
+    "name": "Rad Blaster IV",
+    "effects": [
+      {
+        "type": "Debuff",
+        "debuffType": "Burn",
+        "data": {
+          "damage": 30
+        }
+      }
+    ]
+  },
+  {
+    "name": "Nuclear Firestorm",
+    "effects": [
+      {
+        "type": "Debuff",
+        "debuffType": "Burn",
+        "data": {
+          "damage": 35
+        }
+      }
+    ]
+  },
+  {
+    "name": "Plasteel Hull I",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "hp",
+          "attributeValue": 10,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Boosters Thrusters I",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 5
+        }
+      }
+    ]
+  },
+  {
+    "name": "Force Shield: N.X I",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "shrg",
+          "attributeValue": 2
+        }
+      }
+    ]
+  },
+  {
+    "name": "Force Shield: Warp I",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "shrg",
+          "attributeValue": 4
+        }
+      }
+    ]
+  },
+  {
+    "name": "Plasteel Hull II",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "hp",
+          "attributeValue": 19,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Plasteel Hull III",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "hp",
+          "attributeValue": 27,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Plasteel Hull IV",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "hp",
+          "attributeValue": 35,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Plasteel Hull V",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "hp",
+          "attributeValue": 35,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Boosters Thrusters II",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 9
+        }
+      }
+    ]
+  },
+  {
+    "name": "Boosters Thrusters III",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 12
+        }
+      }
+    ]
+  },
+  {
+    "name": "Boosters Thrusters IV",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 14
+        }
+      }
+    ]
+  },
+  {
+    "name": "Boosters Thrusters V",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 15
+        }
+      }
+    ]
+  },
+  {
+    "name": "Ceramo Armor III",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "hp",
+          "attributeValue": 5,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Ceramo Armor IV",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "hp",
+          "attributeValue": 10,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Ceramo Armor V",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "hp",
+          "attributeValue": 15,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Point Defense II",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 19,
+          "damageType": [
+            "Missile"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Point Defense III",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 27,
+          "damageType": [
+            "Missile"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Point Defense IV",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 35,
+          "damageType": [
+            "Missile"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Point Defense V",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 45,
+          "damageType": [
+            "Missile"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Force Shield: A.T II",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "shrg",
+          "attributeValue": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "Force Shield: A.T III",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "shrg",
+          "attributeValue": 2
+        }
+      }
+    ]
+  },
+  {
+    "name": "Force Shield: A.T IV",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "shrg",
+          "attributeValue": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Force Shield: A.T V",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "shrg",
+          "attributeValue": 5
+        }
+      }
+    ]
+  },
+  {
+    "name": "Force Shield: N.X II",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "shrg",
+          "attributeValue": 2
+        }
+      }
+    ]
+  },
+  {
+    "name": "Force Shield: N.X III",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "shrg",
+          "attributeValue": 4
+        }
+      }
+    ]
+  },
+  {
+    "name": "Force Shield: N.X IV",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "shrg",
+          "attributeValue": 6
+        }
+      }
+    ]
+  },
+  {
+    "name": "Force Shield: N.X V",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "shrg",
+          "attributeValue": 9
+        }
+      },
+      {
+        "type": "UpdateCharacteristic",
+        "data": {
+          "attributeName": "fusionBattery",
+          "attributeValue": 2
+        }
+      }
+    ]
+  },
+  {
+    "name": "Force Shield: Warp II",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "shrg",
+          "attributeValue": 4
+        }
+      }
+    ]
+  },
+  {
+    "name": "Force Shield: Warp III",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "shrg",
+          "attributeValue": 6
+        }
+      }
+    ]
+  },
+  {
+    "name": "Force Shield: Warp IV",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "shrg",
+          "attributeValue": 8
+        }
+      }
+    ]
+  },
+  {
+    "name": "Force Shield: Warp V",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "shrg",
+          "attributeValue": 9
+        }
+      },
+      {
+        "type": "UpdateCharacteristic",
+        "data": {
+          "attributeName": "engines",
+          "attributeValue": 2
+        }
+      }
+    ]
+  },
+  {
+    "name": "CBRN Protection III",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 25,
+          "damageType": [
+            "Nuclear",
+            "Electric"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "CBRN Protection IV",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 35,
+          "damageType": [
+            "Nuclear",
+            "Electric"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "CBRN Protection V",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 50,
+          "damageType": [
+            "Nuclear",
+            "Electric"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "NBC Defense II",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 19,
+          "damageType": [
+            "Nuclear"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "NBC Defense III",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 27,
+          "damageType": [
+            "Nuclear"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "NBC Defense IV",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 35,
+          "damageType": [
+            "Nuclear"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "NBC Defense V",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 80,
+          "damageType": [
+            "Nuclear"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Reactive Armor II",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 100,
+          "damageType": [
+            "Kinetic"
+          ]
+        },
+        "times": 3,
+        "usage": 0
+      }
+    ]
+  },
+  {
+    "name": "Reactive Armor III",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 100,
+          "damageType": [
+            "Kinetic"
+          ]
+        },
+        "times": 4,
+        "usage": 0
+      }
+    ]
+  },
+  {
+    "name": "Reactive Armor IV",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 100,
+          "damageType": [
+            "Kinetic"
+          ]
+        },
+        "times": 5,
+        "usage": 0
+      }
+    ]
+  },
+  {
+    "name": "Reactive Armor V",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "eva",
+          "attributeValue": 100,
+          "damageType": [
+            "Kinetic"
+          ]
+        },
+        "times": 7,
+        "usage": 0
+      }
+    ]
+  },
+  {
+    "name": "Auto Reloaders I",
+    "effects": [
+      {
+        "type": "ModStat",
+        "data": {
+          "attributeName": "reload",
+          "attributeValue": -10,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Combat Algorithms Processor I",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "crit",
+          "attributeValue": 5
+        }
+      }
+    ]
+  },
+  {
+    "name": "Regenerative Nanobot I",
+    "effects": [
+      {
+        "type": "BattleflyStat",
+        "data": {
+          "attributeName": "hprg",
+          "attributeValue": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Rage Against The Nano Machines I",
+    "effects": [
+      {
+        "type": "ModStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "attributeValue": 5,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Explosive Ammo II",
+    "effects": [
+      {
+        "type": "ModStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "damageTypes": [
+            "Kinetic"
+          ],
+          "attributeValue": 15,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Explosive Ammo III",
+    "effects": [
+      {
+        "type": "ModStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "damageTypes": [
+            "Kinetic"
+          ],
+          "attributeValue": 25,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Explosive Ammo IV",
+    "effects": [
+      {
+        "type": "ModStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "damageTypes": [
+            "Kinetic"
+          ],
+          "attributeValue": 35,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Explosive Ammo V",
+    "effects": [
+      {
+        "type": "ModStat",
+        "data": {
+          "attributeName": "damagePerFire",
+          "damageTypes": [
+            "Kinetic"
+          ],
+          "attributeValue": 50,
+          "attributeSign": "%"
+        }
+      }
+    ]
+  }
+]
