@@ -831,47 +831,47 @@ export const effects = [
   },
   {
     name: 'Force Shield: A.T II',
-    effects: [battleflyStat('shrg', 1)],
+    effects: [battleflyStat('shrg', 1, true)],
   },
   {
     name: 'Force Shield: A.T III',
-    effects: [battleflyStat('shrg', 2)],
+    effects: [battleflyStat('shrg', 2,true)],
   },
   {
     name: 'Force Shield: A.T IV',
-    effects: [battleflyStat('shrg', 3)],
+    effects: [battleflyStat('shrg', 3,true)],
   },
   {
     name: 'Force Shield: A.T V',
-    effects: [battleflyStat('shrg', 5)],
+    effects: [battleflyStat('shrg', 5,true)],
   },
   {
     name: 'Force Shield: N.X II',
-    effects: [battleflyStat('shrg', 2)],
+    effects: [battleflyStat('shrg', 2,true)],
   },
   {
     name: 'Force Shield: N.X III',
-    effects: [battleflyStat('shrg', 4)],
+    effects: [battleflyStat('shrg', 4,true)],
   },
   {
     name: 'Force Shield: N.X IV',
-    effects: [battleflyStat('shrg', 6)],
+    effects: [battleflyStat('shrg', 6,true)],
   },
   {
     name: 'Force Shield: N.X V',
-    effects: [battleflyStat('shrg', 9), createDamageType('Energy', 10, true)],
+    effects: [battleflyStat('shrg', 9,true), createDamageType('Energy', 10, true)],
   },
   {
     name: 'Force Shield: Warp II',
-    effects: [battleflyStat('shrg', 4)],
+    effects: [battleflyStat('shrg', 4,true)],
   },
   {
     name: 'Force Shield: Warp III',
-    effects: [battleflyStat('shrg', 6)],
+    effects: [battleflyStat('shrg', 6,true)],
   },
   {
     name: 'Force Shield: Warp IV',
-    effects: [battleflyStat('shrg', 8)],
+    effects: [battleflyStat('shrg', 8,true)],
   },
   {
     name: 'Force Shield: Warp V',
@@ -1277,19 +1277,19 @@ export const effects = [
   },
   {
     name: 'Ceramo Armor I',
-    effects: [],
-  },
-  {
-    name: 'Force Shield: A.T I',
-    effects: [],
-  },
-  {
-    name: 'Force Shield: N.X I',
     effects: [battleflyStat('shrg', 2)],
   },
   {
+    name: 'Force Shield: A.T I',
+    effects: [battleflyStat('shrg', 2, true)],
+  },
+  {
+    name: 'Force Shield: N.X I',
+    effects: [battleflyStat('shrg', 1, true)],
+  },
+  {
     name: 'Force Shield: Warp I',
-    effects: [battleflyStat('shrg', 4)],
+    effects: [battleflyStat('shrg', 2, true)],
   },
   {
     name: 'EMP Ammo I',

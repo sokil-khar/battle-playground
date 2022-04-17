@@ -16,6 +16,22 @@
     ]
   },
   {
+    "fraction": "BH Kang Core",
+    "name": "D-975A-3 Bagger",
+    "rarity": "Epic",
+    "modSets": [
+      {
+        "name": "default",
+        "mods": [
+          "Mining Laser III",
+          "Mining Laser III",
+          "Plasteel Hull III",
+          "Point Defense III"
+        ]
+      }
+    ]
+  },
+  {
     "fraction": "HELL-A",
     "name": "Ms Black No.1",
     "rarity": "Epic",
@@ -58,7 +74,7 @@
         "mods": [
           "Rad Blaster III",
           "Rad Blaster III",
-          "Overclocking protocols III",
+          "Overclocking protocols V",
           "Sharp Armored Components III"
         ]
       }
