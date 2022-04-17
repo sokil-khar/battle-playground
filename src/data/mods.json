@@ -210,7 +210,7 @@
     "Mod Name": "Force Shield: N.X V",
     "Initial Shield Value": "150",
     "Initial Armor Value": "0",
-    "Additional Effects": "Absorbs damage, recharges 9% of max shield per second, +10% ENERGY damage",
+    "Additional Effects": "Absorbs damage, recharges 9% of max shield per second. +2 to Fusion Battery (One point equals: +10 SHP, +1/s SHRG, +1% ENERGY damage)",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Force-Shield-N-X-f1cfa959468a47c59a7ac4f0fe444df3"
@@ -273,7 +273,7 @@
     "Mod Name": "Biohazard Shield V",
     "Initial Shield Value": "0",
     "Initial Armor Value": "10",
-    "Additional Effects": "50% evasion vs NUCLEAR & ELECTRIC, +10% to mod drop rates",
+    "Additional Effects": "50% evasion vs nuclear & electric, 10% XP bonus when scavenging",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Biohazard-Shield-c69e6b1d2c0a4ea6a558c12e39abb352"
@@ -681,7 +681,7 @@
   },
   {
     "Name": "Overclocking protocols V",
-    "Additional Effects": "When your BF’s HP is 30% or less, its damage is increased by 50% and reload time is decreased by 50%",
+    "Additional Effects": "When your battlefly is 30% health or below, it\u2019s attack speed and attack damage are increased by 50%, +3 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Overclocking-Protocols-8f9416c809d74b2babfc02e7f18c3129"
