@@ -130,17 +130,16 @@ function withCharacteristics(battlefly, characteristics) {
     const points = characteristics[characteristic];
 
     switch (characteristic) {
-      case 'sensorsArray':
+      case 'sensorArray':
         updates.push(
           createStatEffect('crit', points * 0.5, StatUpdateReason.Characteristic(characteristic))
         );
         updates.push(
-          createStatEffect('scv', points * 2, StatUpdateReason.Characteristic(characteristic))
+          createStatEffect('scv', points * 1, StatUpdateReason.Characteristic(characteristic))
         );
         updates.push(
           createStatEffect('dcrit', points * 1, StatUpdateReason.Characteristic(characteristic))
         );
-
         break;
 
       case 'fusionBattery':
@@ -148,33 +147,30 @@ function withCharacteristics(battlefly, characteristics) {
           createStatEffect('shp', points * 10, StatUpdateReason.Characteristic(characteristic))
         );
         updates.push(
-          createStatEffect('shrg', points * 1, StatUpdateReason.Characteristic(characteristic))
+          createStatEffect('shrg', points * 0.5, StatUpdateReason.Characteristic(characteristic))
         );
-
         break;
 
       case 'nanoFrames':
-        const hpPoints = points * 2;
 
         updates.push(
           createStatEffect(
             'hp',
-            battlefly.stats.hp * (hpPoints / 100),
+            battlefly.stats.hp * (points / 100),
             StatUpdateReason.Characteristic(characteristic)
           )
         );
         updates.push(
-          createStatEffect('arm', points * 1, StatUpdateReason.Characteristic(characteristic))
+          createStatEffect('arm', points * 0.25, StatUpdateReason.Characteristic(characteristic))
         );
-
+        updates.push(
+            createStatEffect('rcrit', points * 1, StatUpdateReason.Characteristic(characteristic))
+        );
         break;
 
       case 'engines':
         updates.push(
-          createStatEffect('eva', points * 0.5, StatUpdateReason.Characteristic(characteristic))
-        );
-        updates.push(
-          createStatEffect('rcrit', points * 1, StatUpdateReason.Characteristic(characteristic))
+          createStatEffect('eva', points * 1, StatUpdateReason.Characteristic(characteristic))
         );
 
         break;

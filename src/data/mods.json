@@ -210,7 +210,7 @@
     "Mod Name": "Force Shield: N.X V",
     "Initial Shield Value": "150",
     "Initial Armor Value": "0",
-    "Additional Effects": "Absorbs damage, recharges 9% of max shield per second. +2 to Fusion Battery (One point equals: +10 SHP, +1/s SHRG, +1% ENERGY damage)",
+    "Additional Effects": "Absorbs damage, recharges 9% of max shield per second, +10% ENERGY damage",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Force-Shield-N-X-f1cfa959468a47c59a7ac4f0fe444df3"
@@ -246,7 +246,7 @@
     "Mod Name": "Force Shield: Warp V",
     "Initial Shield Value": "125",
     "Initial Armor Value": "0",
-    "Additional Effects": "Absorbs damage, recharges 9% of max shield per second, +2 to Engines (One point equals: 0.5% EVA, 0.5 RCRIT, 1% KINETIC damage)",
+    "Additional Effects": "Absorbs damage, recharges 9% of max shield per second, +10% KINETIC damage",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Force-Shield-Warp-bdc61b20f1fd458c925b60d4c40cb25d"
@@ -273,7 +273,7 @@
     "Mod Name": "Biohazard Shield V",
     "Initial Shield Value": "0",
     "Initial Armor Value": "10",
-    "Additional Effects": "50% evasion vs nuclear & electric, 10% XP bonus when scavenging",
+    "Additional Effects": "50% evasion vs NUCLEAR & ELECTRIC, +10% to mod drop rates",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Biohazard-Shield-c69e6b1d2c0a4ea6a558c12e39abb352"
@@ -485,7 +485,7 @@
   },
   {
     "Name": "Graviton Capacitors V",
-    "Additional Effects": "Absorbs damage, recharge 8% of max shield per second, +3 to sensors array (One point equals: 0.5% CRIT RATE, 1% SCAVENGE, 1% CRIT DMG)",
+    "Additional Effects": "Absorbs damage, recharge 6% of max shield per second, +5% CRIT",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Graviton-Capacitors-f7108c85f0a44db69a08c5badbe256a6"
@@ -597,7 +597,7 @@
   },
   {
     "Name": "Mirror Image Generator V",
-    "Additional Effects": "+45% Critical resist, +3 to sensors array (One point equals: 0.5% CRIT RATE, 1% SCAVENGE, 1% CRIT DMG)",
+    "Additional Effects": "+42% Critical resist, +5% to DCRIT",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Mirror-Image-Generators-b1563c46721f49f3bcbf993cbe97994f"
@@ -681,7 +681,7 @@
   },
   {
     "Name": "Overclocking protocols V",
-    "Additional Effects": "When your battlefly is 30% health or below, it\u2019s attack speed and attack damage are increased by 50%, +3 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT",
+    "Additional Effects": "When your BF’s HP is 30% or less, it\u2019s damage is increased by 50% and reload time is decreased by 50%",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Overclocking-Protocols-8f9416c809d74b2babfc02e7f18c3129"
@@ -793,84 +793,84 @@
   },
   {
     "Name": "Supersonic Sensor Radar III",
-    "Additional Effects": "+3 to sensors array (One point equals: 0.5% CRIT RATE, 1% SCAVENGE, 1% CRIT DMG)",
+    "Additional Effects": "+1.5% critical hit chance, +3% mod loot chance, +3% critical damage",
     "Rarity": "Rare",
     "Power Rating": "150",
     "Relation to System Model List": "https://www.notion.so/Supersonic-Sensor-Radar-7f54fa03c1284237a15b136def611ee8"
   },
   {
     "Name": "Supersonic Sensor Radar IV",
-    "Additional Effects": "+4 to sensors array (One point equals: 0.5% CRIT RATE, 1% SCAVENGE, 1% CRIT DMG)",
+    "Additional Effects": "+2% critical hit chance, +4% mod loot chance, +4% critical damage",
     "Rarity": "Epic",
     "Power Rating": "200",
     "Relation to System Model List": "https://www.notion.so/Supersonic-Sensor-Radar-7f54fa03c1284237a15b136def611ee8"
   },
   {
     "Name": "Supersonic Sensor Radar V",
-    "Additional Effects": "+5 to sensors array (One point equals: 0.5% CRIT RATE, 1% SCAVENGE, 1% CRIT DMG), +10% weapon speed",
+    "Additional Effects": "+2.5% critical hit chance, +5% mod loot chance, +5% critical damage, -10% reload time",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Supersonic-Sensor-Radar-7f54fa03c1284237a15b136def611ee8"
   },
   {
     "Name": "Promethium Neogenic Battery III",
-    "Additional Effects": "+3 to Fusion Battery (One point equals: 1 SHP, 1%/s SHRG, 1% ENERGY damage",
+    "Additional Effects": "+10 SHP, +0.5%/s SHRG, +2% ENERGY damage",
     "Rarity": "Rare",
     "Power Rating": "150",
     "Relation to System Model List": "https://www.notion.so/Promethium-Neogenic-Battery-bb7c7d4fa20f464aa4afebf2c060b408"
   },
   {
     "Name": "Promethium Neogenic Battery IV",
-    "Additional Effects": "+4 to Fusion Battery (One point equals: 1 SHP, 1%/s SHRG, 1% ENERGY damage",
+    "Additional Effects": "+20 SHP, +1%/s SHRG, +4% ENERGY damage",
     "Rarity": "Epic",
     "Power Rating": "200",
     "Relation to System Model List": "https://www.notion.so/Promethium-Neogenic-Battery-bb7c7d4fa20f464aa4afebf2c060b408"
   },
   {
     "Name": "Promethium Neogenic Battery V",
-    "Additional Effects": "+5 to Fusion Battery (One point equals: 1 SHP, 1%/s SHRG, 1% ENERGY damage, all equipped ELECTRIC weapons become ENERGY damage.",
+    "Additional Effects": "+30 SHP + 1.5%/s  SHRG, +6% ENERGY damage",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Promethium-Neogenic-Battery-bb7c7d4fa20f464aa4afebf2c060b408"
   },
   {
     "Name": "Celsium Quantum Frame III",
-    "Additional Effects": "+3 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT",
+    "Additional Effects": "+2% HP, +0.5 ARM, +2% RCRIT",
     "Rarity": "Rare",
     "Power Rating": "150",
     "Relation to System Model List": "https://www.notion.so/Celsium-Quantum-Frame-a8d7d6e7def44b5c92143c1c9c18e6a5"
   },
   {
     "Name": "Celsium Quantum Frame IV",
-    "Additional Effects": "+4 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT",
+    "Additional Effects": "+4% HP, +1 ARM, +4% RCRIT",
     "Rarity": "Epic",
     "Power Rating": "200",
     "Relation to System Model List": "https://www.notion.so/Celsium-Quantum-Frame-a8d7d6e7def44b5c92143c1c9c18e6a5"
   },
   {
     "Name": "Celsium Quantum Frame V",
-    "Additional Effects": "+5 to Nano Frame (One point equals: 1% HP, 0.1 ARM, 1% RCRIT, +10% armor",
+    "Additional Effects": "+6% HP, +1.5 ARM, +6% RCRIT",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Celsium-Quantum-Frame-a8d7d6e7def44b5c92143c1c9c18e6a5"
   },
   {
     "Name": "Supercharged Jumpdrive Engine III",
-    "Additional Effects": "+3 to Engines (One point equals: 0.5% EVA, 1% KINETIC damage)",
+    "Additional Effects": " +2% EVA, +4% KINETIC damage",
     "Rarity": "Rare",
     "Power Rating": "150",
     "Relation to System Model List": "https://www.notion.so/Supercharged-Jumpdrive-Engine-3632a0739be34ca49852ffbcb0e12bbc"
   },
   {
     "Name": "Supercharged Jumpdrive Engine IV",
-    "Additional Effects": "+4 to Engines (One point equals: 0.5% EVA, 1% KINETIC damage)",
+    "Additional Effects": "+4% EVA, +8% KINETIC damage",
     "Rarity": "Epic",
     "Power Rating": "200",
     "Relation to System Model List": "https://www.notion.so/Supercharged-Jumpdrive-Engine-3632a0739be34ca49852ffbcb0e12bbc"
   },
   {
     "Name": "Supercharged Jumpdrive Engine V",
-    "Additional Effects": "+5 to Engines (One point equals: 0.5% EVA, 1% KINETIC damage), all equipped ENERGY weapons become KINETIC damage.",
+    "Additional Effects": "+6% EVA, +10% KINETIC damage, All equipped weapons become KINETIC type",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Supercharged-Jumpdrive-Engine-3632a0739be34ca49852ffbcb0e12bbc"
@@ -1837,7 +1837,7 @@
     "Related to 3D Models": "https://www.notion.so/Microwave-Emitter-fb549c1571d943c4b8aacc4b53be80ac"
   },
   {
-    "Weapon Name": "Cosmic Equalizer",
+    "Weapon Name": "Cosmic Microwave Equalizer",
     "Damage Type": "Energy",
     "Reload": "3",
     "Fire Rate": "1",
@@ -1845,7 +1845,7 @@
     "Damage": "80",
     "DPS": "26.67",
     "Starting Rarity": "Legendary",
-    "Additional Effects": "Ignores all armor & evasion, +3 to Fusion Battery (One point equals: 1 SHP, 1%/s SHRG, 1% ENERGY damage",
+    "Additional Effects": "Ignores all armor & evasion, +10% ENERGY damage",
     "Power Rating": "250",
     "Related to 3D Models": "https://www.notion.so/Microwave-Emitter-fb549c1571d943c4b8aacc4b53be80ac"
   },
@@ -1889,7 +1889,7 @@
     "Related to 3D Models": "https://www.notion.so/Hunter-Missile-6fcee41c4be9497cb48c617572c1da92"
   },
   {
-    "Weapon Name": "Self-Guided Gravity Disintegrators",
+    "Weapon Name": "Self-Guided Hunter Missiles",
     "Damage Type": "Missile",
     "Reload": "4.5",
     "Fire Rate": "1",
@@ -1897,7 +1897,7 @@
     "Damage": "88",
     "DPS": "19.56",
     "Starting Rarity": "Legendary",
-    "Additional Effects": "Ignores all evasion, +3 to CPU (One point equals: 0.5% RS, +1% SUP, +1% MISSILE damage)",
+    "Additional Effects": "Ignores all evasion, +10% MISSILE damage",
     "Power Rating": "250",
     "Related to 3D Models": "https://www.notion.so/Hunter-Missile-6fcee41c4be9497cb48c617572c1da92"
   },

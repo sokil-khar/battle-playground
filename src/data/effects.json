@@ -995,7 +995,7 @@
     ]
   },
   {
-    "name": "Self-Guided Gravity Disintegrators",
+    "name": "Self-Guided Hunter Missiles",
     "effects": [
       {
         "type": "UpdateStat",

@@ -30,7 +30,6 @@ function getDefaultStats() {
   return {
     hp: 400,
     hprg: 0,
-    shp: 0,
     arm: 0,
     shp: 200,
     shrg: 0,
@@ -49,9 +48,11 @@ function findMods(mods, list) {
 
 function randomizeMods(list) {
   const weapons = list.filter(item => item.type === 'Weapon');
-  const others = list.filter(item => item.type !== 'Weapon');
+  const utilities = list.filter(item => item.type === "Utility");
+  const defenses = list.filter(item => item.type === 'Defense');
 
-  return pickItems(weapons, 2).concat(pickItems(others, 2)).map(item => item.id)
+  return pickItems(weapons, 2).concat(pickItems(utilities, 1))
+      .concat(pickItems(defenses, 1)).map(item => item.id)
 }
 
 function generateTraits(traits, rarity) {

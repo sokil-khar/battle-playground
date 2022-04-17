@@ -102,12 +102,13 @@ function battleflyCharacteristic(attributeName, attributeValue) {
   };
 } // + gotovo
 
-function createDamageType(attributeName, attributeValue) {
+function createDamageType(attributeName, attributeValue, percent = false) {
   return {
     type: 'DamageType',
     data: {
       attributeName,
       attributeValue,
+      percent
     },
   };
 } // + gotovo
@@ -621,11 +622,11 @@ export const effects = [
     effects: [createUpdateStatEffect('arm', -100, true), createEvasionEffect(-100)],
   },
   {
-    name: 'Cosmic Equalizer',
+    name: 'Cosmic Microwave Equalizer',
     effects: [
       createUpdateStatEffect('arm', -100, true),
       createEvasionEffect(-100),
-      battleflyCharacteristic('fusionBattery', 3),
+      createDamageType('Energy', 10, true),
     ],
   },
   {
@@ -641,8 +642,8 @@ export const effects = [
     effects: [createEvasionEffect(-100)],
   },
   {
-    name: 'Self-Guided Gravity Disintegrators',
-    effects: [createEvasionEffect(-100), battleflyCharacteristic('cpu', 3)],
+    name: 'Self-Guided Hunter Missiles',
+    effects: [createEvasionEffect(-100), createDamageType('Missile', 10, true)],
   },
   {
     name: 'Micro Rocket Pods II',
@@ -858,7 +859,7 @@ export const effects = [
   },
   {
     name: 'Force Shield: N.X V',
-    effects: [battleflyStat('shrg', 9), battleflyCharacteristic('fusionBattery', 2)],
+    effects: [battleflyStat('shrg', 9), createDamageType('Energy', 10, true)],
   },
   {
     name: 'Force Shield: Warp II',
@@ -874,7 +875,7 @@ export const effects = [
   },
   {
     name: 'Force Shield: Warp V',
-    effects: [battleflyStat('shrg', 9), battleflyCharacteristic('engines', 2)],
+    effects: [battleflyStat('shrg', 9, true), createDamageType('Kinetic', 10, true)],
   },
   {
     name: 'Biohazard Shield III',
@@ -886,7 +887,7 @@ export const effects = [
   },
   {
     name: 'Biohazard Shield V',
-    effects: [createEvasionEffect(50, ['Electric', 'Nuclear'])],
+    effects: [createEvasionEffect(50, ['Electric', 'Nuclear']), ],
   },
   {
     name: 'Wasteland Seals II',
@@ -983,7 +984,7 @@ export const effects = [
   },
   {
     name: 'Graviton Capacitors V',
-    effects: [battleflyStat('shrg', 8), battleflyCharacteristic('sensorsArray', 3)],
+    effects: [battleflyStat('shrg', 6, true), battleflyStat('crit', 5, true)],
   },
   {
     name: 'Auxiliary Generators II',
@@ -1047,7 +1048,7 @@ export const effects = [
   },
   {
     name: 'Mirror Image Generators V',
-    effects: [battleflyStat('rcrit', 45), battleflyCharacteristic('sensorsArray', 3)],
+    effects: [battleflyStat('rcrit', 42), battleflyStat('dcrit', 5, true)],
   },
   {
     name: 'Diamond Nuclear Voltaic Battery II',
@@ -1103,7 +1104,6 @@ export const effects = [
     effects: [
       createHealthModStat(30, 'damagePerFire', 50),
       createHealthModStat(30, 'reload', -50),
-      battleflyCharacteristic('nanoFrame', 3),
     ],
   },
   {
@@ -1180,19 +1180,19 @@ export const effects = [
   },
   {
     name: 'Promethium Neogenic Battery III',
-    effects: [battleflyCharacteristic('fusionBattery', 3)],
+    effects: [battleflyCharacteristic('fusionBattery', 1), createDamageType('Energy', 2, true)],
   },
   {
     name: 'Promethium Neogenic Battery IV',
-    effects: [battleflyCharacteristic('fusionBattery', 4)],
+    effects: [battleflyCharacteristic('fusionBattery', 2), createDamageType('Energy', 4, true)],
   },
   {
     name: 'Promethium Neogenic Battery V',
-    effects: [battleflyCharacteristic('fusionBattery', 5)],
+    effects: [battleflyCharacteristic('fusionBattery',3), createDamageType('Energy', 6, true)],
   },
   {
     name: 'Celsium Quantum Frame III',
-    effects: [battleflyCharacteristic('nanoFrame', 3)],
+    effects: [battleflyCharacteristic('nanoFrame', 2)],
   },
   {
     name: 'Celsium Quantum Frame IV',
@@ -1200,19 +1200,19 @@ export const effects = [
   },
   {
     name: 'Celsium Quantum Frame V',
-    effects: [battleflyCharacteristic('nanoFrame', 5)],
+    effects: [battleflyCharacteristic('nanoFrame', 6)],
   },
   {
     name: 'Supercharged Jumpdrive Engine III',
-    effects: [battleflyCharacteristic('engines', 3)],
+    effects: [battleflyCharacteristic('engines', 2), createDamageType('Kinetic', 4, true)],
   },
   {
     name: 'Supercharged Jumpdrive Engine IV',
-    effects: [battleflyCharacteristic('engines', 4)],
+    effects: [battleflyCharacteristic('engines', 4), createDamageType('Kinetic', 8, true)],
   },
   {
     name: 'Supercharged Jumpdrive Engine V',
-    effects: [battleflyCharacteristic('engines', 5)],
+    effects: [battleflyCharacteristic('engines', 6),createDamageType('Kinetic', 10, true)],
   },
   {
     name: 'Gold-Plated Hyper CPU III',

@@ -96,7 +96,7 @@ export const StatsData = {
     sign: '%',
     default: 0,
     min: 0,
-  },
+  }
 };
 
 const LevelIndex = {
