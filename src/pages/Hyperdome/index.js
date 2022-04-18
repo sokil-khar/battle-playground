@@ -69,7 +69,7 @@ export const HyperdomePage = () => {
 
   return <div>
     {load && <Section>Simulation in progress... Please wait a bit...</Section>}
-    {(showCreate && !load) && <SelectBattleflies onStart={onStartHyperdome} />}
+    {(showCreate || !load) && <SelectBattleflies onStart={onStartHyperdome} />}
     {(!showCreate && currentHyperdome && !load) && <React.Fragment>
       <Button variant="contained" onClick={() => setShowCreate(true)}>Start new simulation</Button>
       <div style={{  height: 40 }} />
