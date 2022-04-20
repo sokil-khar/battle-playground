@@ -979,7 +979,7 @@ export const effects = [
     effects: [createFreezeDebuff(1.5)],
   },
   {
-    name: 'EMP Ammo V',
+    name: 'Cryo Ammo V',
     effects: [createFreezeDebuff(2)],
   },
   {
@@ -1339,7 +1339,7 @@ export const effects = [
     effects: [battleflyStat('shrg', 2, true)],
   },
   {
-    name: 'EMP Ammo I',
+    name: 'Cryo Ammo I',
     effects: [createElectricModStat('damagePerFire', -5)],
   },
   {

@@ -393,7 +393,7 @@
             "mods": [
                 "Micro Rocket Pods I",
                 "Autocannon I",
-                "EMP Ammo I",
+                "Cryo Ammo I",
                 "Regenerative Nanobot I"
             ]
         }
@@ -1274,7 +1274,7 @@
                         "Hunter Missiles I",
                         "Micro Rocket Pods I",
                         "Boosters Thrusters I",
-                        "EMP Ammo I"
+                        "Cryo Ammo I"
                     ]
                 }
             ]
@@ -1593,7 +1593,7 @@
                       "mods": [
                           "Hunter Missiles I",
                           "Autocannon I",
-                          "EMP Ammo I",
+                          "Cryo Ammo I",
                           "Ceramo Armor I"
                       ]
                   }
@@ -1673,8 +1673,8 @@
                         "mods": [
                             "Autocannon I",
                             "Howitzer I",
-                            "EMP Ammo I",
-                            "EMP Ammo I"
+                            "Cryo Ammo I",
+                            "Cryo Ammo I"
                         ]
                     }
                 ]
