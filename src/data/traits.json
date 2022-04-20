@@ -1,15 +1,15 @@
 [
   {
     "id": "1",
-    "action": "addValue",
+    "action": "addPercentage",
     "data": {
       "attributeName": "crit",
-      "attributeValue": 5
+      "attributeValue": 3
     }
   },
   {
     "id": "3",
-    "action": "addValue",
+    "action": "addPercentage",
     "data": {
       "attributeName": "eva",
       "attributeValue": 3
@@ -33,7 +33,7 @@
   },
   {
     "id": "6",
-    "action": "addValue",
+    "action": "addPercentage",
     "data": {
       "attributeName": "hprg",
       "attributeValue": 0.4
@@ -44,12 +44,12 @@
     "action": "addValue",
     "data": {
       "attributeName": "shp",
-      "attributeValue": 40
+      "attributeValue": 25
     }
   },
   {
     "id": "8",
-    "action": "addValue",
+    "action": "addPercentage",
     "data": {
       "attributeName": "shrg",
       "attributeValue": 2
@@ -57,18 +57,18 @@
   },
   {
     "id": "9",
-    "action": "addValue",
+    "action": "addPercentage",
     "data": {
-      "attributeName": "sup",
-      "attributeValue": 8
+      "attributeName": "loot",
+      "attributeValue": 4
     }
   },
   {
     "id": "10",
-    "action": "addValue",
+    "action": "addWeaponPercentage",
     "data": {
-      "attributeName": "scv",
-      "attributeValue": 8
+      "attributeName": "reload",
+      "attributeValue": -3
     }
   },
   {
@@ -80,19 +80,11 @@
     }
   },
   {
-    "id": "12",
-    "action": "addWeaponPercentage",
-    "data": {
-      "attributeName": "reload",
-      "attributeValue": -3
-    }
-  },
-  {
     "id": "13",
     "action": "addWeaponDamageByType",
     "data": {
       "attributeName": "Kinetic",
-      "attributeValue": 10
+      "attributeValue": 8
     }
   },
   {
@@ -100,7 +92,7 @@
     "action": "addWeaponDamageByType",
     "data": {
       "attributeName": "Energy",
-      "attributeValue": 10
+      "attributeValue": 8
     }
   },
   {
@@ -108,7 +100,23 @@
     "action": "addWeaponDamageByType",
     "data": {
       "attributeName": "Missile",
-      "attributeValue": 10
+      "attributeValue": 8
+    }
+  },
+  {
+    "id": "16",
+    "action": "addPercentage",
+    "data": {
+      "attributeName": "rcrit",
+      "attributeValue": 20
+    }
+  },
+  {
+    "id": "17",
+    "action": "addPercentage",
+    "data": {
+      "attributeName": "dcrit",
+      "attributeValue": 20
     }
   }
 ]

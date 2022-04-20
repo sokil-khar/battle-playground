@@ -35,8 +35,9 @@ function getDefaultStats() {
     shrg: 0,
     eva: 5,
     crit: 5,
-    sup: 0,
-    scv: 0,
+    loot: 0,
+    xpr: 0,
+    bat: 100,
     dcrit: 200,
     rcrit: 5
   };
@@ -75,11 +76,9 @@ function generateTraits(traits, rarity) {
 
     myTraits = myTraits.filter(item => item.id !== trait.id);
   }
-
   if(rarity === 'Legendary') {
     result.push(...pickItems(traits, 2).map(item => item.id));
   }
-
   return result;
 }
 
@@ -93,7 +92,8 @@ function generateRarity() {
 
 function getBattlefly(battlefly, fractions, traits, mods) {
   const name = battlefly.name;
-  const fraction = battlefly.fraction ? (String(fractions.find(fraction => fraction.name === battlefly.fraction)?.id) || null) : generateFraction(fractions);
+  // no generate fractions
+  // const fraction = battlefly.fraction ? (String(fractions.find(fraction => fraction.name === battlefly.fraction)?.id) || null) : generateFraction(fractions);
 
   const rarity = battlefly.rarity || generateRarity();
 
@@ -103,7 +103,7 @@ function getBattlefly(battlefly, fractions, traits, mods) {
   return {
     id: uuidv4(),
     name,
-    fraction,
+    // fraction,
     level: 1,
     rarity,
     iconic: !battlefly.plain,

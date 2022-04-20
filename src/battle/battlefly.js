@@ -11,7 +11,6 @@ export function getBattleflyStats(battlefly, mods = []) {
 
   const stats = { ...battlefly.stats };
   const characteristics = { ...battlefly.characteristics };
-
   for (const effect of effects) {
     switch (effect.type) {
       case EffectType.Stat: {
@@ -23,12 +22,12 @@ export function getBattleflyStats(battlefly, mods = []) {
         break;
       }
 
-      case EffectType.Characteristic: {
-        const { characteristic, change } = effect.data;
-
-        characteristics[characteristic] += change;
-        break;
-      }
+      // case EffectType.Characteristic: {
+      //   const { characteristic, change } = effect.data;
+      //
+      //   characteristics[characteristic] += change;
+      //   break;
+      // }
 
       default:
         break;
@@ -90,13 +89,13 @@ function withMods(battlefly, mods) {
         break;
       }
 
-      case 'UpdateCharacteristic': {
-        const { attributeValue, attributeName } = effect.data;
-
-        updates.push(createCharacteristicEffect(attributeName, attributeValue));
-
-        break;
-      }
+      // case 'UpdateCharacteristic': {
+      //   const { attributeValue, attributeName } = effect.data;
+      //
+      //   updates.push(createCharacteristicEffect(attributeName, attributeValue));
+      //
+      //   break;
+      // }
 
       default:
         break;
@@ -109,7 +108,6 @@ function withMods(battlefly, mods) {
 function withTraits(battlefly) {
   const { traits } = battlefly;
   const updates = [];
-
   for (const trait of traits) {
     const handler = TraitHandlers[trait.action];
     if (!handler) continue;
@@ -177,7 +175,7 @@ function withCharacteristics(battlefly, characteristics) {
 
       case 'cpu':
         updates.push(
-          createStatEffect('sup', points * 2, StatUpdateReason.Characteristic(characteristic))
+          createStatEffect('xpr', points * 2, StatUpdateReason.Characteristic(characteristic))
         );
 
         break;

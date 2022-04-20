@@ -407,57 +407,71 @@
     "Relation to System Model List": "https://www.notion.so/Micro-Nuclear-War-Heads-6e763c9e57bb4b7890f70e9051a7f566"
   },
   {
-    "Name": "EMP Ammo II",
-    "Additional Effects": "Your attacks electrify the opponent, causing your opponents attacks to deal 8% less damage for 3 seconds after each hit (Cumulative 3 times)",
+    "Name": "Cryo Ammo I",
+    "Additional Effects": "Your attacks are imbued with frost, causing your opponents weapons to freeze for 0.5 seconds",
     "Rarity": "Uncommon",
     "Power Rating": "100",
-    "Relation to System Model List": "https://www.notion.so/EMP-Ammo-a49d97d78b8e4b22b3cbcba272367506"
+    "Relation to System Model List": "hhttps://www.notion.so/Cryo-Ammo-a49d97d78b8e4b22b3cbcba272367506"
   },
   {
-    "Name": "EMP Ammo III",
-    "Additional Effects": "Your attacks electrify the opponent, causing your opponents attacks to deal 10% less damage for 3 seconds after each hit (Cumulative 3 times)",
+    "Name": "Cryo Ammo II",
+    "Additional Effects": "Your attacks are imbued with frost, causing your opponents weapons to freeze for 0.8 seconds",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "hhttps://www.notion.so/Cryo-Ammo-a49d97d78b8e4b22b3cbcba272367506"
+  },
+  {
+    "Name": "Cryo Ammo III",
+    "Additional Effects": "Your attacks are imbued with frost, causing your opponents weapons to freeze for 1.2 seconds",
     "Rarity": "Rare",
     "Power Rating": "150",
-    "Relation to System Model List": "https://www.notion.so/EMP-Ammo-a49d97d78b8e4b22b3cbcba272367506"
+    "Relation to System Model List": "https://www.notion.so/Cryo-Ammo-a49d97d78b8e4b22b3cbcba272367506"
   },
   {
-    "Name": "EMP Ammo IV",
-    "Additional Effects": "Your attacks electrify the opponent, causing your opponents attacks to deal 12% less damage for 3 seconds after each hit (Cumulative 3 times)",
+    "Name": "Cryo Ammo IV",
+    "Additional Effects": "Your attacks are imbued with frost, causing your opponents weapons to freeze for 1.5 seconds",
     "Rarity": "Epic",
     "Power Rating": "200",
-    "Relation to System Model List": "https://www.notion.so/EMP-Ammo-a49d97d78b8e4b22b3cbcba272367506"
+    "Relation to System Model List": "https://www.notion.so/Cryo-Ammo-a49d97d78b8e4b22b3cbcba272367506"
   },
   {
-    "Name": "EMP Ammo V",
-    "Additional Effects": "Your attacks electrify the opponent, causing your opponents attacks to deal 20% less damage for 3 seconds after each hit (Cumulative 3 times)",
+    "Name": "Cryo Ammo V",
+    "Additional Effects": "Your attacks are imbued with frost, causing your opponents weapons to freeze for 2 seconds",
     "Rarity": "Legendary",
     "Power Rating": "250",
-    "Relation to System Model List": "https://www.notion.so/EMP-Ammo-a49d97d78b8e4b22b3cbcba272367506"
+    "Relation to System Model List": "https://www.notion.so/Cryo-Ammo-a49d97d78b8e4b22b3cbcba272367506"
+  },
+  {
+    "Name": "Auto Reloaders I",
+    "Additional Effects": "Your equipped weapons reload 10% faster.",
+    "Rarity": "Uncommon",
+    "Power Rating": "100",
+    "Relation to System Model List": "https://www.notion.so/Auto-Reloaders-3b38c65b5afc4b3d8228adcc768a47b9"
   },
   {
     "Name": "Auto Reloaders II",
-    "Additional Effects": "Increase speed of equipped weapons by 19%",
+    "Additional Effects": "Your equipped weapons reload 19% faster.",
     "Rarity": "Uncommon",
     "Power Rating": "100",
     "Relation to System Model List": "https://www.notion.so/Auto-Reloaders-3b38c65b5afc4b3d8228adcc768a47b9"
   },
   {
     "Name": "Auto Reloaders III",
-    "Additional Effects": "Increase speed of equipped weapons by 27%",
+    "Additional Effects": "Your equipped weapons reload 27% faster.",
     "Rarity": "Rare",
     "Power Rating": "150",
     "Relation to System Model List": "https://www.notion.so/Auto-Reloaders-3b38c65b5afc4b3d8228adcc768a47b9"
   },
   {
     "Name": "Auto Reloaders IV",
-    "Additional Effects": "Increase speed of equipped weapons by 35%",
+    "Additional Effects": "Your equipped weapons reload 35% faster.",
     "Rarity": "Epic",
     "Power Rating": "200",
     "Relation to System Model List": "https://www.notion.so/Auto-Reloaders-3b38c65b5afc4b3d8228adcc768a47b9"
   },
   {
     "Name": "Auto Reloaders V",
-    "Additional Effects": "Increase speed of equipped weapons by 50%",
+    "Additional Effects": "Your equipped weapons reload 42% faster.",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Auto-Reloaders-3b38c65b5afc4b3d8228adcc768a47b9"
@@ -897,29 +911,36 @@
     "Relation to System Model List": "https://www.notion.so/Gold-Plated-Hyper-CPU-5c1718dc66574506a35308cba8cacb95"
   },
   {
+    "Name": "Nano Go Neuronet I",
+    "Additional Effects": "3% mod loot chance, +10% RCRIT",
+    "Rarity": "common",
+    "Power Rating": "50",
+    "Relation to System Model List": "https://www.notion.so/Nano-Go-Neuronet-cca3504e188140e7a4d829469fb20c23"
+  },
+  {
     "Name": "Nano Go Neuronet II",
-    "Additional Effects": "+10% to Self Update Protocols",
+    "Additional Effects": "+5% mod loot chance, +15% RCRIT",
     "Rarity": "Uncommon",
     "Power Rating": "100",
     "Relation to System Model List": "https://www.notion.so/Nano-Go-Neuronet-cca3504e188140e7a4d829469fb20c23"
   },
   {
     "Name": "Nano Go Neuronet III",
-    "Additional Effects": "+15% to Self Update Protocols",
+    "Additional Effects": "+8% mod loot chance, +20% RCRIT",
     "Rarity": "Rare",
     "Power Rating": "150",
     "Relation to System Model List": "https://www.notion.so/Nano-Go-Neuronet-cca3504e188140e7a4d829469fb20c23"
   },
   {
     "Name": "Nano Go Neuronet IV",
-    "Additional Effects": "+20% to Self Update Protocols",
+    "Additional Effects": "+10% mod loot chance, +25% RCRIT",
     "Rarity": "Epic",
     "Power Rating": "200",
     "Relation to System Model List": "https://www.notion.so/Nano-Go-Neuronet-cca3504e188140e7a4d829469fb20c23"
   },
   {
     "Name": "Nano Go Neuronet V",
-    "Additional Effects": "+40% to Self Update Protocols",
+    "Additional Effects": "+15% mod loot chance, +40% RCRIT",
     "Rarity": "Legendary",
     "Power Rating": "250",
     "Relation to System Model List": "https://www.notion.so/Nano-Go-Neuronet-cca3504e188140e7a4d829469fb20c23"
@@ -1187,6 +1208,19 @@
     "Related to 3D Models": "https://www.notion.so/Hacking-Ray-caf70f7c43fb4f9588eae5d05d882d6e"
   },
   {
+    "Weapon Name": "ACS Probe I",
+    "Damage Type": "Electric",
+    "Reload": "5",
+    "Fire Rate": "1",
+    "Damage Per Fire": "20",
+    "Damage": "20",
+    "DPS": "4",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "Apply a virus debuff on hit causing -10% CRIT, -10% evasion, -5% shield regen, and 10% more damage taken (Effect stacks up to -40%)",
+    "Power Rating": "50",
+    "Related to 3D Models": "https://www.notion.so/ACS-Probe-I-15b683223f5f48e6a89b2b1bc7be9998"
+  },
+  {
     "Weapon Name": "ACS Probe II",
     "Damage Type": "Electric",
     "Reload": "5",
@@ -1195,7 +1229,7 @@
     "Damage": "22.5",
     "DPS": "4.5",
     "Starting Rarity": "Uncommon",
-    "Additional Effects": "Apply a virus debuff to the opponent on hit causing -5% CRIT, -5% evasion (Effect stacks up to -50%)",
+    "Additional Effects": "Apply a virus debuff on hit causing -12% CRIT, -12% evasion, -6% shield regen, and 12% more damage taken (Effect stacks up to -50%)",
     "Power Rating": "100",
     "Related to 3D Models": "https://www.notion.so/ACS-Probe-9de0bc4d4fa54e8fbcb9232db5841351"
   },
@@ -1208,7 +1242,7 @@
     "Damage": "25",
     "DPS": "5",
     "Starting Rarity": "Rare",
-    "Additional Effects": "Apply a virus debuff to the opponent on hit causing -8% CRIT, -8% evasion (Effect stacks up to -55%)",
+    "Additional Effects": "Apply a virus debuff on hit causing -15% CRIT, -15% evasion, -8% shield regen, and 15% more damage taken (Effect stacks up to -55%)",
     "Power Rating": "150",
     "Related to 3D Models": "https://www.notion.so/ACS-Probe-9de0bc4d4fa54e8fbcb9232db5841351"
   },
@@ -1221,7 +1255,7 @@
     "Damage": "27.5",
     "DPS": "5.5",
     "Starting Rarity": "Epic",
-    "Additional Effects": "Apply a virus debuff to the opponent on hit causing -12% CRIT, -12% evasion (Effect stacks up to -60%)",
+    "Additional Effects": "Apply a virus debuff on hit causing -18% CRIT, -18% evasion, -10% shield regen, and 18% more damage taken(Effect stacks up to -60%)",
     "Power Rating": "200",
     "Related to 3D Models": "https://www.notion.so/ACS-Probe-9de0bc4d4fa54e8fbcb9232db5841351"
   },
@@ -1234,7 +1268,7 @@
     "Damage": "30",
     "DPS": "6",
     "Starting Rarity": "Legendary",
-    "Additional Effects": "Apply a virus debuff to the opponent on hit causing -18% CRIT, -18% evasion (Effect stacks up to -70%)",
+    "Additional Effects": "Apply a virus debuff on hit causing -25% CRIT, -25% evasion, -12% shield regen, and 25% more damage taken (Effect stacks up to -70%)",
     "Power Rating": "250",
     "Related to 3D Models": "https://www.notion.so/ACS-Probe-9de0bc4d4fa54e8fbcb9232db5841351"
   },
@@ -2227,7 +2261,7 @@
     "Related to 3D Models": "https://www.notion.so/Micro-Black-Hole-Turbine-79253e2c415d43faa04916a0bd39be36"
   },
   {
-    "Weapon Name": "Radiated Nuclear Abyss Generator",
+    "Weapon Name": "Radiated Black Abyss Generator",
     "Damage Type": "Nuclear",
     "Reload": "5",
     "Fire Rate": "1",
@@ -2235,7 +2269,7 @@
     "Damage": "0",
     "DPS": "0",
     "Starting Rarity": "Legendary",
-    "Additional Effects": "Deals 10% of opponents max health as damage",
+    "Additional Effects": "Deals 20% of opponents max health as damage",
     "Power Rating": "250",
     "Related to 3D Models": "https://www.notion.so/Micro-Black-Hole-Turbine-79253e2c415d43faa04916a0bd39be36"
   },

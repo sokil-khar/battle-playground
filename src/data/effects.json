@@ -228,7 +228,7 @@
       {
         "type": "BattleflyStat",
         "data": {
-          "attributeName": "scv",
+          "attributeName": "loot",
           "attributeValue": 10
         }
       }
@@ -247,7 +247,7 @@
           "type": "UpdateStat",
           "data": {
             "attributeName": "reload",
-            "attributeValue": "Infinity"
+            "attributeValue": "InfinityInfinity"
           },
           "seconds": 1,
           "used": 0
@@ -1140,8 +1140,8 @@
         "type": "UpdateStat",
         "target": "target",
         "data": {
-          "attributeName": "shp",
-          "attributeValue": -100,
+          "attributeName": "dcrit",
+          "attributeValue": 50,
           "attributeSign": "%"
         }
       }
@@ -1163,8 +1163,8 @@
         "type": "UpdateStat",
         "target": "target",
         "data": {
-          "attributeName": "shp",
-          "attributeValue": -100,
+          "attributeName": "dcrit",
+          "attributeValue": 50,
           "attributeSign": "%"
         }
       }
@@ -1186,8 +1186,8 @@
         "type": "UpdateStat",
         "target": "target",
         "data": {
-          "attributeName": "shp",
-          "attributeValue": -100,
+          "attributeName": "dcrit",
+          "attributeValue": 50,
           "attributeSign": "%"
         }
       }
@@ -1386,7 +1386,8 @@
         "type": "BattleflyStat",
         "data": {
           "attributeName": "shrg",
-          "attributeValue": 4
+          "attributeValue": 1.5,
+          "attributeSign": "%"
         }
       }
     ]
@@ -1700,7 +1701,8 @@
         "type": "BattleflyStat",
         "data": {
           "attributeName": "shrg",
-          "attributeValue": 4
+          "attributeValue": 2.5,
+          "attributeSign": "%"
         }
       }
     ]
@@ -1712,7 +1714,8 @@
         "type": "BattleflyStat",
         "data": {
           "attributeName": "shrg",
-          "attributeValue": 6
+          "attributeValue": 3.5,
+          "attributeSign": "%"
         }
       }
     ]
@@ -1724,7 +1727,8 @@
         "type": "BattleflyStat",
         "data": {
           "attributeName": "shrg",
-          "attributeValue": 8
+          "attributeValue": 4,
+          "attributeSign": "%"
         }
       }
     ]
@@ -1736,7 +1740,8 @@
         "type": "BattleflyStat",
         "data": {
           "attributeName": "shrg",
-          "attributeValue": 9
+          "attributeValue": 5,
+          "attributeSign": "%"
         }
       },
       {

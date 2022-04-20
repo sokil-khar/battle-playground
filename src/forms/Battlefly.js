@@ -14,7 +14,7 @@ import { useFractions } from '../data-layer/useFractions';
 const schema = Yup.object({
   name: Yup.string().required(),
   rarity: Yup.string().oneOf(Object.keys(Rarity)).required(),
-  fraction: Yup.string().required(),
+  fraction: Yup.string(),
   level: Yup.number().required(),
   stats: Yup.object({
     hp: Yup.number().moreThan(-1).required(),
@@ -24,8 +24,8 @@ const schema = Yup.object({
     shrg: Yup.number().moreThan(-1).required(),
     eva: Yup.number().moreThan(-1).required(),
     crit: Yup.number().moreThan(-1).required(),
-    sup: Yup.number().moreThan(-1).required(),
-    scv: Yup.number().moreThan(-1).required(),
+    xpr: Yup.number().moreThan(-1).required(),
+    loot: Yup.number().moreThan(-1).required(),
     dcrit: Yup.number().moreThan(-1).required(),
     rcrit: Yup.number().moreThan(-1).required(),
   }).required(),
@@ -79,7 +79,6 @@ export const BattleflyForm = ({ battlefly, mode, onSubmit }) => {
     }),
     {}
   );
-
   return (
     <div>
       <Paper style={{ padding: 20 }}>
@@ -92,14 +91,6 @@ export const BattleflyForm = ({ battlefly, mode, onSubmit }) => {
           <TextInput name="name" control={control} label="Name" fullWidth />
 
           <SelectInput label="Rarity" name="rarity" control={control} options={Rarity} fullWidth />
-
-          <SelectInput
-            label="Faction"
-            name="fraction"
-            control={control}
-            options={fractionOptions}
-            fullWidth
-          />
 
           <TextInput name="level" control={control} label="Level" fullWidth />
 
@@ -121,16 +112,9 @@ export const BattleflyForm = ({ battlefly, mode, onSubmit }) => {
           <TextInput name="stats.eva" control={control} label="Evasion (%)" fullWidth />
 
           <TextInput name="stats.crit" control={control} label="Critical chance (%)" fullWidth />
-
-          <TextInput
-            name="stats.sup"
-            control={control}
-            label="Self Update Protocols' (%)"
-            fullWidth
-          />
-
-          <TextInput name="stats.scv" control={control} label="Scavenge (%)" fullWidth />
-
+          <TextInput name="stats.bat" control={control} label="Battery" fullWidth />
+          <TextInput name="stats.xpr" control={control} label="XP Rate (%)" fullWidth />
+          <TextInput name="stats.loot" control={control} label="Mod Loot Chance (%)" fullWidth />
           <TextInput name="stats.dcrit" control={control} label="Critical Damage (%)" fullWidth />
 
           <TextInput name="stats.rcrit" control={control} label="Critical Resist (%)" fullWidth />

@@ -1,3 +1,5 @@
+import {createStatEffect} from "./battle/constants";
+
 function createUpdateStatEffect(attributeName, attributeValue, percentage = false, target = null) {
   return {
     type: 'UpdateStat',
@@ -367,6 +369,28 @@ export const effects = [
     effects: [createRevertAttack(75)],
   },
   {
+    name: 'ACS Probe I',
+    effects: [
+      createVirusDebuff([
+        {
+          stat: 'crit',
+          change: -10,
+          max: -40,
+        },
+        {
+          stat: 'eva',
+          change: -10,
+          max: -40,
+        },
+        {
+          stat: 'shp',
+          change: -5,
+          max: -40,
+        }
+      ])
+    ],
+  },
+  {
     name: 'ACS Probe II',
     effects: [
       createVirusDebuff([
@@ -699,22 +723,22 @@ export const effects = [
   {
     name: 'Hammerhead Missiles II',
     effects: [
-      createUpdateStatEffect('arm', -100, true),
-      createUpdateStatEffect('damagePerFire', 50, true, 'Shield'),
+      createUpdateStatEffect('eva', -100, true),
+      createUpdateStatEffect('dcrit', 50, true),
     ],
   },
   {
     name: 'Hammerhead Missiles III',
     effects: [
-      createUpdateStatEffect('arm', -100, true),
-      createUpdateStatEffect('damagePerFire', 50, true, 'Shield'),
+      createUpdateStatEffect('eva', -100, true),
+      createUpdateStatEffect('dcrit', 50, true),
     ],
   },
   {
     name: 'Hammerhead Missiles IV',
     effects: [
-      createUpdateStatEffect('arm', -100, true),
-      createUpdateStatEffect('damagePerFire', 50, true, 'Shield'),
+      createUpdateStatEffect('eva', -100, true),
+      createUpdateStatEffect('dcrit', 50, true),
     ],
   },
   {
@@ -762,8 +786,8 @@ export const effects = [
     effects: [createMaxHealthDamage(7)],
   },
   {
-    name: 'Radiated Nuclear Abyss Generator',
-    effects: [createMaxHealthDamage(10)],
+    name: 'Radiated Black Abyss Generator',
+    effects: [createMaxHealthDamage(20)],
   },
   {
     name: 'Plasteel Hull II',
@@ -887,7 +911,7 @@ export const effects = [
   },
   {
     name: 'Biohazard Shield V',
-    effects: [createEvasionEffect(50, ['Electric', 'Nuclear']), ],
+    effects: [createEvasionEffect(50, ['Electric', 'Nuclear']), battleflyStat('xpr', 10, true) ],
   },
   {
     name: 'Wasteland Seals II',
@@ -939,20 +963,24 @@ export const effects = [
   },
 
   {
-    name: 'EMP Ammo II',
-    effects: [createElectricModStat('damagePerFire', -8)],
+    name: 'Cryo Ammo I',
+    effects: [createFreezeDebuff(0.5)],
   },
   {
-    name: 'EMP Ammo III',
-    effects: [createElectricModStat('damagePerFire', -10)],
+    name: 'Cryo Ammo II',
+    effects: [createFreezeDebuff(0.8)],
   },
   {
-    name: 'EMP Ammo IV',
-    effects: [createElectricModStat('damagePerFire', -12)],
+    name: 'Cryo Ammo III',
+    effects: [createFreezeDebuff(1.2)],
+  },
+  {
+    name: 'Cryo Ammo IV',
+    effects: [createFreezeDebuff(1.5)],
   },
   {
     name: 'EMP Ammo V',
-    effects: [createElectricModStat('damagePerFire', -20)],
+    effects: [createFreezeDebuff(2)],
   },
   {
     name: 'Auto Reloaders II',
@@ -968,7 +996,7 @@ export const effects = [
   },
   {
     name: 'Auto Reloaders V',
-    effects: [modStat('reload', 50, true)],
+    effects: [modStat('reload', 42, true)],
   },
   {
     name: 'Graviton Capacitors II',
@@ -1212,7 +1240,7 @@ export const effects = [
   },
   {
     name: 'Supercharged Jumpdrive Engine V',
-    effects: [battleflyCharacteristic('engines', 6),createDamageType('Kinetic', 10, true)],
+    effects: [battleflyCharacteristic('engines', 6), createDamageType('Kinetic', 10, true)],
   },
   {
     name: 'Gold-Plated Hyper CPU III',
@@ -1236,20 +1264,39 @@ export const effects = [
     ],
   },
   {
+    name: 'Nano Go Neuronet I',
+    effects: [
+      modStat('loot', 3, true),
+      modStat('rcrit', 10, true)
+    ],
+  },
+  {
     name: 'Nano Go Neuronet II',
-    effects: [],
+    effects: [
+      modStat('loot', 5, true),
+      modStat('rcrit', 15, true)
+    ],
   },
   {
     name: 'Nano Go Neuronet III',
-    effects: [],
+    effects: [
+      modStat('loot', 8, true),
+      modStat('rcrit', 20, true)
+    ],
   },
   {
     name: 'Nano Go Neuronet IV',
-    effects: [],
+    effects: [
+      modStat('loot', 10, true),
+      modStat('rcrit', 25, true)
+    ],
   },
   {
     name: 'Nano Go Neuronet V',
-    effects: [],
+    effects: [
+        modStat('loot', 15, true),
+        modStat('rcrit', 40, true)
+    ],
   },
   {
     name: 'SVM Multi band Scanner II',

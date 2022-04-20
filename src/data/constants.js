@@ -11,7 +11,7 @@ export const DamageType = {
   Energy: 'Energy',
   Missile: 'Missile',
   Electric: 'Electric',
-  Nuclear: 'Nuclear',
+  Nuclear: 'Nuclear'
 };
 
 export const Rarity = rarities.reduce((a, c) => ({ ...a, [c]: c }), {});
@@ -69,16 +69,23 @@ export const StatsData = {
     default: 1,
     min: 0,
   },
-  sup: {
-    name: 'Self Update Protocols',
-    abbr: 'SUP',
+  bat: {
+    name: 'Battery',
+    abbr: 'bat',
     sign: '%',
     default: 0,
     min: 0,
   },
-  scv: {
-    name: 'Scavenge',
-    abbr: 'SCV',
+  xpr: {
+    name: 'XP Rate',
+    abbr: 'xpr',
+    sign: '%',
+    default: 0,
+    min: 0,
+  },
+  loot: {
+    name: 'Mod Loot Chance',
+    abbr: 'loot',
     sign: '%',
     default: 0,
     min: 0,

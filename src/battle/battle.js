@@ -503,7 +503,7 @@ class Battle {
 
     // Max Health of opponent as damage
     const maxHealthDamage = weapon.getMaxHealthDamageCalc()(target.getMaxHeatPoints());
-
+    console.log('max' + maxHealthDamage)
     const shieldDamage = !target.state.shieldBroken ? getShieldDamage(originalDamage) * critical : 0;
     if (shieldDamage > 0) {
       this.addReportEvent(shieldDamageBonus, weapon, shieldDamage);

@@ -20,7 +20,7 @@ export function decimalFormatter(value) {
 
 const attributeAbbr = {
   damagePerFire: 'DMG',
-  reload: 'SPD',
+  reload: 'RLD',
   fireRate: 'FR',
 };
 

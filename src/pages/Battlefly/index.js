@@ -106,9 +106,9 @@ export const BattleflyPage = () => {
 
       <div style={{ height: 30 }}></div>
 
-      <Section>
-        <BattleflyCharacteristicsForm battlefly={battlefly} onSubmit={onCharacteristicsSave} />
-      </Section>
+      {/*<Section>*/}
+      {/*  <BattleflyCharacteristicsForm battlefly={battlefly} onSubmit={onCharacteristicsSave} />*/}
+      {/*</Section>*/}
 
       <div style={{ height: 30 }}></div>
 
