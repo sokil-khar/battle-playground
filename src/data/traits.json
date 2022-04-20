@@ -80,6 +80,14 @@
     }
   },
   {
+    "id": "12",
+    "action": "addWeaponPercentage",
+    "data": {
+      "attributeName": "reload",
+      "attributeValue": -3
+    }
+  },
+  {
     "id": "13",
     "action": "addWeaponDamageByType",
     "data": {

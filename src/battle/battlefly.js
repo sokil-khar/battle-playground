@@ -22,12 +22,12 @@ export function getBattleflyStats(battlefly, mods = []) {
         break;
       }
 
-      // case EffectType.Characteristic: {
-      //   const { characteristic, change } = effect.data;
-      //
-      //   characteristics[characteristic] += change;
-      //   break;
-      // }
+      case EffectType.Characteristic: {
+        const { characteristic, change } = effect.data;
+
+        characteristics[characteristic] += change;
+        break;
+      }
 
       default:
         break;
@@ -55,10 +55,11 @@ export function getBattleflyStatsEffects(battlefly, mods) {
   }
 
   // 4. Check for Characteristics
-  const secondarySteps = [withCharacteristics];
-  const secondaryUpdates = secondarySteps.map((step) => step(battlefly, newCharacteristics)).flat();
+  // const secondarySteps = [withCharacteristics];
+  // const secondaryUpdates = secondarySteps.map((step) => step(battlefly, newCharacteristics)).flat();
 
-  return updates.concat(secondaryUpdates);
+  // return updates.concat(secondaryUpdates);
+  return updates;
 }
 
 function withMods(battlefly, mods) {
@@ -89,13 +90,13 @@ function withMods(battlefly, mods) {
         break;
       }
 
-      // case 'UpdateCharacteristic': {
-      //   const { attributeValue, attributeName } = effect.data;
-      //
-      //   updates.push(createCharacteristicEffect(attributeName, attributeValue));
-      //
-      //   break;
-      // }
+      case 'UpdateCharacteristic': {
+        const { attributeValue, attributeName } = effect.data;
+
+        updates.push(createCharacteristicEffect(attributeName, attributeValue));
+
+        break;
+      }
 
       default:
         break;

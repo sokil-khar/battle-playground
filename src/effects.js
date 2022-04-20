@@ -1339,10 +1339,6 @@ export const effects = [
     effects: [battleflyStat('shrg', 2, true)],
   },
   {
-    name: 'Cryo Ammo I',
-    effects: [createElectricModStat('damagePerFire', -5)],
-  },
-  {
     name: 'Auto Reloaders I',
     effects: [modStat('reload', 10, true)],
   },

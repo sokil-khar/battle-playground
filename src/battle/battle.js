@@ -408,6 +408,7 @@ class Battle {
     });
 
     const FreezeDebuff = weapon.getEffect('FreezeDebuff');
+    console.log(FreezeDebuff)
     if (FreezeDebuff) {
       target.addDebuff(new FrizeDebuff(FreezeDebuff.data, this.state.time));
 
