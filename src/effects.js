@@ -946,7 +946,7 @@ export const effects = [
     effects: [createCancelAttackDebuff('Kinetic', 7)],
   },
   {
-    name: 'Explosive Ammo II',
+    name: 'Explosive Ammo IIExplosive Ammo II',
     effects: [createDamageType('Kinetic', 15)],
   },
   {

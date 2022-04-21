@@ -357,7 +357,6 @@ class Battle {
     weapon.used++;
 
     // Check effects
-
     const critEf = source
       .getMods()
       .flatMap((item) => item.getEffect('CritUpdate') || []);
@@ -408,7 +407,6 @@ class Battle {
     });
 
     const FreezeDebuff = weapon.getEffect('FreezeDebuff');
-    console.log(FreezeDebuff)
     if (FreezeDebuff) {
       target.addDebuff(new FrizeDebuff(FreezeDebuff.data, this.state.time));
 
@@ -493,7 +491,6 @@ class Battle {
 
   attackShieldStep(attack) {
     const { weapon, target } = attack;
-
     const critical = (this.state.criticalDamage / 100);
 
     // Original damage
@@ -501,10 +498,8 @@ class Battle {
 
     // Less/Addition Damage to Shield
     const getShieldDamage = weapon.getShieldDamageCalc();
-
     // Max Health of opponent as damage
     const maxHealthDamage = weapon.getMaxHealthDamageCalc()(target.getMaxHeatPoints());
-    console.log('max' + maxHealthDamage)
     const shieldDamage = !target.state.shieldBroken ? getShieldDamage(originalDamage) * critical : 0;
     if (shieldDamage > 0) {
       this.addReportEvent(shieldDamageBonus, weapon, shieldDamage);
@@ -522,7 +517,6 @@ class Battle {
     //   maxHealthDamage +
     //   damageTypeBonus +
     //   criticalDamage;
-
     this.addReportEvent(
       shieldDamageRep,
       originalDamage,
@@ -574,7 +568,6 @@ class Battle {
       originalDamage,
       weapon.getDamageTypes()
     );
-
     const realDamage = damage + (weaponDamage + armorDamage + additionalDamage + damageTypeBonus) * critical;
 
     this.addReportEvent(
@@ -721,7 +714,6 @@ class Battle {
     if (!battlefly.state.shieldBroken) {
       const shp = battlefly.getMaxShieldPoints();
       const shrg = battlefly.getShieldPointsRegen();
-
       battlefly.setShieldPoints(shp * (shrg / 100));
 
       if (shrg > 0) {
@@ -863,7 +855,6 @@ export async function generateBattleReport(firstBattlefly, secondBattlefly) {
   const sBattleflySnapshot = new BattleflySnapshot(secondBattlefly);
 
   const battle = new Battle([fBattleflySnapshot, sBattleflySnapshot]);
-
   await battle.start();
 
   return [

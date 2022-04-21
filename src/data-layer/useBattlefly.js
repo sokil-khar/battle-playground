@@ -7,7 +7,6 @@ export async function getBattlefly(battleflyId) {
   const mods = await DB.mods.toArray();
   const traits = await DB.traits.toArray();
   const fractions = await DB.fractions.toArray();
-
   if (battlefly.modSets) {
     battlefly.modSets = battlefly.modSets.map((item) => ({
       name: item.name,

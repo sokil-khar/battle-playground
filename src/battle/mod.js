@@ -8,7 +8,6 @@ export function getModStats(mod, battlefly) {
 
   const effects = getModStatsEffects(mod, battlefly);
   const stats = { ...mod.data };
-
   for (const effect of effects) {
     switch (effect.type) {
       case EffectType.Stat:
@@ -24,7 +23,6 @@ export function getModStats(mod, battlefly) {
         break;
     }
   }
-
   return { stats };
 }
 

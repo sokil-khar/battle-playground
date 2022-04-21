@@ -461,7 +461,6 @@ function UpdateCharacteristicForm({ data }) {
 }
 
 function DamageTypeForm({ data }) {
-  console.log(data)
   function getDefaultValues(item) {
     const defaultValues = {
       attributeName: '',

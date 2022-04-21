@@ -36,7 +36,6 @@ export const BattlesPage = () => {
     const promises = battles.map(async (battle) => {
       const firstBattlefly = await getBattlefly(battle.firstBattlefly.id);
       const secondBattlefly = await getBattlefly(battle.secondBattlefly.id);
-
       if (!battle.firstBattleflyModSet || !battle.secondBattleflyModSet) {
         alert('Where is mod for battlefly?');
       }
