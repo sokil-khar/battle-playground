@@ -16,11 +16,38 @@ export const DamageType = {
 
 export const Rarity = rarities.reduce((a, c) => ({ ...a, [c]: c }), {});
 
+export const DamageData = {
+  Kinetic: {
+    name: 'Kinetic',
+    default: 0,
+    sign: '%'
+  },
+  Energy: {
+    name: 'Energy',
+    default: 0,
+    sign: '%'
+  },
+  Missile: {
+    name: 'Missile',
+    default: 0,
+    sign: '%'
+  },
+  Electric: {
+    name: 'Electric',
+    default: 0,
+    sign: '%'
+  },
+  Nuclear: {
+    name: 'Electric',
+    default: 0,
+    sign: '%'
+  },
+}
 export const StatsData = {
   hp: {
     name: 'Hit Point',
     abbr: 'HP',
-    default: 300,
+    default: 400,
     sign: '',
     min: 0,
     max: true,
@@ -43,7 +70,7 @@ export const StatsData = {
   shp: {
     name: 'Shield Points',
     abbr: 'SHP',
-    default: 0,
+    default: 200,
     sign: '',
     min: 0,
     max: true,
@@ -52,28 +79,28 @@ export const StatsData = {
     name: 'Shield Regen',
     abbr: 'SHRG',
     sign: '%/s',
-    default: 0,
+    default: 1,
     min: 0,
   },
   eva: {
     name: 'Evasion',
     abbr: 'EVA',
     sign: '%',
-    default: 1,
+    default: 5,
     min: 0,
   },
   crit: {
     name: 'Critical chance',
     abbr: 'CRIT',
     sign: '%',
-    default: 1,
+    default: 5,
     min: 0,
   },
   bat: {
     name: 'Battery',
     abbr: 'bat',
-    sign: '%',
-    default: 0,
+    sign: '',
+    default: 100,
     min: 0,
   },
   xpr: {
@@ -94,14 +121,14 @@ export const StatsData = {
     name: 'Critical Damage',
     abbr: 'DCRIT',
     sign: '%',
-    default: 150,
+    default: 200,
     min: 0,
   },
   rcrit: {
     name: 'Critical Resist',
     abbr: 'RCRIT',
     sign: '%',
-    default: 0,
+    default: 5,
     min: 0,
   }
 };

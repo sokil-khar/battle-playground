@@ -461,10 +461,12 @@ function UpdateCharacteristicForm({ data }) {
 }
 
 function DamageTypeForm({ data }) {
+  console.log(data)
   function getDefaultValues(item) {
     const defaultValues = {
       attributeName: '',
       attributeValue: 0,
+      percentage: false
     };
     if (!data) {
       return defaultValues;
@@ -508,7 +510,7 @@ function DamageTypeForm({ data }) {
         />
 
         <TextInput name="attributeValue" control={control} label="Values" fullWidth />
-
+        <Checkbox name="percentage" control={control} label="Percentage?" />
         <FormErrors state={formState} />
       </Paper>
     </div>

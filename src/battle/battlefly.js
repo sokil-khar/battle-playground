@@ -1,14 +1,15 @@
-import {  EffectType,
+import {
+  EffectType,
   TraitHandlers,
   createStatEffect,
   createCharacteristicEffect,
-  StatUpdateReason,
+  StatUpdateReason, createDamageBonus, DamageUpdateReason,
 } from './constants';
 import { getBySign } from './helpers';
+import {DamageType} from "../data/constants";
 
 export function getBattleflyStats(battlefly, mods = []) {
   const effects = getBattleflyStatsEffects(battlefly, mods);
-
   const stats = { ...battlefly.stats };
   const characteristics = { ...battlefly.characteristics };
   for (const effect of effects) {
@@ -36,7 +37,18 @@ export function getBattleflyStats(battlefly, mods = []) {
 
   return { stats, characteristics };
 }
-
+export function getActualDamageBonus(battlefly, mods = []) {
+  const effects = getBattleflyDamageBonus(battlefly, mods);
+  const weaponbonus = { ...battlefly.weaponbonus };
+  for (const effect of effects) {
+    if (effect.type in DamageType)
+    {
+      const { type, change } = effect.data;
+      weaponbonus[type] += change;
+    }
+  }
+  return { weaponbonus };
+}
 export function getBattleflyStatsEffects(battlefly, mods) {
   // 1. Get original stats
   const { characteristics } = battlefly;
@@ -84,9 +96,7 @@ function withMods(battlefly, mods) {
           percentage || attributeSign,
           attributeValue
         );
-
         updates.push(createStatEffect(attributeName, value, StatUpdateReason.ModEffect(effect)));
-
         break;
       }
 
@@ -121,6 +131,26 @@ function withTraits(battlefly) {
 
   return updates;
 }
+
+export function getBattleflyDamageBonus(battlefly, mods)
+{
+   const effects = mods.flatMap((mod) => (mod.effects?.length? mod.effects: []));
+   const updates = [];
+    for (const effect of effects) {
+
+      switch (effect.type) {
+        case "DamageType": {
+          const { attributeValue, attributeName, attributeSign, percentage } = effect.data;
+          updates.push(createDamageBonus(attributeName, attributeValue, DamageUpdateReason.ModEffect(effect)));
+          break;
+        }
+        default:
+          break;
+      }
+    }
+    return updates;
+}
+
 
 function withCharacteristics(battlefly, characteristics) {
   const updates = [];

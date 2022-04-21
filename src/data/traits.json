@@ -28,7 +28,7 @@
     "action": "addPercentage",
     "data": {
       "attributeName": "hp",
-      "attributeValue": 5
+      "attributeValue": 4
     }
   },
   {
@@ -60,15 +60,7 @@
     "action": "addPercentage",
     "data": {
       "attributeName": "loot",
-      "attributeValue": 4
-    }
-  },
-  {
-    "id": "10",
-    "action": "addWeaponPercentage",
-    "data": {
-      "attributeName": "reload",
-      "attributeValue": -3
+      "attributeValue": 8
     }
   },
   {
@@ -84,7 +76,7 @@
     "action": "addWeaponPercentage",
     "data": {
       "attributeName": "reload",
-      "attributeValue": -3
+      "attributeValue": 3
     }
   },
   {
@@ -125,6 +117,22 @@
     "data": {
       "attributeName": "dcrit",
       "attributeValue": 20
+    }
+  },
+  {
+    "id": "18",
+    "action": "addPercentage",
+    "data": {
+      "attributeName": "xpr",
+      "attributeValue": 8
+    }
+  },
+  {
+    "id": "19",
+    "action": "addPercentage",
+    "data": {
+      "attributeName": "rld",
+      "attributeValue": 3
     }
   }
 ]

@@ -104,13 +104,13 @@ function battleflyCharacteristic(attributeName, attributeValue) {
   };
 } // + gotovo
 
-function createDamageType(attributeName, attributeValue, percent = false) {
+function createDamageType(attributeName, attributeValue, percentage = false) {
   return {
     type: 'DamageType',
     data: {
       attributeName,
       attributeValue,
-      percent
+      percentage
     },
   };
 } // + gotovo
@@ -1063,20 +1063,20 @@ export const effects = [
     effects: [createFirstAttackShield(), battleflyStat('eva', 15)],
   },
   {
-    name: 'Mirror Image Generators II',
+    name: 'Mirror Image Generator II',
     effects: [battleflyStat('rcrit', 19)],
   },
   {
-    name: 'Mirror Image Generators III',
+    name: 'Mirror Image Generator III',
     effects: [battleflyStat('rcrit', 27)],
   },
   {
-    name: 'Mirror Image Generators IV',
+    name: 'Mirror Image Generator IV',
     effects: [battleflyStat('rcrit', 35)],
   },
   {
-    name: 'Mirror Image Generators V',
-    effects: [battleflyStat('rcrit', 42), battleflyStat('dcrit', 5, true)],
+    name: 'Mirror Image Generator V',
+    effects: [battleflyStat('rcrit', 42, true), battleflyStat('dcrit', 5, true)],
   },
   {
     name: 'Diamond Nuclear Voltaic Battery II',
@@ -1246,7 +1246,7 @@ export const effects = [
     name: 'Gold-Plated Hyper CPU III',
     effects: [
       createEvasionEffect(6, ['Missile'], true),
-      modStat('damagePerFire', 3, true)
+      modStat('reload', 3, true)
     ],
   },
   {
@@ -1266,36 +1266,36 @@ export const effects = [
   {
     name: 'Nano Go Neuronet I',
     effects: [
-      modStat('loot', 3, true),
-      modStat('rcrit', 10, true)
+      battleflyStat('loot', 3, true),
+      battleflyStat('rcrit', 10, true)
     ],
   },
   {
     name: 'Nano Go Neuronet II',
     effects: [
-      modStat('loot', 5, true),
-      modStat('rcrit', 15, true)
+      battleflyStat('loot', 5, true),
+      battleflyStat('rcrit', 15, true)
     ],
   },
   {
     name: 'Nano Go Neuronet III',
     effects: [
-      modStat('loot', 8, true),
-      modStat('rcrit', 20, true)
+      battleflyStat('loot', 8, true),
+      battleflyStat('rcrit', 20, true)
     ],
   },
   {
     name: 'Nano Go Neuronet IV',
     effects: [
-      modStat('loot', 10, true),
-      modStat('rcrit', 25, true)
+      battleflyStat('loot', 10, true),
+      battleflyStat('rcrit', 25, true)
     ],
   },
   {
     name: 'Nano Go Neuronet V',
     effects: [
-        modStat('loot', 15, true),
-        modStat('rcrit', 40, true)
+        battleflyStat('loot', 15, true),
+        battleflyStat('rcrit', 40, true)
     ],
   },
   {

@@ -15,6 +15,7 @@ import { BattleflyStats } from '../../forms/BattleflyStats';
 import { useUpdateBattlefly } from '../../data-layer/useUpdateBattlefly';
 import { BattleflyCharacteristicsForm } from '../../forms/BattleflyCharacteristics';
 import { useSaveBattleflyCharacteristics } from '../../data-layer/useSaveBattleflyCharacteristics';
+import {BattleflyDamage} from "../../forms/BattleflyDamage";
 
 function getModShortData(mod) {
   if (mod.type === ModType.Weapon) {
@@ -54,7 +55,6 @@ export const BattleflyPage = () => {
   const addBattleflyModSet = useAddBattleflyModSet();
   const saveBattleflyTraits = useSaveBattleflyTraits();
   const saveBattleflyCharacteristics = useSaveBattleflyCharacteristics();
-
   const updateBattlefly = useUpdateBattlefly();
 
   if (!battlefly) return null;
@@ -124,6 +124,10 @@ export const BattleflyPage = () => {
 
       <Section>
         <BattleflyStats battlefly={battlefly} modSets={battlefly.modSets} />
+      </Section>
+
+      <Section>
+        <BattleflyDamage battlefly={battlefly} modSets={battlefly.modSets} />
       </Section>
     </div>
   );

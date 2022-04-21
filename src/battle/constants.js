@@ -13,11 +13,21 @@ export const UpdateReason = {
   Characteristic: 'Characteristic',
 };
 
-export function createStatEffect(stat, change, reason) {
+export function  createStatEffect(stat, change, reason) {
   return {
     type: EffectType.Stat,
     data: {
       stat,
+      change,
+      reason,
+    },
+  };
+}
+export function createDamageBonus(type, change, reason) {
+  return {
+    type: type,
+    data: {
+      type,
       change,
       reason,
     },
@@ -34,7 +44,25 @@ export function createCharacteristicEffect(characteristic, change, reason) {
     },
   };
 }
+export const DamageUpdateReason = {
+  ModEffect(effect) {
+    return {
+      reason: UpdateReason.ModEffect,
+      data: {
+        effect,
+      },
+    };
+  },
+  Trait(trait) {
+    return {
+      reason: UpdateReason.Trait,
+      data: {
+        trait,
+      },
+    };
+  },
 
+}
 export const StatUpdateReason = {
   MagicValue() {
     return {

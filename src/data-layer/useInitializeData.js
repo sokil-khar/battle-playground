@@ -32,7 +32,7 @@ function getDefaultStats() {
     hprg: 0,
     arm: 0,
     shp: 200,
-    shrg: 0,
+    shrg: 1,
     eva: 5,
     crit: 5,
     loot: 0,
@@ -42,7 +42,16 @@ function getDefaultStats() {
     rcrit: 5
   };
 }
-
+function weaponBonus()
+{
+  return {
+    Kinetic: 0,
+    Energy: 0,
+    Missile: 0,
+    Electric: 0,
+    Nuclear: 0
+  }
+}
 function findMods(mods, list) {
   return mods.map(mod => list.find(item => item.name === mod)?.id).filter(Boolean);
 }
@@ -110,6 +119,7 @@ function getBattlefly(battlefly, fractions, traits, mods) {
     stats: getDefaultStats(),
     characteristics: getDefaultCharacteristics(),
     traits: trait.map(String),
+    weaponbonus: weaponBonus(),
     modSets: [{ name: 'default', mods: modes }]
   }
 }
@@ -200,7 +210,6 @@ export function useInitializeData() {
 
     if (!hasKey(keys, 'effectsInitialized')) {
       const mods = await DB.mods.toArray();
-
       const updates = mods.map((item) => ({
         ...item,
         effects: effects.find((e) => e.name === item.name)?.effects || [],
