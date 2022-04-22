@@ -183,7 +183,6 @@ export class ModSnapshot {
 
   getArmorDamageCalc(armor) {
     const effects = this.getEffects('ArmorDamage');
-
     return (damage) =>
       effects.reduce(
         (a, { data }) => a + getBySign(damage, data.percentage, (armor * data.dmg) / data.arm),

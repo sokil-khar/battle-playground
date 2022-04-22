@@ -386,8 +386,11 @@ export const effects = [
           stat: 'shp',
           change: -5,
           max: -40,
+        },
+        {
+
         }
-      ])
+      ]),
     ],
   },
   {
@@ -558,20 +561,34 @@ export const effects = [
     effects: [destroyArmor(1)],
   },
   {
+    name: 'Proton Blaster I',
+    effects: [
+      createArmorDamage(1, true)
+    ],
+  },
+  {
     name: 'Proton Blaster II',
-    effects: [],
+    effects: [
+      createArmorDamage(2, true)
+    ],
   },
   {
     name: 'Proton Blaster III',
-    effects: [],
+    effects: [
+      createArmorDamage(4, true)
+    ],
   },
   {
     name: 'Proton Blaster IV',
-    effects: [],
+    effects: [
+      createArmorDamage(5, true)
+    ],
   },
   {
     name: 'Veteran Meson Blaster',
-    effects: [createDamageType('Energy', 5)],
+    effects: [
+        createDamageType('Energy', 5, true),
+      createArmorDamage(10, true)],
   },
   {
     name: 'Laser Cannon II',
@@ -634,8 +651,24 @@ export const effects = [
     effects: [battleflyStat('arm', 10, true)],
   },
   {
+    name: 'Nova Flare I',
+    effects: [battleflyStat('arm', 10, true)],
+  },
+  {
+    name: 'Nova Flare II',
+    effects: [battleflyStat('arm', 10, true)],
+  },
+  {
+    name: 'Nova Flare IV',
+    effects: [battleflyStat('arm', 10, true)],
+  },
+  {
+    name: 'Nova Flare III',
+    effects: [battleflyStat('arm', 10, true)],
+  },
+  {
     name: 'Discharge Anti-Matter Nova Flare',
-    effects: [battleflyStat('arm', 15, true)],
+    effects: [battleflyStat('arm', 10, true)],
   },
   {
     name: 'Microwave Emitter III',
@@ -931,7 +964,7 @@ export const effects = [
   },
   {
     name: 'Reactive Armor II',
-    effects: [createCancelAttackDebuff('Kinetic', 3)],
+    effects: [createCancelAttackDebuff('Kinetic', 5)],
   },
   {
     name: 'Reactive Armor III',

@@ -1632,9 +1632,9 @@
     "Damage": "60",
     "DPS": "30",
     "Starting Rarity": "Legendary",
-    "Additional Effects": "+5% ENERGY damage (All weapons)",
+    "Additional Effects": "+5% ENERGY damage, 10% bonus damage per point of armor your opponent has",
     "Power Rating": "250",
-    "Related to 3D Models": "https://www.notion.so/Proton-Blaster-467ee783a7654f2a98c45c2e497d99cd"
+    "Related to 3D Models": "https://www.notion.so/Veteran-Meson-Blaster-85cce949d12b4560a37fd3b346d1794e"
   },
   {
     "Weapon Name": "Laser Cannon II",
@@ -1832,6 +1832,58 @@
     "Related to 3D Models": "https://www.notion.so/Nova-Flak-Flare-6cc158627d55437f8e2c390e4c8389cc"
   },
   {
+    "Weapon Name": "Nova Flare I",
+    "Damage Type": "Energy",
+    "Reload": "6",
+    "Fire Rate": "4",
+    "Damage Per Fire": "18",
+    "Damage": "72",
+    "DPS": "12",
+    "Starting Rarity": "Legendary",
+    "Additional Effects": "Provides 10% armor bonus",
+    "Power Rating": "50",
+    "Related to 3D Models": "https://www.notion.so/Nova-Flak-Flare-6cc158627d55437f8e2c390e4c8389cc"
+  },
+  {
+    "Weapon Name": "Nova Flare II",
+    "Damage Type": "Energy",
+    "Reload": "6",
+    "Fire Rate": "4",
+    "Damage Per Fire": "24",
+    "Damage": "96",
+    "DPS": "16",
+    "Starting Rarity": "Uncommon",
+    "Additional Effects": "Provides 10% armor bonus",
+    "Power Rating": "100",
+    "Related to 3D Models": "https://www.notion.so/Nova-Flak-Flare-6cc158627d55437f8e2c390e4c8389cc"
+  },
+  {
+    "Weapon Name": "Nova Flare III",
+    "Damage Type": "Energy",
+    "Reload": "6",
+    "Fire Rate": "4",
+    "Damage Per Fire": "30",
+    "Damage": "120",
+    "DPS": "20",
+    "Starting Rarity": "Rare",
+    "Additional Effects": "Provides 10% armor bonus",
+    "Power Rating": "150",
+    "Related to 3D Models": "https://www.notion.so/Nova-Flak-Flare-6cc158627d55437f8e2c390e4c8389cc"
+  },
+  {
+    "Weapon Name": "Nova Flare IV",
+    "Damage Type": "Energy",
+    "Reload": "6",
+    "Fire Rate": "4",
+    "Damage Per Fire": "40",
+    "Damage": "120",
+    "DPS": "26.67",
+    "Starting Rarity": "Epic",
+    "Additional Effects": "Provides 10% armor bonus",
+    "Power Rating": "200",
+    "Related to 3D Models": "https://www.notion.so/Nova-Flak-Flare-6cc158627d55437f8e2c390e4c8389cc"
+  },
+  {
     "Weapon Name": "Discharge Anti-Matter Nova Flare",
     "Damage Type": "Energy",
     "Reload": "6",
@@ -1840,7 +1892,7 @@
     "Damage": "200",
     "DPS": "33.33",
     "Starting Rarity": "Legendary",
-    "Additional Effects": "Provides 15% armor bonus",
+    "Additional Effects": "Provides 10% armor bonus",
     "Power Rating": "250",
     "Related to 3D Models": "https://www.notion.so/Nova-Flak-Flare-6cc158627d55437f8e2c390e4c8389cc"
   },
