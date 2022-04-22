@@ -6,9 +6,7 @@ import {
   StatUpdateReason, createDamageBonus, DamageUpdateReason,
 } from './constants';
 import { getBySign } from './helpers';
-import {DamageType} from "../data/constants";
-import {getModStatsEffects} from "./mod";
-import mod from "../columns/mod";
+import {DamageType, StatsData} from "../data/constants";
 
 export function getBattleflyStats(battlefly, mods = []) {
   const effects = getBattleflyStatsEffects(battlefly, mods);
@@ -112,11 +110,14 @@ function withMods(battlefly, mods) {
     switch (effect.type) {
       case 'BattleflyStat': {
         const { attributeValue, attributeName, attributeSign, percentage } = effect.data;
-        const value = getBySign(
-          battlefly.stats[attributeName],
-          percentage || attributeSign,
-          attributeValue
-        );
+        let value = attributeValue;
+        if (StatsData[attributeName].sign !== '%'){
+           value = getBySign(
+              battlefly.stats[attributeName],
+              percentage || attributeSign,
+              attributeValue
+          );
+        }
         updates.push(createStatEffect(attributeName, value, StatUpdateReason.ModEffect(effect)));
         break;
       }

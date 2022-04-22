@@ -482,7 +482,9 @@ export const effects = [
   },
   {
     name: 'Flak Gun II',
-    effects: [createEvasionEffect(-20)],
+    effects: [createEvasionEffect(-20),
+      createUpdateStatEffect('damagePerFire', 20, true, 'Shield')
+    ],
   },
   {
     name: 'Flak Gun III',
