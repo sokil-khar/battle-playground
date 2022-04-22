@@ -47,8 +47,18 @@ export class ModSnapshot {
       .getDebuffs(UpdateModStatDebuff)
       .filter((debuff) => debuff.getStat() === 'reload' && debuff.isUsed(this.owner));
     const additionalReload = debuffs.reduce((a, c) => a + c.value, 0);
-
-    return this.currentStats.reload + this.currentStats.reload * (additionalReload / 100);
+    let reloadTime = this.currentStats.reload + this.currentStats.reload * (additionalReload / 100);
+    for (const buff of this.owner.timeBuffs)
+    {
+      if (buff.percentage)
+      {
+        reloadTime  = reloadTime - reloadTime * buff.value/100;
+      }
+      else {
+        reloadTime = reloadTime - buff.value;
+      }
+    }
+    return reloadTime;
   }
 
   needActivate(time) {
@@ -56,10 +66,13 @@ export class ModSnapshot {
     const speed = parseFloat((this.getReload() * Time.SCALE).toFixed(2));
 
     if (maxUsage <= this.used) return false;
-
     return !!time.get() && time.get() % speed === 0;
   }
-
+  getReloadEffect()
+  {
+    const actualReload = this.getReload();
+    return {actualReload, originalReload: this.originalStats.reload}
+  }
   getMaxUsages() {
     const effect = this.getEffect('MaxUsage');
     if (!effect) return Infinity;

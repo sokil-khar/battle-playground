@@ -34,7 +34,6 @@ export function getModStatsEffects(mod, battlefly) {
 
   const secondarySteps = [withCharacteristics];
   const secondaryUpdates = secondarySteps.map((step) => step(mod, characteristics)).flat();
-
   return updates.concat(secondaryUpdates);
 }
 
@@ -64,10 +63,8 @@ function withEffects(mod) {
 
     const { attributeValue, attributeName, attributeSign, percentage } = effect.data;
     const value = getBySign(mod.data[attributeName], percentage || attributeSign, attributeValue);
-
     updates.push(createStatEffect(attributeName, value));
   }
-
   return updates;
 }
 

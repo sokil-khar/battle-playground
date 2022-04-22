@@ -1245,22 +1245,22 @@ export const effects = [
   {
     name: 'Gold-Plated Hyper CPU III',
     effects: [
-      createEvasionEffect(6, ['Missile'], true),
+      createDamageType('Missile', 6, true),
       modStat('reload', 3, true)
     ],
   },
   {
     name: 'Gold-Plated Hyper CPU IV',
     effects: [
-      createEvasionEffect(12, ['Missile'], true),
+      createDamageType('Missile', 12, true),
       modStat('reload', 6, true)
     ],
   },
   {
     name: 'Gold-Plated Hyper CPU V',
     effects: [
+      createDamageType('Missile', 20, true),
       modStat('reload', 10, true),
-      createEvasionEffect(20, ['Missile'], true),
     ],
   },
   {

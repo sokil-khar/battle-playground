@@ -11,6 +11,7 @@ import {
   crtDmg,
   ev,
   frozenWeapon,
+  ReloadWeaponEffect,
   ignoreFirstAttack,
   shAttExp,
   shAbs,
@@ -124,7 +125,11 @@ class Battle {
 
           continue;
         }
-
+        const {actualReload, originalReload} = weapon.getReloadEffect();
+        if (actualReload !== originalReload)
+        {
+          this.addReportEvent(ReloadWeaponEffect, weapon.owner.getName(),weapon.getName(), originalReload, actualReload);
+        }
         attacks.push({
           weapon,
           target: weapon.owner === this.battleflies[0] ? this.battleflies[1] : this.battleflies[0],
@@ -614,7 +619,6 @@ class Battle {
     const DamageTimeDebuffEffects = source
       .getMods()
       .flatMap((item) => item.getEffect('DamageTimeDebuff') || []);
-
     DamageTimeDebuffEffects.forEach((effect) => {
       target.addDebuff(new DamageTimeDebuff(effect.data));
 

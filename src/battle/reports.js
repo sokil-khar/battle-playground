@@ -1,4 +1,5 @@
 import { StatsData } from '../data/constants';
+import battlefly from "../columns/battlefly";
 
 function formatNumber(value) {
   if (value < 0) return 0;
@@ -31,7 +32,9 @@ export const ignoreFirstAttackUsed = (bfName) => ({
 export const frozenWeapon = (battleflyName) => ({
   text: `Wow! 🥶 [[${battleflyName}]] is frozen`,
 });
-
+export const ReloadWeaponEffect = (bflyName, weaponName, original, actual) => ({
+  text: `✅ [[${bflyName}/${weaponName}]]'s reload time reduced from ^^[[${original}]] to  ^^${actual}]] seconds`,
+})
 export const frozenStartWeapon = (battleflyName, duration) => ({
   text: `Wow! 🥶 [[${battleflyName}]] has used effect, so opponent's weapons was frozen for ^^${duration}]] seconds`,
 });

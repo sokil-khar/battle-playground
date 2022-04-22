@@ -1,4 +1,4 @@
-import { getBattleflyStats } from "../battlefly";
+import {getBatteflyTimeBuff, getBattleflyStats} from "../battlefly";
 import { getBySign } from "../helpers";
 
 import {ModSnapshot} from "./mod";
@@ -38,7 +38,7 @@ export class BattleflySnapshot {
     this.state = {
       shieldBroken: false,
     };
-
+    this.timeBuffs = getBatteflyTimeBuff(battlefly, battlefly.mods);
     this.debuffs = [];
   }
 

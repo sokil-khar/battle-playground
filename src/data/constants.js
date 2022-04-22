@@ -124,6 +124,15 @@ export const StatsData = {
     default: 200,
     min: 0,
   },
+
+  reload: {
+    name: 'Reload',
+    abbr: 'reload',
+    sign: '',
+    default: 0,
+    min: 0,
+  },
+
   rcrit: {
     name: 'Critical Resist',
     abbr: 'RCRIT',

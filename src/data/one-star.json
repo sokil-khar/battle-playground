@@ -8,6 +8,7 @@
       "iconic": false,
       "stats": {
           "hp": 400,
+ "reload": 0,
           "hprg": 0,
           "shp": 200,
           "arm": 0,
@@ -48,6 +49,7 @@
       "iconic": false,
       "stats": {
           "hp": 400,
+ "reload": 0,
           "hprg": 0,
           "shp": 200,
           "arm": 0,
@@ -88,6 +90,7 @@
       "iconic": false,
       "stats": {
           "hp": 400,
+ "reload": 0,
           "hprg": 0,
           "shp": 200,
           "arm": 0,
@@ -128,6 +131,7 @@
       "iconic": false,
       "stats": {
           "hp": 400,
+ "reload": 0,
           "hprg": 0,
           "shp": 200,
           "arm": 0,
@@ -168,6 +172,7 @@
       "iconic": false,
       "stats": {
           "hp": 400,
+ "reload": 0,
           "hprg": 0,
           "shp": 200,
           "arm": 0,
@@ -208,6 +213,7 @@
     "iconic": false,
     "stats": {
         "hp": 400,
+ "reload": 0,
         "hprg": 0,
         "shp": 200,
         "arm": 0,
@@ -248,6 +254,7 @@
     "iconic": false,
     "stats": {
         "hp": 400,
+ "reload": 0,
         "hprg": 0,
         "shp": 200,
         "arm": 0,
@@ -288,6 +295,7 @@
     "iconic": false,
     "stats": {
         "hp": 400,
+ "reload": 0,
         "hprg": 0,
         "shp": 200,
         "arm": 0,
@@ -328,6 +336,7 @@
     "iconic": false,
     "stats": {
         "hp": 400,
+ "reload": 0,
         "hprg": 0,
         "shp": 200,
         "arm": 0,
@@ -368,6 +377,7 @@
     "iconic": false,
     "stats": {
         "hp": 400,
+ "reload": 0,
         "hprg": 0,
         "shp": 200,
         "arm": 0,
@@ -408,6 +418,7 @@
       "iconic": false,
       "stats": {
           "hp": 400,
+ "reload": 0,
           "hprg": 0,
           "shp": 200,
           "arm": 0,
@@ -448,6 +459,7 @@
         "iconic": false,
         "stats": {
             "hp": 400,
+ "reload": 0,
             "hprg": 0,
             "shp": 200,
             "arm": 0,
@@ -488,6 +500,7 @@
         "iconic": false,
         "stats": {
             "hp": 400,
+ "reload": 0,
             "hprg": 0,
             "shp": 200,
             "arm": 0,
@@ -528,6 +541,7 @@
         "iconic": false,
         "stats": {
             "hp": 400,
+ "reload": 0,
             "hprg": 0,
             "shp": 200,
             "arm": 0,
@@ -568,6 +582,7 @@
         "iconic": false,
         "stats": {
             "hp": 400,
+ "reload": 0,
             "hprg": 0,
             "shp": 200,
             "arm": 0,
@@ -608,6 +623,7 @@
           "iconic": false,
           "stats": {
               "hp": 400,
+ "reload": 0,
               "hprg": 0,
               "shp": 200,
               "arm": 0,
@@ -648,6 +664,7 @@
           "iconic": false,
           "stats": {
               "hp": 400,
+ "reload": 0,
               "hprg": 0,
               "shp": 200,
               "arm": 0,
@@ -688,6 +705,7 @@
           "iconic": false,
           "stats": {
               "hp": 400,
+ "reload": 0,
               "hprg": 0,
               "shp": 200,
               "arm": 0,
@@ -728,6 +746,7 @@
           "iconic": false,
           "stats": {
               "hp": 400,
+ "reload": 0,
               "hprg": 0,
               "shp": 200,
               "arm": 0,
@@ -768,6 +787,7 @@
           "iconic": false,
           "stats": {
               "hp": 400,
+ "reload": 0,
               "hprg": 0,
               "shp": 200,
               "arm": 0,
@@ -808,6 +828,7 @@
         "iconic": false,
         "stats": {
             "hp": 400,
+ "reload": 0,
             "hprg": 0,
             "shp": 200,
             "arm": 0,
@@ -848,6 +869,7 @@
         "iconic": false,
         "stats": {
             "hp": 400,
+ "reload": 0,
             "hprg": 0,
             "shp": 200,
             "arm": 0,
@@ -888,6 +910,7 @@
         "iconic": false,
         "stats": {
             "hp": 400,
+ "reload": 0,
             "hprg": 0,
             "shp": 200,
             "arm": 0,
@@ -928,6 +951,7 @@
         "iconic": false,
         "stats": {
             "hp": 400,
+ "reload": 0,
             "hprg": 0,
             "shp": 200,
             "arm": 0,
@@ -968,6 +992,7 @@
         "iconic": false,
         "stats": {
             "hp": 400,
+ "reload": 0,
             "hprg": 0,
             "shp": 200,
             "arm": 0,
@@ -1008,6 +1033,7 @@
           "iconic": false,
           "stats": {
               "hp": 400,
+ "reload": 0,
               "hprg": 0,
               "shp": 200,
               "arm": 0,
@@ -1048,6 +1074,7 @@
           "iconic": false,
           "stats": {
               "hp": 400,
+ "reload": 0,
               "hprg": 0,
               "shp": 200,
               "arm": 0,
@@ -1088,6 +1115,7 @@
           "iconic": false,
           "stats": {
               "hp": 400,
+ "reload": 0,
               "hprg": 0,
               "shp": 200,
               "arm": 0,
@@ -1128,6 +1156,7 @@
           "iconic": false,
           "stats": {
               "hp": 400,
+ "reload": 0,
               "hprg": 0,
               "shp": 200,
               "arm": 0,
@@ -1168,6 +1197,7 @@
           "iconic": false,
           "stats": {
               "hp": 400,
+ "reload": 0,
               "hprg": 0,
               "shp": 200,
               "arm": 0,
@@ -1208,6 +1238,7 @@
             "iconic": false,
             "stats": {
                 "hp": 400,
+ "reload": 0,
                 "hprg": 0,
                 "shp": 200,
                 "arm": 0,
@@ -1256,6 +1287,7 @@
                 "crit": 5,
                 "xpr": 0,
                 "loot": 0,
+                "reload": 0,
                 "dcrit": 200,
                 "rcrit": 5
             },
@@ -1292,6 +1324,7 @@
                 "shp": 200,
                 "arm": 0,
                 "shrg": 0,
+                "reload": 0,
                 "eva": 5,
                 "crit": 5,
                 "xpr": 0,
@@ -1336,6 +1369,7 @@
                 "crit": 5,
                 "xpr": 0,
                 "loot": 0,
+                "reload": 0,
                 "dcrit": 200,
                 "rcrit": 5
             },
@@ -1376,6 +1410,7 @@
                 "crit": 5,
                 "xpr": 0,
                 "loot": 0,
+                "reload": 0,
                 "dcrit": 200,
                 "rcrit": 5
             },
@@ -1408,6 +1443,7 @@
               "iconic": false,
               "stats": {
                   "hp": 400,
+ "reload": 0,
                   "hprg": 0,
                   "shp": 200,
                   "arm": 0,
@@ -1448,6 +1484,7 @@
               "iconic": false,
               "stats": {
                   "hp": 400,
+ "reload": 0,
                   "hprg": 0,
                   "shp": 200,
                   "arm": 0,
@@ -1488,6 +1525,7 @@
               "iconic": false,
               "stats": {
                   "hp": 400,
+ "reload": 0,
                   "hprg": 0,
                   "shp": 200,
                   "arm": 0,
@@ -1528,6 +1566,7 @@
               "iconic": false,
               "stats": {
                   "hp": 400,
+ "reload": 0,
                   "hprg": 0,
                   "shp": 200,
                   "arm": 0,
@@ -1568,6 +1607,7 @@
               "iconic": false,
               "stats": {
                   "hp": 400,
+ "reload": 0,
                   "hprg": 0,
                   "shp": 200,
                   "arm": 0,
@@ -1608,6 +1648,7 @@
                 "iconic": false,
                 "stats": {
                     "hp": 400,
+ "reload": 0,
                     "hprg": 0,
                     "shp": 200,
                     "arm": 0,
@@ -1648,6 +1689,7 @@
                 "iconic": false,
                 "stats": {
                     "hp": 400,
+ "reload": 0,
                     "hprg": 0,
                     "shp": 200,
                     "arm": 0,
@@ -1688,6 +1730,7 @@
                 "iconic": false,
                 "stats": {
                     "hp": 400,
+ "reload": 0,
                     "hprg": 0,
                     "shp": 200,
                     "arm": 0,
@@ -1728,6 +1771,7 @@
                 "iconic": false,
                 "stats": {
                     "hp": 400,
+ "reload": 0,
                     "hprg": 0,
                     "shp": 200,
                     "arm": 0,
@@ -1768,6 +1812,7 @@
                 "iconic": false,
                 "stats": {
                     "hp": 400,
+ "reload": 0,
                     "hprg": 0,
                     "shp": 200,
                     "arm": 0,

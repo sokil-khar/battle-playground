@@ -7,6 +7,8 @@ import {
 } from './constants';
 import { getBySign } from './helpers';
 import {DamageType} from "../data/constants";
+import {getModStatsEffects} from "./mod";
+import mod from "../columns/mod";
 
 export function getBattleflyStats(battlefly, mods = []) {
   const effects = getBattleflyStatsEffects(battlefly, mods);
@@ -37,6 +39,21 @@ export function getBattleflyStats(battlefly, mods = []) {
 
   return { stats, characteristics };
 }
+
+export function getBatteflyTimeBuff(battlefly, mods = []) {
+  const reloads = [];
+  const items = mods.flatMap((mod) => (mod.effects?.length ? mod.effects : []));
+  for (const mod of items)
+  {
+    if (mod.type !== 'ModStat') continue;
+    const { attributeValue, attributeName, attributeSign, percentage } = mod.data;
+    if (attributeName === 'reload')
+    {
+      reloads.push({type: attributeName, percentage: percentage, value: attributeValue});
+    }
+  }
+  return reloads;
+}
 export function getActualDamageBonus(battlefly, mods = []) {
   const effects = getBattleflyDamageBonus(battlefly, mods);
   const weaponbonus = { ...battlefly.weaponbonus };
@@ -56,7 +73,6 @@ export function getBattleflyStatsEffects(battlefly, mods) {
   // 2. Check for BattleflyStat, UpdateCharacteristic, Traits
   const steps = [withMods, withTraits];
   const updates = steps.map((step) => step(battlefly, mods)).flat();
-
   // 3. Apply characteristics updates
   const newCharacteristics = { ...characteristics };
   for (const update of updates) {
@@ -65,20 +81,32 @@ export function getBattleflyStatsEffects(battlefly, mods) {
     const { characteristic, change } = update.data;
     newCharacteristics[characteristic] += change;
   }
-
   // 4. Check for Characteristics
   // const secondarySteps = [withCharacteristics];
   // const secondaryUpdates = secondarySteps.map((step) => step(battlefly, newCharacteristics)).flat();
-
-  // return updates.concat(secondaryUpdates);
+  console.log(updates)
   return updates;
 }
 
 function withMods(battlefly, mods) {
   const updates = [];
   const items = mods.flatMap((mod) => (mod.effects?.length ? mod.effects : []));
-
   for (const mod of mods) {
+    const items = mod.effects || [];
+
+
+    // for (const effect of items) {
+    //   if (effect.type !== 'ModStat') continue;
+    //   const { attributeValue, attributeName, attributeSign, percentage } = effect.data;
+    //   const stat = mod.data[attributeName];
+    //   if (percentage)
+    //   {
+    //
+    //   }
+    //   const value = getBySign(mod.data[attributeName], percentage || attributeSign, attributeValue);
+    //   updates.push(createStatEffect(attributeName, value));
+    // }
+
     if (mod.type === 'Weapon') continue;
 
     updates.push(

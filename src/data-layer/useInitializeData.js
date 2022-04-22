@@ -36,6 +36,7 @@ function getDefaultStats() {
     eva: 5,
     crit: 5,
     loot: 0,
+    reload: 0,
     xpr: 0,
     bat: 100,
     dcrit: 200,
@@ -256,6 +257,7 @@ function toMod(item) {
     data: {
       shp: parseFloat(item['Initial Shield Value']) || 0,
       arm: parseFloat(item['Initial Armor Value']) || 0,
+      reload: parseFloat(item['Initial Armor Value']) || 0,
     },
   };
 }
