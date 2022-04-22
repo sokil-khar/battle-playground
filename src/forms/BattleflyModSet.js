@@ -54,7 +54,7 @@ export const BattleflyModSetForm = ({ data, onSubmit }) => {
           onChange={(_, value) => {
             setValue('mods', value);
           }}
-          getOptionLabel={(item) => item.name + ' (' + item.id.slice(0, 5) + ')'}
+          getOptionLabel={(item) => item.name + ' (' + item.id.slice(0, 5) + ') - (' + item.type + ')'}
           isOptionEqualToValue={() => false}
           multiple
           fullWidth

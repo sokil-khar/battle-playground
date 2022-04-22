@@ -3,7 +3,6 @@ import { DB } from './database';
 export function useAddBattleflyModSet() {
   const addBattleflyModSet = async (battleflyId, modSet) => {
     const newMods = modSet.mods.map((mod) => mod.id);
-
     const battlefly = await DB.battleflies.get(battleflyId);
     let currentModSets = battlefly.modSets || [];
 

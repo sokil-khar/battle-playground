@@ -60,11 +60,16 @@ export const BattleflyPage = () => {
   if (!battlefly) return null;
 
   const onModSetAdd = async (data) => {
-    const modSets = await addBattleflyModSet(battleflyId, data);
+    const weapons = data.mods.filter((mod) => mod.type ==='Weapon').length;
+    const utility = data.mods.filter((mod) => mod.type ==='Utility').length;
+    const defenses = data.mods.filter((mod) => mod.type ==='Defense').length;
+    if (weapons === 2 && utility === 1 && defenses === 1)
+    {
+      const modSets = await addBattleflyModSet(battleflyId, data);
+      refetchBattlefly();
+      setModSets(toModSets(modSets));
+    }
 
-    refetchBattlefly();
-
-    setModSets(toModSets(modSets));
   };
 
   const onTraitsSave = async (data) => {
