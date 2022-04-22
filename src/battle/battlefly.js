@@ -84,29 +84,22 @@ export function getBattleflyStatsEffects(battlefly, mods) {
   // 4. Check for Characteristics
   // const secondarySteps = [withCharacteristics];
   // const secondaryUpdates = secondarySteps.map((step) => step(battlefly, newCharacteristics)).flat();
-  console.log(updates)
   return updates;
 }
 
 function withMods(battlefly, mods) {
   const updates = [];
-  const items = mods.flatMap((mod) => (mod.effects?.length ? mod.effects : []));
+  const items = mods.flatMap((mod) => {
+     if (mod.effects?.length)
+     {
+       return mod.effects.map((effect) => ({...effect, name: mod.name}))
+     }
+     else {
+       return []
+     }
+  });
   for (const mod of mods) {
     const items = mod.effects || [];
-
-
-    // for (const effect of items) {
-    //   if (effect.type !== 'ModStat') continue;
-    //   const { attributeValue, attributeName, attributeSign, percentage } = effect.data;
-    //   const stat = mod.data[attributeName];
-    //   if (percentage)
-    //   {
-    //
-    //   }
-    //   const value = getBySign(mod.data[attributeName], percentage || attributeSign, attributeValue);
-    //   updates.push(createStatEffect(attributeName, value));
-    // }
-
     if (mod.type === 'Weapon') continue;
 
     updates.push(

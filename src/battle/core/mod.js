@@ -52,10 +52,10 @@ export class ModSnapshot {
     {
       if (buff.percentage)
       {
-        reloadTime  = reloadTime - reloadTime * buff.value/100;
+        reloadTime  = reloadTime + reloadTime * buff.value/100;
       }
       else {
-        reloadTime = reloadTime - buff.value;
+        reloadTime = reloadTime + buff.value;
       }
     }
     return reloadTime;

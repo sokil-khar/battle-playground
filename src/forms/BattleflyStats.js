@@ -159,7 +159,6 @@ function StatUpdateInfo({ item, battlefly, actualStats }) {
   let result = `${stats[stat]} ${StatsData[stat].sign} ${change > 0 ? '+' : '-'} ${t(change)} ${
     StatsData[stat].sign
   } = ${t(v)} ${StatsData[stat].sign}`;
-
   if (reason === 'Trait') {
     result += ` (Trait: ${traitFormatter(data.trait)})`;
   }
@@ -169,16 +168,14 @@ function StatUpdateInfo({ item, battlefly, actualStats }) {
   }
 
   if (reason === 'Mod') {
-    result += ` (Mod ${getModShortData(data.mod)})`;
+    result += ` (${getModShortData(data.mod)})`;
   }
-
   if (reason === 'ModEffect') {
-    result += ` (ModEffect ${data.effect.type})`;
+    result += ` (${data.effect.name})`;
   }
 
   if (reason === 'Characteristic') {
-    result += ` (Characteristic "${getCharacteristic(data.characteristic)}")`;
+    result += ` ("${getCharacteristic(data.characteristic)}")`;
   }
-
   return result;
 }

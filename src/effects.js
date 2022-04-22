@@ -1196,39 +1196,76 @@ export const effects = [
   },
   {
     name: 'Supersonic Sensor Radar III',
-    effects: [battleflyCharacteristic('sensorsArray', 3)],
+    effects: [
+        battleflyStat('crit', 1.5, true),
+        battleflyStat('loot', 3, true),
+        battleflyStat('dcrit', 3, true)
+    ],
   },
   {
     name: 'Supersonic Sensor Radar IV',
-    effects: [battleflyCharacteristic('sensorsArray', 4)],
+    effects: [
+      battleflyStat('crit', 2, true),
+      battleflyStat('loot', 4, true),
+      battleflyStat('dcrit', 4, true)
+    ],
   },
   {
     name: 'Supersonic Sensor Radar V',
-    effects: [battleflyCharacteristic('sensorsArray', 5), modStat('reload', 10, true)],
+    effects: [
+      battleflyStat('crit', 2, true),
+      battleflyStat('loot', 4, true),
+      battleflyStat('dcrit', 4, true),
+      modStat('reload', 10, true)
+    ],
   },
   {
     name: 'Promethium Neogenic Battery III',
-    effects: [battleflyCharacteristic('fusionBattery', 1), createDamageType('Energy', 2, true)],
+    effects: [
+      battleflyStat('shp', 10),
+      battleflyStat('shrg', 0.5, true),
+      createDamageType('Energy', 2, true)
+    ],
   },
   {
     name: 'Promethium Neogenic Battery IV',
-    effects: [battleflyCharacteristic('fusionBattery', 2), createDamageType('Energy', 4, true)],
+    effects: [
+      battleflyStat('shp', 20),
+      battleflyStat('shrg', 1, true),
+      createDamageType('Energy', 4, true)
+    ],
   },
   {
     name: 'Promethium Neogenic Battery V',
-    effects: [battleflyCharacteristic('fusionBattery',3), createDamageType('Energy', 6, true)],
+    effects: [
+      battleflyStat('shp', 30),
+      battleflyStat('shrg', 1.5, true),
+      createDamageType('Energy', 6, true)
+    ],
   },
   {
     name: 'Celsium Quantum Frame III',
-    effects: [battleflyCharacteristic('nanoFrame', 2)],
+    effects: [
+        battleflyStat('hp', 2, true),
+        battleflyStat('arm', 0.5, true),
+        battleflyStat('rcrit', 2, true),
+    ],
   },
   {
     name: 'Celsium Quantum Frame IV',
-    effects: [battleflyCharacteristic('nanoFrame', 4)],
+    effects: [
+      battleflyStat('hp', 4, true),
+      battleflyStat('arm', 1, true),
+      battleflyStat('rcrit', 4, true),
+    ],
   },
   {
     name: 'Celsium Quantum Frame V',
-    effects: [battleflyCharacteristic('nanoFrame', 6)],
+    effects: [
+      battleflyStat('hp', 6, true),
+      battleflyStat('arm', 1.5, true),
+      battleflyStat('rcrit', 6, true),
+    ],
   },
   {
     name: 'Supercharged Jumpdrive Engine III',
@@ -1246,21 +1283,21 @@ export const effects = [
     name: 'Gold-Plated Hyper CPU III',
     effects: [
       createDamageType('Missile', 6, true),
-      modStat('reload', 3, true)
+      modStat('reload', -3, true)
     ],
   },
   {
     name: 'Gold-Plated Hyper CPU IV',
     effects: [
       createDamageType('Missile', 12, true),
-      modStat('reload', 6, true)
+      modStat('reload', -6, true)
     ],
   },
   {
     name: 'Gold-Plated Hyper CPU V',
     effects: [
       createDamageType('Missile', 20, true),
-      modStat('reload', 10, true),
+      modStat('reload', -10, true),
     ],
   },
   {
