@@ -787,7 +787,7 @@ export const effects = [
   },
   {
     name: 'Radiated Black Abyss Generator',
-    effects: [createMaxHealthDamage(20)],
+    effects: [createMaxHealthDamage(20), createUpdateStatEffect('sh', -100, true)],
   },
   {
     name: 'Plasteel Hull II',
