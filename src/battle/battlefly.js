@@ -7,6 +7,7 @@ import {
 } from './constants';
 import { getBySign } from './helpers';
 import {DamageType, StatsData} from "../data/constants";
+import {getDefaultStats} from "../data-layer/useInitializeData";
 
 export function getBattleflyStats(battlefly, mods = []) {
   const effects = getBattleflyStatsEffects(battlefly, mods);
@@ -16,7 +17,6 @@ export function getBattleflyStats(battlefly, mods = []) {
     switch (effect.type) {
       case EffectType.Stat: {
         const { stat, change } = effect.data;
-
         if (!(stat in stats)) throw new Error(`Invalid stat name ${stat}`);
 
         stats[stat] += change;
@@ -34,7 +34,6 @@ export function getBattleflyStats(battlefly, mods = []) {
         break;
     }
   }
-
   return { stats, characteristics };
 }
 
@@ -69,7 +68,7 @@ export function getBattleflyStatsEffects(battlefly, mods) {
   const { characteristics } = battlefly;
 
   // 2. Check for BattleflyStat, UpdateCharacteristic, Traits
-  const steps = [withMods, withTraits];
+  const steps = [withTraits, withMods];
   const updates = steps.map((step) => step(battlefly, mods)).flat();
   // 3. Apply characteristics updates
   const newCharacteristics = { ...characteristics };
@@ -105,15 +104,19 @@ function withMods(battlefly, mods) {
       createStatEffect('arm', mod.data.arm, StatUpdateReason.Mod(mod))
     );
   }
-
+  const bflyStat = {...getDefaultStats()};
+  const effectedStat = updates.map((stat) => {
+    bflyStat[stat.data.stat] = stat.data.change
+    return bflyStat
+  }).pop();
   for (const effect of items) {
     switch (effect.type) {
       case 'BattleflyStat': {
         const { attributeValue, attributeName, attributeSign, percentage } = effect.data;
         let value = attributeValue;
-        if (StatsData[attributeName].sign !== '%'){
+        if (!StatsData[attributeName].sign.includes('%')){
            value = getBySign(
-              battlefly.stats[attributeName],
+              battlefly.stats[attributeName] + effectedStat[attributeName]?effectedStat[attributeName]: 0 ,
               percentage || attributeSign,
               attributeValue
           );
@@ -134,7 +137,6 @@ function withMods(battlefly, mods) {
         break;
     }
   }
-
   return updates;
 }
 

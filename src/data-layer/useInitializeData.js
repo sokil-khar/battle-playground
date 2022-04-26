@@ -26,7 +26,7 @@ function getDefaultCharacteristics() {
   }
 }
 
-function getDefaultStats() {
+export function getDefaultStats() {
   return {
     hp: 400,
     hprg: 0,

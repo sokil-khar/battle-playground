@@ -44,6 +44,7 @@ export const BattleflyPage = () => {
   const { battleflyId } = useParams();
 
   const [battlefly, refetchBattlefly] = useBattlefly(battleflyId);
+
   const [modSets, setModSets] = useState(toModSets(battlefly?.modSets));
 
   useEffect(() => {

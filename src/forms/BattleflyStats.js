@@ -171,7 +171,7 @@ function StatUpdateInfo({ item, battlefly, actualStats }) {
     result += ` (${getModShortData(data.mod)})`;
   }
   if (reason === 'ModEffect') {
-    result += ` (${data.effect.name})`;
+    result += ` (${data.effect.name } ${data.effect.data.percentage? data.effect.data.attributeValue + '%': data.effect.data.attributeValue})`;
   }
 
   if (reason === 'Characteristic') {

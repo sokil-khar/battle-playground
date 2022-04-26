@@ -54,6 +54,13 @@ function getDefaultValues(battlefly) {
       (a, [key, value]) => ({ ...a, [key]: value.default }),
       {}
     ),
+    weaponbonus: {
+      Kinetic: 0,
+      Energy: 0,
+      Missile: 0,
+      Electric: 0,
+      Nuclear: 0
+    },
     characteristics: {
       sensorsArray: 0,
       fusionBattery: 0,

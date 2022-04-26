@@ -67,7 +67,7 @@ export function SnapshotModsTable({ fB, sB }) {
 
           <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
             <TableCell component="th" scope="row">
-              DMS
+              DPS
             </TableCell>
             {weapons.map((weapon) => (
               <TableCell align="right">

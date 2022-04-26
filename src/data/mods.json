@@ -24,7 +24,7 @@
     "Additional Effects": "28% HP bonus",
     "Rarity": "Epic",
     "Power Rating": "200",
-    "Relation to System Model Cosmic Microwave EqualizerList": "https://www.notion.so/Plasteel-Hull-ee0906bf02f34c54a9ea9d35cdbae4ce"
+    "Relation to System Model List": "https://www.notion.so/Plasteel-Hull-ee0906bf02f34c54a9ea9d35cdbae4ce"
   },
   {
     "Mod Name": "Plasteel Hull V",
@@ -1996,7 +1996,7 @@
     "Damage": "216",
     "DPS": "21.6",
     "Starting Rarity": "Uncommon",
-    "Additional Effects": "",
+    "Additional Effects": "Deals 15% additional damage if the opponent has more than 10% evasion",
     "Power Rating": "100",
     "Related to 3D Models": "https://www.notion.so/Micro-Rocket-Pods-e24b13e416d744b3bbb7eb7b564a6c69"
   },
@@ -2009,7 +2009,7 @@
     "Damage": "252",
     "DPS": "25.2",
     "Starting Rarity": "Rare",
-    "Additional Effects": "",
+    "Additional Effects": "Deals 15% additional damage if the opponent has more than 10% evasion",
     "Power Rating": "150",
     "Related to 3D Models": "https://www.notion.so/Micro-Rocket-Pods-e24b13e416d744b3bbb7eb7b564a6c69"
   },
@@ -2022,7 +2022,7 @@
     "Damage": "288",
     "DPS": "28.8",
     "Starting Rarity": "Epic",
-    "Additional Effects": "",
+    "Additional Effects": "Deals 15% additional damage if the opponent has more than 10% evasion",
     "Power Rating": "200",
     "Related to 3D Models": "https://www.notion.so/Micro-Rocket-Pods-e24b13e416d744b3bbb7eb7b564a6c69"
   },
@@ -2295,7 +2295,7 @@
     "Damage": "0",
     "DPS": "0",
     "Starting Rarity": "Rare",
-    "Additional Effects": "Deals 5% of opponents max health as damage",
+    "Additional Effects": "Ignores shields. Deals 12% of opponents max health as damage",
     "Power Rating": "150",
     "Related to 3D Models": "https://www.notion.so/Micro-Black-Hole-Turbine-79253e2c415d43faa04916a0bd39be36"
   },
@@ -2308,7 +2308,7 @@
     "Damage": "0",
     "DPS": "0",
     "Starting Rarity": "Epic",
-    "Additional Effects": "Deals 7% of opponents max health as damage",
+    "Additional Effects": "Ignores shields. Deals 15% of opponents max health as damage",
     "Power Rating": "200",
     "Related to 3D Models": "https://www.notion.so/Micro-Black-Hole-Turbine-79253e2c415d43faa04916a0bd39be36"
   },
@@ -2321,7 +2321,7 @@
     "Damage": "0",
     "DPS": "0",
     "Starting Rarity": "Legendary",
-    "Additional Effects": "Deals 20% of opponents max health as damage",
+    "Additional Effects": "Ignores shields. Deals 20% of the opponent's max health as damage",
     "Power Rating": "250",
     "Related to 3D Models": "https://www.notion.so/Micro-Black-Hole-Turbine-79253e2c415d43faa04916a0bd39be36"
   },
@@ -2402,7 +2402,7 @@
   },
   {
     "Name": "Overclocking Protocols I",
-    "Additional Effects": "When your battlefly is 30% health or below, its attack speed and attack damage are increased by 10%",
+    "Additional Effects": "When your BF’s HP is 30% or less, its damage is increased by 12% and reload time is decreased by 12%",
     "Rarity": "Common",
     "Power Rating": "50",
     "Relation to System Model List": "https://www.notion.so/Overclocking-Protocols-8f9416c809d74b2babfc02e7f18c3129"
@@ -2488,7 +2488,7 @@
     "Damage": "160",
     "DPS": "20",
     "Rarity": "Common",
-    "Additional Effects": "",
+    "Additional Effects": "Deals 15% additional damage if the opponent has more than 10% evasion",
     "Power Rating": "50",
     "Related to 3D Models (Property)": "https://www.notion.so/Micro-Rocket-Pods-e24b13e416d744b3bbb7eb7b564a6c69"
   }

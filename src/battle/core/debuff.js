@@ -76,6 +76,24 @@ export class BurnDebuff {
   }
 }
 
+export class EmpDebuff {
+  constructor(data, time) {
+    this.duration = time.get();
+  }
+
+  cumulative(item) {
+    return this;
+  }
+
+  getBurnedTime() {
+    return this.duration;
+  }
+
+  isUsed(time) {
+    return false;
+  }
+}
+
 export class CancelAttackDebuff {
   constructor(data) {
     this.damageType = data.damageType;

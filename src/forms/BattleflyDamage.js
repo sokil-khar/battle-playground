@@ -61,7 +61,6 @@ export const BattleflyDamage = ({ battlefly, modSets = [] }) => {
             .map((item) => item.data),
         'type'
     );
-    console.log(stateUpdates)
     const actualbonus = getActualDamageBonus(battlefly, modSets[activeModSet]?.mods || []).weaponbonus;
     return (
         <div>

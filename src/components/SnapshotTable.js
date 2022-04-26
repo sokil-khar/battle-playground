@@ -145,7 +145,24 @@ export function SnapshotTable({ battleflyA, battleflyB }) {
             </TableCell>
             <Comparasion bfA={battleflyA} bfB={battleflyB} stat="crit" sign=" %" />
           </TableRow>
-
+          <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+            <TableCell component="th" scope="row">
+              Battery
+            </TableCell>
+            <Comparasion bfA={battleflyA} bfB={battleflyB} stat="bat" sign="" />
+          </TableRow>
+          <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+            <TableCell component="th" scope="row">
+              XP Rate
+            </TableCell>
+            <Comparasion bfA={battleflyA} bfB={battleflyB} stat="xpr" sign=" %" />
+          </TableRow>
+          <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+            <TableCell component="th" scope="row">
+              Mod Loot Chance
+            </TableCell>
+            <Comparasion bfA={battleflyA} bfB={battleflyB} stat="loot" sign=" %" />
+          </TableRow>
           <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
             <TableCell component="th" scope="row">
               DCRIT

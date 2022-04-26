@@ -114,6 +114,7 @@ class Battle {
           weapon,
           target: weapon.owner === this.battleflies[0] ? this.battleflies[1] : this.battleflies[0],
           source: weapon.owner,
+          type: 'FreeAttac'
         });
 
         continue;

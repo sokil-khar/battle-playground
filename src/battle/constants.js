@@ -1,4 +1,5 @@
 import { getBySign } from "./helpers";
+import { StatsData } from "../data/constants";
 
 export const EffectType = {
   Stat: 'STAT',
@@ -112,8 +113,11 @@ export const TraitHandlers = {
   addPercentage(battlefly, trait) {
     const { attributeName, attributeValue } = trait.data;
     const { stats } = battlefly;
-
-    const change = getBySign(stats[attributeName], '%', attributeValue);
+    let change = attributeValue;
+    if (!StatsData[attributeName].sign.includes('%'))
+    {
+      change = getBySign(stats[attributeName], '%', attributeValue);
+    }
     return createStatEffect(attributeName, change, StatUpdateReason.Trait(trait));
   },
 };

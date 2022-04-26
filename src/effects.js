@@ -481,22 +481,36 @@ export const effects = [
     ],
   },
   {
+    name: 'Flak Gun I',
+    effects: [
+      createEvasionEffect(-20),
+      createUpdateStatEffect('damagePerFire', 10, true, 'Shield')
+    ],
+  },
+  {
     name: 'Flak Gun II',
-    effects: [createEvasionEffect(-20),
-      createUpdateStatEffect('damagePerFire', 20, true, 'Shield')
+    effects: [
+      createEvasionEffect(-20),
+      createUpdateStatEffect('damagePerFire', 10, true, 'Shield')
     ],
   },
   {
     name: 'Flak Gun III',
-    effects: [createEvasionEffect(-25)],
+    effects: [
+      createEvasionEffect(-20),
+      createUpdateStatEffect('damagePerFire', 10, true, 'Shield')
+    ],
   },
   {
     name: 'Flak Gun IV',
-    effects: [createEvasionEffect(-25)],
+    effects: [
+      createEvasionEffect(-20),
+      createUpdateStatEffect('damagePerFire', 10, true, 'Shield')
+    ],
   },
   {
     name: 'Supersonic Flak Launcher',
-    effects: [createEvasionEffect(-100), battleflyCharacteristic('engines', 2)],
+    effects: [createEvasionEffect(-100), createUpdateStatEffect('damagePerFire', 20, true, 'Shield')],
   },
   {
     name: 'Railgun II',
@@ -706,19 +720,25 @@ export const effects = [
   },
   {
     name: 'Micro Rocket Pods II',
-    effects: [],
+    effects: [
+      createEvasionEffect(-10),
+    ],
   },
   {
     name: 'Micro Rocket Pods III',
-    effects: [],
+    effects: [
+      createEvasionEffect(-10),
+    ],
   },
   {
     name: 'Micro Rocket Pods IV',
-    effects: [],
+    effects: [
+      createEvasionEffect(-10),
+    ],
   },
   {
-    name: 'Astral Proton Rockets',
-    effects: [createOtherDamageType('Kinetic', 15)],
+    name: 'Micro Proton Rockets',
+    effects: [createEvasionEffect(-10), createOtherDamageType('Kinetic', 15)],
   },
   {
     name: 'Long Range Micromissiles II',
@@ -738,21 +758,20 @@ export const effects = [
   },
   {
     name: 'Rocket Pods II',
-    effects: [createUpdateStatEffect('damagePerFire', 25, true, 'Shield')],
+    effects: [createUpdateStatEffect('damagePerFire', 15, true, 'Shield')],
   },
   {
     name: 'Rocket Pods III',
-    effects: [createUpdateStatEffect('damagePerFire', 25, true, 'Shield')],
+    effects: [createUpdateStatEffect('damagePerFire', 15, true, 'Shield')],
   },
   {
     name: 'Rocket Pods IV',
-    effects: [createUpdateStatEffect('damagePerFire', 25, true, 'Shield')],
+    effects: [createUpdateStatEffect('damagePerFire', 15, true, 'Shield')],
   },
   {
     name: 'Heavy Flux Photon Rockets',
     effects: [
-      createUpdateStatEffect('damagePerFire', 50, true, 'Shield'),
-      createArmorDamage(5, true),
+      createUpdateStatEffect('damagePerFire', 25, true, 'Shield'),
     ],
   },
   {
@@ -814,15 +833,15 @@ export const effects = [
   },
   {
     name: 'Micro Black Hole Turbine III',
-    effects: [createMaxHealthDamage(5)],
+    effects: [createMaxHealthDamage(12), createUpdateStatEffect('shp', -100, true)],
   },
   {
     name: 'Micro Black Hole Turbine IV',
-    effects: [createMaxHealthDamage(7)],
+    effects: [createMaxHealthDamage(15), createUpdateStatEffect('shp', -100, true)],
   },
   {
     name: 'Radiated Black Abyss Generator',
-    effects: [createMaxHealthDamage(20), createUpdateStatEffect('sh', -100, true)],
+    effects: [createMaxHealthDamage(20), createUpdateStatEffect('shp', -100, true)],
   },
   {
     name: 'Plasteel Hull II',
@@ -889,6 +908,12 @@ export const effects = [
     effects: [createEvasionEffect(45, ['Missile']), createDamageType('Kinetic', 5)],
   },
   {
+    name: 'Force Shield: A.T I',
+    effects: [
+        battleflyStat('shrg', 0.5, true),
+    ],
+  },
+  {
     name: 'Force Shield: A.T II',
     effects: [battleflyStat('shrg', 1, true)],
   },
@@ -902,7 +927,10 @@ export const effects = [
   },
   {
     name: 'Force Shield: A.T V',
-    effects: [battleflyStat('shrg', 5,true)],
+    effects: [
+        battleflyStat('shrg', 3.5,true),
+        createDamageType('Electric', 10, true)
+    ],
   },
   {
     name: 'Force Shield: N.X II',
@@ -1151,6 +1179,10 @@ export const effects = [
     effects: [battleflyStat('hprg', 1.7), battleflyStat('shrg', 2)],
   },
   {
+    name: 'Overclocking protocols I',
+    effects: [createHealthModStat(30, 'damagePerFire', 12), createHealthModStat(30, 'reload', -12)],
+  },
+  {
     name: 'Overclocking protocols II',
     effects: [createHealthModStat(30, 'damagePerFire', 19), createHealthModStat(30, 'reload', -19)],
   },
@@ -1248,9 +1280,9 @@ export const effects = [
   {
     name: 'Supersonic Sensor Radar V',
     effects: [
-      battleflyStat('crit', 2, true),
-      battleflyStat('loot', 4, true),
-      battleflyStat('dcrit', 4, true),
+      battleflyStat('crit', 2.5, true),
+      battleflyStat('loot', 5, true),
+      battleflyStat('dcrit', 5, true),
       modStat('reload', 10, true)
     ],
   },
