@@ -7,8 +7,8 @@ balanced purposes and have very complex business logic so very complex to many c
 
 ## Deployment
 
-AWS Secret ID for deployment -> `AKIA5ZGT2UV3I7BBQCM7`
-AWS Secret Key for deployment -> `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`
+AWS Secret ID for deployment -> `XXXXXXXXXXXXXXXXXXXXXXXX`
+AWS Secret Key for deployment -> `XXXXXXXXXXXXXXXXXXXXXXXX`
 
 1. `npm run build`
 2. `aws s3 cp --recursive ./build s3://battlefly-battle-playground/`
